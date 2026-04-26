@@ -68,7 +68,14 @@ def _extract_ticker_hist(data: pd.DataFrame, ticker: str) -> Optional[pd.DataFra
     """Extract single-ticker DataFrame from a multi-ticker yf.download() result."""
     try:
         if isinstance(data.columns, pd.MultiIndex):
-            hist = data.xs(ticker, axis=1, level=1)
+            lvl0 = data.columns.get_level_values(0)
+            lvl1 = data.columns.get_level_values(1)
+            if ticker in lvl1:
+                hist = data.xs(ticker, axis=1, level=1)   # (Price, Ticker) — yfinance ≥0.2.38
+            elif ticker in lvl0:
+                hist = data.xs(ticker, axis=1, level=0)   # (Ticker, Price) — older yfinance
+            else:
+                return None
         else:
             hist = data  # single-ticker download
         hist = hist.dropna(how="all")
