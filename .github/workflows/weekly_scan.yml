@@ -1,0 +1,63 @@
+name: India Weekly Scan
+
+on:
+  schedule:
+    - cron: "30 16 * * 0"   # Sunday 16:30 UTC = 22:00 IST
+  workflow_dispatch:
+    inputs:
+      market_condition:
+        description: "Market condition"
+        required: false
+        default: "sideways"
+        type: choice
+        options: [sideways, fii_buying, fii_selling]
+      week_context:
+        description: "Week context (auto-detected if blank)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  weekly-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create data directories
+        run: mkdir -p data/results data/cache
+
+      - name: Run weekly pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          MARKET="${{ github.event.inputs.market_condition || 'sideways' }}"
+          CTX="${{ github.event.inputs.week_context }}"
+
+          if [ -n "$CTX" ]; then
+            python scheduler/weekly_runner.py \
+              --market-condition "$MARKET" \
+              --week-context "$CTX"
+          else
+            python scheduler/weekly_runner.py \
+              --market-condition "$MARKET"
+          fi
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-results-${{ github.run_id }}
+          path: data/results/
+          retention-days: 30
