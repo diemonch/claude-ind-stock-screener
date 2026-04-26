@@ -25,7 +25,7 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 log = logging.getLogger("agent_utils")
 
 TOKEN_BUDGET: Dict[str, int] = {
-    "claude-haiku-4-5-20251001": 20_000,
+    "claude-haiku-4-5-20251001": 30_000,
     "claude-sonnet-4-6":         35_000,
 }
 
