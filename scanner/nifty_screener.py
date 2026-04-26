@@ -109,19 +109,16 @@ def batch_download_ohlcv(universe: List[Dict], yf) -> Dict[str, pd.DataFrame]:
                     progress=False,
                     threads=False,
                 )
+                if batch_no == 1:
+                    print(f"YFDEBUG shape={data.shape} empty={data.empty} col_type={type(data.columns).__name__}", flush=True)
+                    if isinstance(data.columns, pd.MultiIndex):
+                        print(f"YFDEBUG names={data.columns.names}", flush=True)
+                        print(f"YFDEBUG lvl0={list(data.columns.get_level_values(0)[:6])}", flush=True)
+                        print(f"YFDEBUG lvl1={list(data.columns.get_level_values(1)[:6])}", flush=True)
+                    else:
+                        print(f"YFDEBUG flat={list(data.columns[:6])}", flush=True)
                 if data.empty:
                     raise ValueError("empty response")
-
-                if batch_no == 1:
-                    log.info("DEBUG shape=%s col_type=%s", data.shape,
-                             type(data.columns).__name__)
-                    if isinstance(data.columns, pd.MultiIndex):
-                        log.info("DEBUG names=%s lvl0=%s lvl1=%s",
-                                 data.columns.names,
-                                 list(data.columns.get_level_values(0)[:4]),
-                                 list(data.columns.get_level_values(1)[:4]))
-                    else:
-                        log.info("DEBUG flat cols=%s", list(data.columns[:6]))
 
                 for ticker in batch:
                     hist = _extract_ticker_hist(data, ticker)
