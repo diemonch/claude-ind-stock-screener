@@ -73,8 +73,49 @@ def render_screener_view(
             lambda z: "₹{:,.0f}–{:,.0f}".format(*z) if isinstance(z, list) and len(z) == 2 else "—"
         )
 
+    # ── Inline filters ────────────────────────────────────────────────────────
+    fc1, fc2, fc3 = st.columns([2, 2, 1])
+    with fc1:
+        all_signals = sorted(df_show["signal"].dropna().unique().tolist()) if "signal" in df_show.columns else []
+        signal_filter = st.multiselect(
+            "Filter by Signal",
+            options=all_signals,
+            default=[],
+            placeholder="All signals",
+            key="screener_signal_filter",
+        )
+    with fc2:
+        min_conf = st.slider("Min Confluence", 0, 4, 0, key="screener_min_confluence")
+    with fc3:
+        page_size = st.selectbox("Rows/page", [10, 25, 50, 100], index=1, key="screener_page_size")
+
+    if signal_filter:
+        df_show = df_show[df_show["signal"].isin(signal_filter)]
+    if min_conf > 0 and "confluence_score" in df_show.columns:
+        df_show = df_show[df_show["confluence_score"] >= min_conf]
+
+    total_rows  = len(df_show)
+    total_pages = max(1, (total_rows + page_size - 1) // page_size)
+
+    # ── Pagination controls ───────────────────────────────────────────────────
+    pg_left, pg_mid, pg_right = st.columns([1, 3, 1])
+    with pg_left:
+        if st.button("← Prev", key="screener_prev", disabled=(st.session_state.get("screener_page", 1) <= 1)):
+            st.session_state["screener_page"] = st.session_state.get("screener_page", 1) - 1
+    with pg_right:
+        if st.button("Next →", key="screener_next", disabled=(st.session_state.get("screener_page", 1) >= total_pages)):
+            st.session_state["screener_page"] = st.session_state.get("screener_page", 1) + 1
+    with pg_mid:
+        current_page = st.session_state.get("screener_page", 1)
+        current_page = max(1, min(current_page, total_pages))
+        st.session_state["screener_page"] = current_page
+        st.caption("Page {} of {}  •  {} rows".format(current_page, total_pages, total_rows))
+
+    start = (current_page - 1) * page_size
+    df_page = df_show.iloc[start : start + page_size]
+
     st.dataframe(
-        df_show,
+        df_page,
         use_container_width=True,
         hide_index=True,
         column_config={

@@ -4,6 +4,7 @@ Run: streamlit run app_india.py
 """
 
 import json
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -61,6 +62,8 @@ def _init_state():
         "universe_size":   500,
         "scan_date":       None,
         "pipeline_log":    [],
+        "registry":        {},
+        "weekly_summary":  {},
     }
     for k, v in defaults.items():
         if k not in st.session_state:
@@ -72,6 +75,8 @@ _init_state()
 # ── Result loaders ─────────────────────────────────────────────────────────────
 def _load_latest_results() -> bool:
     """Load the most recent thesis + signals JSON from data/results/. Returns True on success."""
+    from picks_registry import load_registry, validate_prices, get_weekly_summary
+
     # Thesis cards
     thesis_files = sorted(RESULTS_DIR.glob("thesis_*.json"), reverse=True)
     if not thesis_files:
@@ -103,6 +108,13 @@ def _load_latest_results() -> bool:
             data = json.load(f)
             st.session_state["filter_summary"]  = data.get("filter_summary", {})
             st.session_state["universe_size"]   = data.get("universe_size", 500)
+
+    # Registry — validate live prices for active picks
+    registry = load_registry()
+    if registry:
+        registry = validate_prices(registry)
+    st.session_state["registry"]       = registry
+    st.session_state["weekly_summary"] = get_weekly_summary(registry, date_str)
 
     return True
 
@@ -154,8 +166,20 @@ def _run_pipeline(
         log.append("Sonnet: {} thesis cards".format(len(cards)))
         st.session_state["thesis_cards"] = cards
 
-    st.session_state["scan_date"]   = datetime.today().strftime("%Y%m%d")
+    scan_date = datetime.today().strftime("%Y%m%d")
+    st.session_state["scan_date"]    = scan_date
     st.session_state["pipeline_log"] = log
+
+    # Update persistent picks registry
+    from picks_registry import update_registry, get_weekly_summary
+    registry, summary = update_registry(cards, scan_date)
+    st.session_state["registry"]       = registry
+    st.session_state["weekly_summary"] = get_weekly_summary(registry, scan_date)
+    log.append("Registry: {} active | {} new | {} dropped | {} re-entries".format(
+        len(summary["continued"]) + len(summary["new"]) + len(summary["reentry"]),
+        len(summary["new"]), len(summary["dropped"]), len(summary["reentry"]),
+    ))
+
     st.success("Scan complete — {} thesis cards generated.".format(len(cards)))
 
 
@@ -195,6 +219,8 @@ with st.sidebar:
     with load_col:
         load_latest = st.button("📂 Load", use_container_width=True)
 
+    sync_results = st.button("⬇ Sync from GitHub", use_container_width=True)
+
     if st.session_state["scan_date"]:
         st.caption("Last scan: {}".format(st.session_state["scan_date"]))
 
@@ -214,11 +240,32 @@ if load_latest:
     else:
         st.error("No saved results found — run a scan first.")
 
+if sync_results:
+    with st.spinner("Pulling latest results from GitHub..."):
+        result = subprocess.run(
+            ["git", "pull", "--ff-only"],
+            cwd=str(ROOT_DIR),
+            capture_output=True,
+            text=True,
+        )
+    if result.returncode == 0:
+        st.success("Synced. " + result.stdout.strip())
+        _load_latest_results()
+        st.rerun()
+    else:
+        st.error("git pull failed: " + (result.stderr or result.stdout).strip())
+
+# Auto-load once on first visit (no scan date yet, results exist)
+if not st.session_state["scan_date"] and not run_scan and not load_latest:
+    _load_latest_results()
+
 
 # ── Main area ──────────────────────────────────────────────────────────────────
 st.markdown("# AI Portfolio Terminal — India")
 
-tab_screener, tab_shortlist = st.tabs(["📊 Screener", "🎯 Shortlist"])
+tab_screener, tab_shortlist, tab_history, tab_portfolio, tab_chat = st.tabs([
+    "📊 Screener", "🎯 Shortlist", "📋 History", "💼 Portfolio", "💬 Analyser",
+])
 
 with tab_screener:
     from ui.pages.screener_view import render_screener_view
@@ -237,4 +284,36 @@ with tab_shortlist:
         min_confluence  = min_confluence,
         horizon_filter  = horizon_filter or None,
         account_filter  = account_filter or None,
+    )
+
+with tab_history:
+    from ui.pages.history_view import render_history_view
+    render_history_view(
+        registry        = st.session_state["registry"],
+        weekly_summary  = st.session_state["weekly_summary"],
+    )
+
+with tab_portfolio:
+    from ui.pages.portfolio_view import render_portfolio_view
+    render_portfolio_view(
+        registry          = st.session_state["registry"],
+        market_condition  = market_condition,
+        week_context      = week_context,
+    )
+
+with tab_chat:
+    from ui.pages.portfolio_view import build_portfolio_context
+    from ui.pages.chat_view import render_chat_view
+    portfolio_ctx = build_portfolio_context(
+        registry         = st.session_state["registry"],
+        market_condition = market_condition,
+        week_context     = week_context,
+    )
+    render_chat_view(
+        portfolio_context = portfolio_ctx,
+        registry          = st.session_state["registry"],
+        scan_date         = st.session_state["scan_date"] or "",
+        survivors_count   = len(st.session_state["survivors"]),
+        validated_count   = len(st.session_state["validated"]),
+        thesis_count      = len(st.session_state["thesis_cards"]),
     )

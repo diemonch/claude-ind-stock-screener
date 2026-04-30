@@ -1,0 +1,12 @@
+{
+  "name": "India Portfolio",
+  "description": "Personal NSE/BSE equity portfolio",
+  "holdings": [],
+  "watchlist": [
+    "CGCL.NS",
+    "HDFCBANK.NS",
+    "RELIANCE.NS",
+    "INFY.NS",
+    "TCS.NS"
+  ]
+}

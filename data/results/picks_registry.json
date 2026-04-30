@@ -1,0 +1,38 @@
+{
+  "CGCL.NS": {
+    "ticker": "CGCL.NS",
+    "company": "Capri Global Capital",
+    "sector": "NBFC / Retail Lending",
+    "first_seen": "20260426",
+    "last_seen": "20260426",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260426"
+    ],
+    "status": "active",
+    "buy_zone": [
+      185,
+      198
+    ],
+    "sell_zone": [
+      235,
+      248
+    ],
+    "stop_loss": 174,
+    "risk_reward": 2.9,
+    "signal": "BUY",
+    "confluence": "2/4",
+    "horizon": "accumulate_8_12_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Capri Global is expanding its affordable housing and MSME loan book at a healthy clip, with AUM growth consistently above 30% YoY, positioning it as a strong mid-cycle NBFC compounder. The company's focus on underserved borrower segments provides pricing power and lower competitive intensity versus large-cap peers. Any RBI rate-cut cycle initiation in H2 FY25 could act as a re-rating catalyst, compressing cost of funds and expanding NIMs.",
+    "risk": "Asset quality deterioration in the construction finance or MSME book during a credit stress event could trigger sharp NPA spikes given the unsecured/semi-secured nature of lending. Elevated borrowing costs and tight liquidity in the NBFC space remain a near-term headwind to margin expansion.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260719",
+    "tracking_end": "20260607"
+  }
+}

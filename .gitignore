@@ -17,10 +17,11 @@ env/
 # Streamlit
 .streamlit/secrets.toml
 
-# Scan results — too large / contain financial data
-data/results/
+# Large binary / raw data — never commit
 data/cache/
 data/snapshots/
+
+# Keep data/results/ tracked — JSON files are small and committed by CI
 
 # Logs
 *.log
