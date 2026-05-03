@@ -124,43 +124,59 @@ def run_sonnet_analyst(validated_tickers: List[Dict]) -> List[Dict]:
 
     try:
         import anthropic
-        client = anthropic.Anthropic(api_key=api_key, timeout=120.0)
+        client = anthropic.Anthropic(api_key=api_key, timeout=300.0)
     except ImportError:
         log.error("Missing: pip install anthropic")
         return []
 
-    tracker      = TokenTracker()
-    user_message = _build_user_message(validated_tickers)
+    tracker = TokenTracker()
 
     if tracker.is_over_budget(MODEL):
         log.warning("Sonnet budget exhausted — skipping thesis generation")
         return []
 
-    log.info("Calling Sonnet for %d validated picks...", len(validated_tickers))
+    # Process in small batches to avoid timeouts on large payloads
+    SONNET_BATCH_SIZE = 8
+    all_cards: List[Dict] = []
 
-    def _call() -> Optional[List[Dict]]:
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=8_192,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user_message}],
+    for batch_start in range(0, len(validated_tickers), SONNET_BATCH_SIZE):
+        batch = validated_tickers[batch_start:batch_start + SONNET_BATCH_SIZE]
+        log.info(
+            "Calling Sonnet: batch %d/%d (%d picks)...",
+            batch_start // SONNET_BATCH_SIZE + 1,
+            (len(validated_tickers) + SONNET_BATCH_SIZE - 1) // SONNET_BATCH_SIZE,
+            len(batch),
         )
-        tokens_used = resp.usage.input_tokens + resp.usage.output_tokens
-        tracker.debit(MODEL, tokens_used)
 
-        raw    = resp.content[0].text.strip()
-        parsed = validate_json(raw)
-        if not isinstance(parsed, list):
-            log.error("Sonnet returned non-list: %r", raw[:200])
-            return None
-        return parsed
+        if tracker.is_over_budget(MODEL):
+            log.warning("Sonnet budget exhausted mid-run — stopping at batch %d", batch_start)
+            break
 
-    result = retry_with_backoff(_call, MODEL)
-    if result is None:
-        log.error("Sonnet analysis failed — no thesis cards generated")
-        return []
+        user_message = _build_user_message(batch)
 
-    thesis_cards = [c for c in result if _validate_thesis_card(c)]
+        def _call(msg=user_message) -> Optional[List[Dict]]:
+            resp = client.messages.create(
+                model=MODEL,
+                max_tokens=4_096,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": msg}],
+            )
+            tokens_used = resp.usage.input_tokens + resp.usage.output_tokens
+            tracker.debit(MODEL, tokens_used)
+            raw    = resp.content[0].text.strip()
+            parsed = validate_json(raw)
+            if not isinstance(parsed, list):
+                log.error("Sonnet returned non-list: %r", raw[:200])
+                return None
+            return parsed
+
+        result = retry_with_backoff(_call, MODEL)
+        if result is None:
+            log.error("Sonnet batch %d failed — skipping", batch_start // SONNET_BATCH_SIZE + 1)
+            continue
+        all_cards.extend(result)
+
+    thesis_cards = [c for c in all_cards if _validate_thesis_card(c)]
     log.info(
         "Sonnet complete: %d thesis cards generated | tokens used: %d",
         len(thesis_cards), tracker.used(MODEL),

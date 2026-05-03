@@ -21,6 +21,8 @@ jobs:
   weekly-scan:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout

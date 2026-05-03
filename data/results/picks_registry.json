@@ -10,7 +10,7 @@
     "scans": [
       "20260426"
     ],
-    "status": "active",
+    "status": "dropped",
     "buy_zone": [
       185,
       198
@@ -29,8 +29,8 @@
     "risk": "Asset quality deterioration in the construction finance or MSME book during a credit stress event could trigger sharp NPA spikes given the unsecured/semi-secured nature of lending. Elevated borrowing costs and tight liquidity in the NBFC space remain a near-term headwind to margin expansion.",
     "circuit_flag": false,
     "last_price": null,
-    "exit_reason": null,
-    "exit_date": null,
+    "exit_reason": "dropped \u2014 not in new scan",
+    "exit_date": "20260503",
     "exit_price": null,
     "horizon_end": "20260719",
     "tracking_end": "20260607"

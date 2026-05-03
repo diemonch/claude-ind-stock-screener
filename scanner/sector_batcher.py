@@ -65,6 +65,9 @@ def normalize_sector(raw_sector: Optional[str]) -> str:
     return SECTOR_MAP.get(raw_sector, "Others")
 
 
+ACTIONABLE_SIGNALS = {"buy", "watch"}
+
+
 def build_batches(
     enriched_tickers: List[Dict],
     week_context: str = "normal",
@@ -77,8 +80,15 @@ def build_batches(
     market_condition: fii_buying | fii_selling | sideways.
     Returns list of batch dicts, each ready to send to haiku_validator.
     """
+    # Drop "avoid" signals before batching — Haiku should never see pure avoids
+    actionable = [t for t in enriched_tickers if t.get("signal") in ACTIONABLE_SIGNALS]
+    log.info(
+        "Pre-filter: %d/%d tickers are actionable (buy/watch) — %d avoid dropped",
+        len(actionable), len(enriched_tickers), len(enriched_tickers) - len(actionable),
+    )
+
     sector_groups: Dict[str, List[Dict]] = {}
-    for t in enriched_tickers:
+    for t in actionable:
         sector = normalize_sector(t.get("sector"))
         sector_groups.setdefault(sector, []).append(t)
 
