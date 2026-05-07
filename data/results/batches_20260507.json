@@ -1,0 +1,126 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "MOTHERSON.NS",
+        "company": "Samvardhana Motherson International Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 61.63,
+        "volume_ratio": 1.81,
+        "circuit_risk": false,
+        "buy_zone": [
+          116.43,
+          119.47
+        ],
+        "sell_zone": [
+          128.6,
+          131.49
+        ],
+        "stop_loss": 114.1,
+        "risk_reward": 3.14,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TRIDENT.NS",
+        "company": "Trident Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.61,
+        "volume_ratio": 1.78,
+        "circuit_risk": false,
+        "buy_zone": [
+          25.03,
+          25.51
+        ],
+        "sell_zone": [
+          26.37,
+          26.77
+        ],
+        "stop_loss": 24.53,
+        "risk_reward": 1.76,
+        "signal": "watch"
+      },
+      {
+        "ticker": "WELSPUNLIV.NS",
+        "company": "Welspun Living Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 60.68,
+        "volume_ratio": 2.56,
+        "circuit_risk": false,
+        "buy_zone": [
+          120.97,
+          123.89
+        ],
+        "sell_zone": [
+          134.21,
+          136.61
+        ],
+        "stop_loss": 118.55,
+        "risk_reward": 3.35,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "COALINDIA.NS",
+        "company": "Coal India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 56.07,
+        "volume_ratio": 1.92,
+        "circuit_risk": false,
+        "buy_zone": [
+          420.75,
+          432.85
+        ],
+        "sell_zone": [
+          478.12,
+          491.05
+        ],
+        "stop_loss": 412.33,
+        "risk_reward": 3.99,
+        "signal": "watch"
+      },
+      {
+        "ticker": "OIL.NS",
+        "company": "Oil India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.46,
+        "volume_ratio": 1.14,
+        "circuit_risk": false,
+        "buy_zone": [
+          448.99,
+          461.95
+        ],
+        "sell_zone": [
+          487.12,
+          496.86
+        ],
+        "stop_loss": 440.01,
+        "risk_reward": 2.36,
+        "signal": "watch"
+      }
+    ]
+  }
+]
