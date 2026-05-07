@@ -34,5 +34,725 @@
     "exit_price": null,
     "horizon_end": "20260719",
     "tracking_end": "20260607"
+  },
+  "COALINDIA.NS": {
+    "ticker": "COALINDIA.NS",
+    "company": "Coal India Ltd.",
+    "sector": "Energy",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      420.75,
+      432.85
+    ],
+    "sell_zone": [
+      478.12,
+      491.05
+    ],
+    "stop_loss": 412.33,
+    "risk_reward": 3.99,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Coal India trades at a compelling 8.1x forward PE with 28% ROE and 18.5% net margins, making it one of the cheapest high-quality PSUs in the energy space. Volume ratio of 1.92x alongside EMA crossover and MACD flip signals institutional accumulation near the 52-week support base. Price is well below the 52-week high of 491.25, offering a clean technical setup with ~13% upside to the sell zone.",
+    "risk": "Any government-mandated price cap or e-auction volume reduction could compress realizations sharply. Global thermal coal price correction or accelerated renewable push by GoI may dampen sentiment.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "OIL.NS": {
+    "ticker": "OIL.NS",
+    "company": "Oil India Ltd.",
+    "sector": "Energy",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      448.99,
+      461.95
+    ],
+    "sell_zone": [
+      487.12,
+      496.86
+    ],
+    "stop_loss": 440.01,
+    "risk_reward": 2.36,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Oil India offers deep value at 8.9x forward PE with 17.4% net margins, and RSI near 39.5 suggests the stock is approaching an oversold bounce zone after a meaningful correction from its 52-week high of 516. The EMA crossover at low volume is a nascent signal; entry should be patient and phased within the buy zone for a mean-reversion trade to the sell zone. Dividend yield support and upstream oil exposure provide a fundamental floor.",
+    "risk": "Revenue growth is flat (-0.1%) and trend strength is weak with no volume confirmation, making this a low-conviction setup vulnerable to further downside if crude prices disappoint. A stronger dollar or OPEC supply surprise could extend the correction toward 52-week lows.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "MOTHERSON.NS": {
+    "ticker": "MOTHERSON.NS",
+    "company": "Samvardhana Motherson International Ltd.",
+    "sector": "Consumer Cyclical",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      116.43,
+      119.47
+    ],
+    "sell_zone": [
+      128.6,
+      131.49
+    ],
+    "stop_loss": 114.1,
+    "risk_reward": 3.14,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Motherson is recovering from its 52-week low of 86.61 with strong technical momentum \u2014 EMA crossover, MACD flip, and volume confirmation firing simultaneously with beta near 1, making it a high-participation swing vehicle. Revenue growth of 14.5% reflects a recovery in global auto OEM offtake, particularly in Europe and India, where Motherson has deep supply chain integration. At 26x forward PE the stock is not cheap, but the technical setup near the lower half of its 52-week range justifies a tactical swing entry targeting the 128\u2013131 zone.",
+    "risk": "Net margins are razor-thin at 2.83%, leaving earnings highly sensitive to forex volatility and raw material cost spikes across its global subsidiaries. Any deterioration in European auto production volumes or INR appreciation against EUR could compress profitability quickly.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "TRIDENT.NS": {
+    "ticker": "TRIDENT.NS",
+    "company": "Trident Ltd.",
+    "sector": "Consumer Cyclical",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      25.03,
+      25.51
+    ],
+    "sell_zone": [
+      26.37,
+      26.77
+    ],
+    "stop_loss": 24.53,
+    "risk_reward": 1.76,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_2_4_weeks",
+    "account_tag": "swing",
+    "thesis": "Trident shows a clean technical setup with EMA crossover, MACD histogram flip, and 1.78x volume confirmation in a near-zero-beta stock, making it suitable for capital-light swing exposure with low market correlation. The stock is consolidating above its 52-week low of 21.98, and the full indicator stack suggests a near-term push toward the 26.37\u201326.77 sell zone. However, the risk-reward of 1.76 is the weakest in this cohort, warranting smaller position sizing.",
+    "risk": "Revenue growth is negative at -5.6% and forward PE of 26.8x is expensive relative to fundamentals, leaving limited margin of safety if earnings disappoint. The tight 7% price range between buy and sell zones means any spike in selling pressure quickly invalidates the trade.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260604",
+    "tracking_end": "20260618"
+  },
+  "WELSPUNLIV.NS": {
+    "ticker": "WELSPUNLIV.NS",
+    "company": "Welspun Living Ltd.",
+    "sector": "Consumer Cyclical",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      120.97,
+      123.89
+    ],
+    "sell_zone": [
+      134.21,
+      136.61
+    ],
+    "stop_loss": 118.55,
+    "risk_reward": 3.35,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Welspun Living's 2.56x volume ratio is the highest in this cohort and, combined with all three technical indicators firing, signals aggressive accumulation by informed participants near a key support zone. The stock is trading well below its 52-week high of 152.85, offering ~10\u201312% upside to the sell zone with a technically defined stop. Negative beta (-0.09) provides portfolio hedge characteristics, making this a defensive-growth swing candidate.",
+    "risk": "Revenue growth is contracting at -9.1% with net margins of only 2.42%, indicating ongoing pressure in home textiles exports \u2014 likely from weak US/EU retail demand. Sustained revenue weakness could cap any fundamental re-rating and limit the trade to a purely technical swing.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "AFCONS.NS": {
+    "ticker": "AFCONS.NS",
+    "company": "Afcons Infrastructure Ltd.",
+    "sector": "Industrials",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      307.73,
+      311.94
+    ],
+    "sell_zone": [
+      345.15,
+      353.85
+    ],
+    "stop_loss": 301.58,
+    "risk_reward": 4.8,
+    "signal": "AVOID",
+    "confluence": "1/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist_only",
+    "thesis": "Afcons offers an attractive 4.8 risk-reward ratio and is recovering from a deep correction (52-week low 265.8 vs high 479.4), with infrastructure capex tailwinds from government spending supporting the fundamental case. However, a volume ratio of just 0.13x renders the EMA and MACD signals unreliable \u2014 price moves on thin volume frequently reverse. Wait for volume confirmation above 0.8x before initiating any position.",
+    "risk": "Revenue growth is negative at -7.3% and the stock has lost over 35% from its 52-week high, suggesting potential order-book or execution concerns that technicals alone cannot resolve. Low liquidity increases slippage risk on both entry and exit.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "BALRAMCHIN.NS": {
+    "ticker": "BALRAMCHIN.NS",
+    "company": "Balrampur Chini Mills Ltd.",
+    "sector": "Consumer Defensive",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      466.32,
+      481.06
+    ],
+    "sell_zone": [
+      536.03,
+      552.88
+    ],
+    "stop_loss": 456.99,
+    "risk_reward": 4.24,
+    "signal": "AVOID",
+    "confluence": "1/3",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "watchlist_only",
+    "thesis": "Balrampur Chini's 22% revenue growth is the strongest fundamental data point in this cohort, and the stock is recovering from a 37% drawdown from its 52-week high of 623, creating a potential value re-entry in India's sugar cycle upswing. The 4.24 risk-reward is attractive if volume picks up to confirm the EMA and MACD signals, which currently lack institutional backing at 0.37x volume ratio. Monitor for ethanol blending policy updates and UP cane price announcements as potential catalysts.",
+    "risk": "Sugar sector returns are heavily contingent on government-set MSP, export quotas, and monsoon-driven cane yields \u2014 any adverse policy action could quickly negate the technical setup. Volume confirmation is absent, making premature entry vulnerable to a false breakout in an illiquid session.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260702",
+    "tracking_end": "20260618"
+  },
+  "CENTRALBK.NS": {
+    "ticker": "CENTRALBK.NS",
+    "company": "Central Bank of India",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      34.99,
+      35.52
+    ],
+    "sell_zone": [
+      36.74,
+      37.19
+    ],
+    "stop_loss": 34.29,
+    "risk_reward": 1.76,
+    "signal": "AVOID",
+    "confluence": "1/3",
+    "horizon": "swing_2_4_weeks",
+    "account_tag": "watchlist_only",
+    "thesis": "Central Bank trades at 7.4x forward PE with 13.2% ROE and 28.5% net margins \u2014 improving asset quality metrics post-NPA cleanup make this a cheap PSU bank optionality play. The bullish reversal trend shift is a positive signal, and 12.3% revenue growth shows steady NII expansion. However, the 1.76 risk-reward and a mere 70-paisa price range to the sell zone make this unattractive relative to capital deployed.",
+    "risk": "PSU bank re-rating is contingent on sustained credit cost reduction and government divestment timelines, both of which remain uncertain and politically sensitive. The stock trades just 18% below its 52-week high with limited upside in the sell zone, making the reward inadequate for the binary policy risk.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260604",
+    "tracking_end": "20260618"
+  },
+  "CHENNPETRO.NS": {
+    "ticker": "CHENNPETRO.NS",
+    "company": "Chennai Petroleum Corporation Ltd.",
+    "sector": "Energy",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      928.45,
+      983.04
+    ],
+    "sell_zone": [
+      1108.45,
+      1162.54
+    ],
+    "stop_loss": 909.88,
+    "risk_reward": 3.92,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "CPCL trades at a compelling fwd P/E of 5.2x with a strong ROE of 32% despite modest net margins, suggesting refining-cycle leverage is underpriced. EMA crossover and MACD histogram flip signal a continuation of the recovery off 52-week lows near \u20b9578. A re-test of the 52-week high at \u20b91,159 aligns with the sell zone, offering a clean technical target.",
+    "risk": "Volume ratio of 0.32 flags weak participation, raising risk of a false breakout. Revenue decline of 2.5% YoY and volatile GRM spreads could undermine the thesis if crude cracks worsen.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "CHOLAFIN.NS": {
+    "ticker": "CHOLAFIN.NS",
+    "company": "Cholamandalam Investment and Finance Company Ltd.",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      1476.18,
+      1530.8
+    ],
+    "sell_zone": [
+      1597.2,
+      1686.91
+    ],
+    "stop_loss": 1446.66,
+    "risk_reward": 2.44,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Cholamandalam's 24% revenue growth and near-40% net margin reflect its dominance in vehicle and home-equity financing as the NBFC credit cycle recovers. Volume ratio of 1.17 is the strongest in this cohort, confirming institutional accumulation supporting the bullish reversal signal. Price is recovering from a 28% drawdown from 52-week highs, with sell zone at \u20b91,597\u20131,687 representing meaningful mean reversion.",
+    "risk": "RSI at 64 is approaching overbought territory, limiting immediate upside headroom before a consolidation. Tightening RBI liquidity norms for NBFCs or asset-quality deterioration in the CV segment could cap re-rating.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "CUB.NS": {
+    "ticker": "CUB.NS",
+    "company": "City Union Bank Ltd.",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      246.22,
+      252.65
+    ],
+    "sell_zone": [
+      275.2,
+      281.99
+    ],
+    "stop_loss": 241.3,
+    "risk_reward": 3.58,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "CUB offers a rare combination of 23.6% revenue growth and 37.6% net margins for a mid-tier private bank, trading at just 11x fwd P/E \u2014 a significant discount to peers. The EMA crossover and MACD flip confirm a continuation of recovery from the \u20b9171 52-week low, with the sell zone near \u20b9280 representing a logical resistance cluster. Beta of 0.45 makes this suitable for conservative swing exposure during uncertain broader market conditions.",
+    "risk": "Volume ratio of 0.31 is extremely low, suggesting retail-led activity without institutional conviction \u2014 breakout sustainability is questionable. ROE of 13.2% is below-par for the banking sector, signalling capital efficiency constraints that may limit re-rating.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "DRREDDY.NS": {
+    "ticker": "DRREDDY.NS",
+    "company": "Dr. Reddy's Laboratories Ltd.",
+    "sector": "Healthcare",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      1175.18,
+      1211.5
+    ],
+    "sell_zone": [
+      1342.43,
+      1376.31
+    ],
+    "stop_loss": 1151.68,
+    "risk_reward": 3.99,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Dr. Reddy's is consolidating near all-time highs at \u20b91,375 with a defensively low beta of 0.29, making it a quality accumulation candidate during FII risk-off phases in Indian markets. The EMA crossover with neutral RSI at 55 offers a technically clean entry before a potential breakout above \u20b91,342, which aligns with the 52-week high. ROE of 16% and 16.4% net margins underpin fundamental quality, while the US generics pipeline provides a near-term earnings catalyst.",
+    "risk": "Revenue growth of only 4.4% YoY signals slowing topline momentum, which may disappoint growth-oriented investors at a 23.7x fwd P/E. Any US FDA import alert or pricing pressure in the gRevlimid franchise could trigger sharp institutional selling.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "GLENMARK.NS": {
+    "ticker": "GLENMARK.NS",
+    "company": "Glenmark Pharmaceuticals Ltd.",
+    "sector": "Healthcare",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      2130.31,
+      2209.12
+    ],
+    "sell_zone": [
+      2428.05,
+      2483.41
+    ],
+    "stop_loss": 2087.7,
+    "risk_reward": 3.49,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Glenmark has rallied ~83% from its 52-week low of \u20b91,352, driven by debt reduction progress and improved India-branded generics performance, with 15.1% revenue growth validating the turnaround narrative. The stock is trading just below its 52-week high of \u20b92,474, and a confirmed breakout could trigger momentum-driven upside to the \u20b92,428\u20132,483 sell zone. EMA crossover and MACD flip at RSI 62 suggest controlled buying without overheating.",
+    "risk": "At 29.6x fwd P/E with only 6.5% net margins and no reported ROE, the valuation is stretched relative to earnings quality \u2014 any quarterly miss could see sharp mean-reversion. Volume ratio of 0.64 below 1.0 suggests the rally lacks broad-based confirmation, increasing whipsaw risk near all-time highs.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "GESHIP.NS": {
+    "ticker": "GESHIP.NS",
+    "company": "Great Eastern Shipping Co. Ltd.",
+    "sector": "Industrials",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      1306.21,
+      1382.6
+    ],
+    "sell_zone": [
+      1578.28,
+      1617.54
+    ],
+    "stop_loss": 1280.09,
+    "risk_reward": 3.94,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Great Eastern Shipping offers an exceptional 44.2% net margin and 17.6% revenue growth at just 6.8x fwd P/E, reflecting deep value in the Indian shipping sector as tanker rates remain supported. The stock is recovering from a 48% drawdown off its 52-week high, with EMA crossover and MACD flip signalling a potential trend restoration toward the \u20b91,578\u20131,617 resistance zone near prior highs. Low beta of 0.59 and high cash generation make this a risk-efficient cyclical play.",
+    "risk": "Shipping freight rates are highly volatile and a sharp decline in crude tanker demand \u2014 driven by OPEC+ cuts or trade-route disruptions \u2014 could rapidly compress margins. The absence of reported ROE data adds uncertainty around capital allocation quality and fleet reinvestment returns.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "HINDUNILVR.NS": {
+    "ticker": "HINDUNILVR.NS",
+    "company": "Hindustan Unilever Ltd.",
+    "sector": "Consumer Defensive",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      2101.79,
+      2138.92
+    ],
+    "sell_zone": [
+      2363.55,
+      2420.0
+    ],
+    "stop_loss": 2059.75,
+    "risk_reward": 4.48,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "HUL is staging a technical recovery off its \u20b92,022 52-week low with the highest risk-reward ratio in this cohort at 4.48x, supported by its defensive positioning as DII and retail flows rotate into quality FMCG during election-cycle uncertainty. ROE of 21.6% and 23.3% net margins confirm structural earnings quality, while a rural consumption recovery narrative driven by above-normal monsoon forecasts provides a fundamental re-rating trigger. The sell zone at \u20b92,363\u20132,420 aligns with prior consolidation support-turned-resistance.",
+    "risk": "At 42.4x fwd P/E with only 4.3% revenue growth, HUL is priced for perfection \u2014 any volume growth disappointment or input cost spike in palm oil/crude derivatives could compress multiples sharply. FII selling pressure in consumer staples during a risk-on rally may limit near-term upside.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260702",
+    "tracking_end": "20260618"
+  },
+  "IRFC.NS": {
+    "ticker": "IRFC.NS",
+    "company": "Indian Railway Finance Corporation Ltd.",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      99.13,
+      102.3
+    ],
+    "sell_zone": [
+      106.68,
+      108.55
+    ],
+    "stop_loss": 97.15,
+    "risk_reward": 1.93,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "accumulate",
+    "thesis": "IRFC benefits from a virtually risk-free lending model to Indian Railways with 97.3% net margins and 10.6% revenue growth, underpinned by the Union Budget's sustained railway capex allocation of \u20b92.65 lakh crore. The bullish reversal signal at \u20b999\u2013102 represents a 32% recovery opportunity from the \u20b987 52-week low, with the PSU re-rating cycle still in progress following post-listing derating. At 15.5x fwd P/E with quasi-sovereign credit risk, the risk-adjusted return profile is attractive for accumulation.",
+    "risk": "The risk-reward of 1.93x is the weakest in this cohort, with tight headroom between buy zone and sell zone limiting swing profitability. Any policy shift in Railway Ministry financing strategy or a delay in borrowing program disbursements could stall the re-rating momentum.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260604",
+    "tracking_end": "20260618"
+  },
+  "IGL.NS": {
+    "ticker": "IGL.NS",
+    "company": "Indraprastha Gas Ltd.",
+    "sector": "Utilities",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      159.17,
+      162.48
+    ],
+    "sell_zone": [
+      169.84,
+      172.45
+    ],
+    "stop_loss": 155.99,
+    "risk_reward": 2.14,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "IGL is recovering from its 52-week low of \u20b9141.74, with an EMA crossover and MACD histogram flip suggesting a nascent bullish reversal. Trading at a modest forward P/E of 12.45x with 8.2% revenue growth, the CNG utility retains a regulated moat in Delhi-NCR with low earnings volatility (beta 0.54). However, weak volume ratio (0.72) and a low confluence score (1/4) indicate insufficient institutional participation to validate the move; price still sits 28% below its 52-week high.",
+    "risk": "Subdued volume and single-indicator confluence suggest this could be a false reversal; any adverse APM gas price hike or compression in CNG margins could quickly invalidate the setup. Stop below \u20b9155.99 exposes capital to retest of recent lows.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "JMFINANCIL.NS": {
+    "ticker": "JMFINANCIL.NS",
+    "company": "JM Financial Ltd.",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      129.73,
+      132.39
+    ],
+    "sell_zone": [
+      142.22,
+      144.94
+    ],
+    "stop_loss": 127.14,
+    "risk_reward": 3.19,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "JM Financial offers a compelling fundamental backdrop with 31.4% revenue growth and a 35.62% net margin, trading at a cheap forward P/E of 11.4x \u2014 well below its NBFC/investment banking peers. The stock is staging a continuation move having more than doubled off its 52-week low of \u20b993.75, with dual technical triggers (EMA crossover, MACD flip) supporting the momentum. However, the confluence score of 1/4 and near-average volume (0.98 ratio) suggest the technical setup lacks the breadth required for a high-conviction swing entry right now.",
+    "risk": "Low confluence and a signal rated 'avoid' imply the technical confirmation is fragile; NBFC sentiment remains vulnerable to RBI regulatory actions or credit market stress that could rapidly compress valuations. The stock is still 34% below its 52-week high, signalling heavy overhead supply.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "NATIONALUM.NS": {
+    "ticker": "NATIONALUM.NS",
+    "company": "National Aluminium Co. Ltd.",
+    "sector": "Basic Materials",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      393.43,
+      404.41
+    ],
+    "sell_zone": [
+      439.96,
+      446.07
+    ],
+    "stop_loss": 385.56,
+    "risk_reward": 3.3,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "NALCO trades near its 52-week high of \u20b9445.15 with an exceptional ROE of 29.42% and net margin of 31.32%, reflecting strong aluminium price realisation cycles and its low-cost smelting advantage as a Navratna PSU. Despite the attractive risk-reward ratio of 3.3x on paper, a -4.8% revenue decline, RSI at 46 (no momentum), and the weakest volume ratio (0.66) in this set signal distribution rather than accumulation at current levels. Only a single technical indicator is triggered with no trend shift, making this a low-confidence setup.",
+    "risk": "Aluminium LME price softness or a China demand slowdown could compress realisations further, exacerbating the already negative revenue growth trajectory. Entry near 52-week highs with weak volume creates asymmetric downside risk if the commodity cycle turns.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
+  },
+  "RBLBANK.NS": {
+    "ticker": "RBLBANK.NS",
+    "company": "RBL Bank Ltd.",
+    "sector": "Financial Services",
+    "first_seen": "20260507",
+    "last_seen": "20260507",
+    "reentry_count": 0,
+    "is_reentry": false,
+    "scans": [
+      "20260507"
+    ],
+    "status": "active",
+    "buy_zone": [
+      304.08,
+      312.36
+    ],
+    "sell_zone": [
+      337.81,
+      344.83
+    ],
+    "stop_loss": 298.0,
+    "risk_reward": 3.24,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "RBL Bank has delivered 40.8% revenue growth and is recovering sharply from its 52-week low of \u20b9187.42, now near \u20b9304\u2013312, with EMA crossover and MACD histogram flip supporting a continuation pattern. The risk-reward of 3.24x is attractive mechanically, with the sell zone just below the 52-week high of \u20b9349.90, offering a clean technical target. However, thin net margins of 9.08%, elevated forward P/E of 18.2x relative to peers, and a confluence score of only 1/4 with below-average volume (0.94) keep conviction low \u2014 the bank's asset quality trajectory needs validation in the upcoming results quarter.",
+    "risk": "RBL Bank's historically elevated gross NPA risk and management continuity concerns could re-emerge as sentiment-negative catalysts, particularly if Q-o-Q slippage data disappoints in the next results cycle. A close below \u20b9298 stop would signal failed continuation and expose the stock to a swift retracement.",
+    "circuit_flag": false,
+    "last_price": null,
+    "exit_reason": null,
+    "exit_date": null,
+    "exit_price": null,
+    "horizon_end": "20260618",
+    "tracking_end": "20260618"
   }
 }
