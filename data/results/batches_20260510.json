@@ -1,0 +1,220 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WELSPUNLIV.NS",
+        "company": "Welspun Living Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.16,
+        "volume_ratio": 3.4,
+        "circuit_risk": false,
+        "buy_zone": [
+          121.99,
+          124.01
+        ],
+        "sell_zone": [
+          134.86,
+          136.78
+        ],
+        "stop_loss": 119.55,
+        "risk_reward": 3.72,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "KARURVYSYA.NS",
+        "company": "Karur Vysya Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 57.48,
+        "volume_ratio": 2.66,
+        "circuit_risk": false,
+        "buy_zone": [
+          271.88,
+          278.4
+        ],
+        "sell_zone": [
+          301.96,
+          313.56
+        ],
+        "stop_loss": 266.44,
+        "risk_reward": 3.75,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ONGC.NS",
+        "company": "Oil & Natural Gas Corporation Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.03,
+        "volume_ratio": 0.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          274.25,
+          282.15
+        ],
+        "sell_zone": [
+          296.81,
+          299.63
+        ],
+        "stop_loss": 268.76,
+        "risk_reward": 2.12,
+        "signal": "watch"
+      },
+      {
+        "ticker": "OIL.NS",
+        "company": "Oil India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.29,
+        "volume_ratio": 0.46,
+        "circuit_risk": false,
+        "buy_zone": [
+          446.69,
+          461.95
+        ],
+        "sell_zone": [
+          487.12,
+          494.4
+        ],
+        "stop_loss": 437.76,
+        "risk_reward": 2.2,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GESHIP.NS",
+        "company": "Great Eastern Shipping Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 64.72,
+        "volume_ratio": 1.85,
+        "circuit_risk": false,
+        "buy_zone": [
+          1310.06,
+          1394.47
+        ],
+        "sell_zone": [
+          1584.45,
+          1633.4
+        ],
+        "stop_loss": 1283.86,
+        "risk_reward": 3.75,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "SHYAMMETL.NS",
+        "company": "Shyam Metalics and Energy Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.89,
+        "volume_ratio": 2.55,
+        "circuit_risk": false,
+        "buy_zone": [
+          805.43,
+          827.75
+        ],
+        "sell_zone": [
+          901.4,
+          921.28
+        ],
+        "stop_loss": 789.32,
+        "risk_reward": 3.47,
+        "signal": "watch"
+      },
+      {
+        "ticker": "USHAMART.NS",
+        "company": "Usha Martin Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.66,
+        "volume_ratio": 1.62,
+        "circuit_risk": false,
+        "buy_zone": [
+          428.89,
+          438.97
+        ],
+        "sell_zone": [
+          470.5,
+          476.21
+        ],
+        "stop_loss": 420.31,
+        "risk_reward": 2.9,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "LUPIN.NS",
+        "company": "Lupin Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 56.15,
+        "volume_ratio": 2.7,
+        "circuit_risk": false,
+        "buy_zone": [
+          2250.05,
+          2292.95
+        ],
+        "sell_zone": [
+          2362.57,
+          2424.96
+        ],
+        "stop_loss": 2205.05,
+        "risk_reward": 1.84,
+        "signal": "watch"
+      }
+    ]
+  }
+]
