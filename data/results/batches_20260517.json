@@ -1,0 +1,301 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "TRIDENT.NS",
+        "company": "Trident Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 41.03,
+        "volume_ratio": 1.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          24.78,
+          25.47
+        ],
+        "sell_zone": [
+          26.49,
+          26.89
+        ],
+        "stop_loss": 24.28,
+        "risk_reward": 1.87,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "MUTHOOTFIN.NS",
+        "company": "Muthoot Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 42.3,
+        "volume_ratio": 6.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          3338.29,
+          3401.53
+        ],
+        "sell_zone": [
+          3590.62,
+          3642.1
+        ],
+        "stop_loss": 3271.52,
+        "risk_reward": 2.5,
+        "signal": "watch"
+      },
+      {
+        "ticker": "RECLTD.NS",
+        "company": "REC Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.94,
+        "volume_ratio": 0.47,
+        "circuit_risk": false,
+        "buy_zone": [
+          335.43,
+          350.99
+        ],
+        "sell_zone": [
+          382.34,
+          401.46
+        ],
+        "stop_loss": 328.72,
+        "risk_reward": 3.36,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WAAREEENER.NS",
+        "company": "Waaree Energies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.44,
+        "volume_ratio": 0.37,
+        "circuit_risk": false,
+        "buy_zone": [
+          2945.12,
+          3111.7
+        ],
+        "sell_zone": [
+          3478.7,
+          3652.63
+        ],
+        "stop_loss": 2886.22,
+        "risk_reward": 3.78,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GSPL.NS",
+        "company": "Gujarat State Petronet Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 3,
+        "rsi": 44.56,
+        "volume_ratio": 2.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          245.05,
+          266.08
+        ],
+        "sell_zone": [
+          290.1,
+          303.93
+        ],
+        "stop_loss": 240.15,
+        "risk_reward": 2.69,
+        "signal": "buy"
+      },
+      {
+        "ticker": "IRCON.NS",
+        "company": "IRCON International Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.34,
+        "volume_ratio": 0.43,
+        "circuit_risk": false,
+        "buy_zone": [
+          142.47,
+          149.68
+        ],
+        "sell_zone": [
+          157.48,
+          159.95
+        ],
+        "stop_loss": 139.62,
+        "risk_reward": 1.96,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MAZDOCK.NS",
+        "company": "Mazagoan Dock Shipbuilders Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.7,
+        "volume_ratio": 0.37,
+        "circuit_risk": false,
+        "buy_zone": [
+          2459.88,
+          2570.0
+        ],
+        "sell_zone": [
+          2727.8,
+          2736.2
+        ],
+        "stop_loss": 2410.68,
+        "risk_reward": 2.08,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NHPC.NS",
+        "company": "NHPC Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.86,
+        "volume_ratio": 0.63,
+        "circuit_risk": false,
+        "buy_zone": [
+          76.59,
+          79.63
+        ],
+        "sell_zone": [
+          84.01,
+          88.21
+        ],
+        "stop_loss": 75.06,
+        "risk_reward": 2.62,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NAVA.NS",
+        "company": "Nava Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 41.86,
+        "volume_ratio": 3.75,
+        "circuit_risk": false,
+        "buy_zone": [
+          634.92,
+          660.7
+        ],
+        "sell_zone": [
+          724.25,
+          735.0
+        ],
+        "stop_loss": 622.22,
+        "risk_reward": 3.2,
+        "signal": "watch"
+      },
+      {
+        "ticker": "POWERGRID.NS",
+        "company": "Power Grid Corporation of India Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.99,
+        "volume_ratio": 1.1,
+        "circuit_risk": false,
+        "buy_zone": [
+          302.35,
+          310.44
+        ],
+        "sell_zone": [
+          322.2,
+          324.78
+        ],
+        "stop_loss": 296.3,
+        "risk_reward": 1.69,
+        "signal": "watch"
+      },
+      {
+        "ticker": "RITES.NS",
+        "company": "RITES Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.75,
+        "volume_ratio": 0.49,
+        "circuit_risk": false,
+        "buy_zone": [
+          209.94,
+          215.81
+        ],
+        "sell_zone": [
+          224.96,
+          229.75
+        ],
+        "stop_loss": 205.74,
+        "risk_reward": 2.03,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "SAILIFE.NS",
+        "company": "Sai Life Sciences Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.62,
+        "volume_ratio": 7.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          970.84,
+          1015.7
+        ],
+        "sell_zone": [
+          1111.35,
+          1153.77
+        ],
+        "stop_loss": 951.42,
+        "risk_reward": 3.33,
+        "signal": "watch"
+      }
+    ]
+  }
+]
