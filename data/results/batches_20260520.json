@@ -1,0 +1,315 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "MOTHERSON.NS",
+        "company": "Samvardhana Motherson International Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 60.33,
+        "volume_ratio": 3.05,
+        "circuit_risk": false,
+        "buy_zone": [
+          118.75,
+          122.6
+        ],
+        "sell_zone": [
+          131.45,
+          134.39
+        ],
+        "stop_loss": 116.38,
+        "risk_reward": 2.86,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "AUBANK.NS",
+        "company": "AU Small Finance Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.56,
+        "volume_ratio": 0.84,
+        "circuit_risk": false,
+        "buy_zone": [
+          962.69,
+          990.12
+        ],
+        "sell_zone": [
+          1046.83,
+          1047.38
+        ],
+        "stop_loss": 943.44,
+        "risk_reward": 2.15,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PFC.NS",
+        "company": "Power Finance Corporation Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.59,
+        "volume_ratio": 0.74,
+        "circuit_risk": false,
+        "buy_zone": [
+          424.06,
+          439.36
+        ],
+        "sell_zone": [
+          468.34,
+          491.76
+        ],
+        "stop_loss": 415.58,
+        "risk_reward": 3.0,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "FMCG",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HINDUNILVR.NS",
+        "company": "Hindustan Unilever Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.49,
+        "volume_ratio": 0.69,
+        "circuit_risk": false,
+        "buy_zone": [
+          2206.22,
+          2245.9
+        ],
+        "sell_zone": [
+          2352.97,
+          2363.17
+        ],
+        "stop_loss": 2162.1,
+        "risk_reward": 2.06,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WAAREEENER.NS",
+        "company": "Waaree Energies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 36.92,
+        "volume_ratio": 0.64,
+        "circuit_risk": false,
+        "buy_zone": [
+          2883.98,
+          3058.97
+        ],
+        "sell_zone": [
+          3330.7,
+          3497.24
+        ],
+        "stop_loss": 2826.3,
+        "risk_reward": 3.05,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "IRCON.NS",
+        "company": "IRCON International Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.92,
+        "volume_ratio": 0.41,
+        "circuit_risk": false,
+        "buy_zone": [
+          137.59,
+          143.01
+        ],
+        "sell_zone": [
+          157.36,
+          165.23
+        ],
+        "stop_loss": 134.84,
+        "risk_reward": 3.85,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JSWINFRA.NS",
+        "company": "JSW Infrastructure Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.65,
+        "volume_ratio": 0.34,
+        "circuit_risk": false,
+        "buy_zone": [
+          260.67,
+          265.19
+        ],
+        "sell_zone": [
+          285.17,
+          288.52
+        ],
+        "stop_loss": 255.46,
+        "risk_reward": 3.2,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MAZDOCK.NS",
+        "company": "Mazagoan Dock Shipbuilders Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.29,
+        "volume_ratio": 0.45,
+        "circuit_risk": false,
+        "buy_zone": [
+          2377.02,
+          2456.9
+        ],
+        "sell_zone": [
+          2727.8,
+          2864.19
+        ],
+        "stop_loss": 2329.48,
+        "risk_reward": 4.33,
+        "signal": "watch"
+      },
+      {
+        "ticker": "POWERGRID.NS",
+        "company": "Power Grid Corporation of India Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.56,
+        "volume_ratio": 0.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          295.08,
+          302.32
+        ],
+        "sell_zone": [
+          321.59,
+          337.67
+        ],
+        "stop_loss": 289.18,
+        "risk_reward": 3.25,
+        "signal": "watch"
+      },
+      {
+        "ticker": "RITES.NS",
+        "company": "RITES Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.0,
+        "volume_ratio": 0.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          203.16,
+          210.97
+        ],
+        "sell_zone": [
+          224.96,
+          236.21
+        ],
+        "stop_loss": 199.1,
+        "risk_reward": 2.96,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "JAINREC.NS",
+        "company": "Jain Resource Recycling Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 35.87,
+        "volume_ratio": 1.69,
+        "circuit_risk": true,
+        "buy_zone": [
+          348.66,
+          411.69
+        ],
+        "sell_zone": [
+          572.55,
+          601.18
+        ],
+        "stop_loss": 341.69,
+        "risk_reward": 5.37,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Others",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GSPL.NS",
+        "company": "Gujarat State Petronet Ltd.",
+        "sector": "Oil Gas & Consumable Fuels",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 3,
+        "rsi": 44.56,
+        "volume_ratio": 2.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          245.05,
+          266.08
+        ],
+        "sell_zone": [
+          290.1,
+          303.93
+        ],
+        "stop_loss": 240.15,
+        "risk_reward": 2.69,
+        "signal": "buy"
+      }
+    ]
+  }
+]
