@@ -8,8 +8,9 @@ from typing import Dict, List, Optional
 import pandas as pd
 import streamlit as st
 
-ROOT_DIR       = Path(__file__).parent.parent.parent
-PORTFOLIO_FILE = ROOT_DIR / "portfolio_india.json"
+ROOT_DIR          = Path(__file__).parent.parent.parent
+PORTFOLIO_FILE    = ROOT_DIR / "portfolio_india.json"
+ALERT_STATE_FILE  = ROOT_DIR / "data" / "results" / "alert_state.json"
 
 STATUS_ICON = {
     "active":          "🟢",
@@ -18,6 +19,38 @@ STATUS_ICON = {
     "horizon_expired": "⚫",
     "dropped":         "🟠",
 }
+
+# Alert severity order — highest first
+_ALERT_PRIORITY = ["sl_breach", "danger_zone", "target_hit"]
+_ALERT_DISPLAY  = {
+    "sl_breach":   "🔴 SL Breached — EXIT",
+    "danger_zone": "🟠 Danger Zone",
+    "target_hit":  "🔵 Target Hit",
+}
+
+
+def load_alert_state() -> Dict:
+    """Load today's alert state from position monitor output."""
+    if not ALERT_STATE_FILE.exists():
+        return {}
+    try:
+        with open(ALERT_STATE_FILE) as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def current_alert(ticker: str, state: Dict) -> str:
+    """Return the highest-severity alert fired today for a ticker, or empty string."""
+    from datetime import date
+    entry = state.get(ticker, {})
+    if entry.get("date") != str(date.today()):
+        return ""
+    sent = entry.get("sent", [])
+    for level in _ALERT_PRIORITY:
+        if level in sent:
+            return _ALERT_DISPLAY[level]
+    return ""
 
 
 # ── Data loaders ───────────────────────────────────────────────────────────────
@@ -164,6 +197,8 @@ def render_portfolio_view(
     # ── Holdings table ────────────────────────────────────────────────────────
     st.subheader("Holdings")
 
+    alert_state = load_alert_state()
+
     rows = []
     for h in holdings:
         t     = h["ticker"]
@@ -184,6 +219,7 @@ def render_portfolio_view(
             tag = "—"
 
         rows.append({
+            "Alert":    current_alert(t, alert_state) or "✅ Clear",
             "Ticker":   t,
             "Shares":   shrs,
             "Avg Cost": cost,
@@ -202,6 +238,7 @@ def render_portfolio_view(
         use_container_width=True,
         hide_index=True,
         column_config={
+            "Alert":    st.column_config.TextColumn("Alert"),
             "Ticker":   st.column_config.TextColumn("Ticker"),
             "Shares":   st.column_config.NumberColumn("Shares",   format="%.1f"),
             "Avg Cost": st.column_config.NumberColumn("Avg Cost", format="₹%.2f"),
