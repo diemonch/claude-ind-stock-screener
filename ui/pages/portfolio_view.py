@@ -12,12 +12,12 @@ ROOT_DIR          = Path(__file__).parent.parent.parent
 PORTFOLIO_FILE    = ROOT_DIR / "portfolio_india.json"
 ALERT_STATE_FILE  = ROOT_DIR / "data" / "results" / "alert_state.json"
 
-STATUS_ICON = {
-    "active":          "🟢",
-    "target_hit":      "🔵",
-    "stopped_out":     "🔴",
-    "horizon_expired": "⚫",
-    "dropped":         "🟠",
+STATUS_LABEL = {
+    "active":          "🟢 Active",
+    "target_hit":      "🔵 Prepare to Sell — Target Met",
+    "stopped_out":     "🔴 Exit — SL Hit",
+    "horizon_expired": "⚫ Horizon Expired",
+    "dropped":         "🟠 Dropped from Screener",
 }
 
 # Alert severity order — highest first
@@ -69,19 +69,26 @@ def save_portfolio(data: Dict) -> None:
 
 @st.cache_data(ttl=300)
 def fetch_prices(tickers: tuple) -> Dict[str, Dict]:
-    """Fetch CMP + company name for a tuple of tickers. Cached 5 min."""
+    """Fetch CMP + day change for a tuple of NSE tickers via 2-day history."""
     try:
         import yfinance as yf
         result = {}
         for t in tickers:
             try:
-                info  = yf.Ticker(t).fast_info
-                price = float(getattr(info, "last_price", 0) or 0)
-                prev  = float(getattr(info, "previous_close", price) or price)
+                hist = yf.Ticker(t).history(period="2d")
+                if len(hist) >= 2:
+                    price = round(float(hist["Close"].iloc[-1]), 2)
+                    prev  = round(float(hist["Close"].iloc[-2]), 2)
+                elif len(hist) == 1:
+                    price = round(float(hist["Close"].iloc[-1]), 2)
+                    prev  = price
+                else:
+                    result[t] = {"price": 0.0, "prev": 0.0, "day_chg": 0.0}
+                    continue
                 result[t] = {
-                    "price":     round(price, 2),
-                    "prev":      round(prev,  2),
-                    "day_chg":   round((price - prev) / prev * 100, 2) if prev else 0.0,
+                    "price":   price,
+                    "prev":    prev,
+                    "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
                 }
             except Exception:
                 result[t] = {"price": 0.0, "prev": 0.0, "day_chg": 0.0}
@@ -92,14 +99,20 @@ def fetch_prices(tickers: tuple) -> Dict[str, Dict]:
 
 @st.cache_data(ttl=300)
 def fetch_nifty50() -> Dict:
-    """Fetch Nifty 50 index level and day change."""
+    """Fetch Nifty 50 index level and day change via 2-day history."""
     try:
         import yfinance as yf
-        info  = yf.Ticker("^NSEI").fast_info
-        price = float(getattr(info, "last_price", 0) or 0)
-        prev  = float(getattr(info, "previous_close", price) or price)
+        hist = yf.Ticker("^NSEI").history(period="2d")
+        if len(hist) >= 2:
+            price = round(float(hist["Close"].iloc[-1]), 2)
+            prev  = round(float(hist["Close"].iloc[-2]), 2)
+        elif len(hist) == 1:
+            price = round(float(hist["Close"].iloc[-1]), 2)
+            prev  = price
+        else:
+            return {"level": 0.0, "day_chg": 0.0}
         return {
-            "level":   round(price, 2),
+            "level":   price,
             "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
         }
     except Exception:
@@ -212,11 +225,7 @@ def render_portfolio_view(
 
         # Registry cross-reference
         reg_entry = registry.get(t)
-        if reg_entry:
-            status = reg_entry["status"]
-            tag    = "{} {}".format(STATUS_ICON.get(status, "⚪"), status.replace("_", " ").title())
-        else:
-            tag = "—"
+        tag = STATUS_LABEL.get(reg_entry["status"], "⚪ Unknown") if reg_entry else "—"
 
         rows.append({
             "Alert":    current_alert(t, alert_state) or "✅ Clear",
@@ -321,10 +330,7 @@ def _render_watchlist(watchlist: List[str], registry: Dict) -> None:
             "Signal":   reg.get("signal", "—")   if reg else "—",
             "Buy Zone": _fmt_zone(reg.get("buy_zone"))  if reg else "—",
             "Sell Zone":_fmt_zone(reg.get("sell_zone")) if reg else "—",
-            "Status":   "{} {}".format(
-                STATUS_ICON.get(reg["status"], "⚪"),
-                reg["status"].replace("_", " ").title(),
-            ) if reg else "—",
+            "Status":   STATUS_LABEL.get(reg["status"], "⚪ Unknown") if reg else "—",
         })
 
     df = pd.DataFrame(rows)
