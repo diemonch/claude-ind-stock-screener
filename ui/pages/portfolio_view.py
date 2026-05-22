@@ -1,11 +1,13 @@
 """Portfolio tab — India holdings with live prices, P&L, and market context."""
 
 import json
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
 import pandas as pd
+import requests
 import streamlit as st
 
 ROOT_DIR          = Path(__file__).parent.parent.parent
@@ -67,56 +69,103 @@ def save_portfolio(data: Dict) -> None:
         json.dump(data, f, indent=2)
 
 
-@st.cache_data(ttl=300)
-def fetch_prices(tickers: tuple) -> Dict[str, Dict]:
-    """Fetch CMP + day change for a tuple of NSE tickers via 2-day history."""
+def _nse_session() -> requests.Session:
+    """Return a requests Session with NSE cookies loaded."""
+    s = requests.Session()
+    s.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Accept": "application/json",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.nseindia.com/",
+    })
     try:
-        import yfinance as yf
-        result = {}
-        for t in tickers:
-            try:
-                hist = yf.Ticker(t).history(period="2d")
-                if len(hist) >= 2:
-                    price = round(float(hist["Close"].iloc[-1]), 2)
-                    prev  = round(float(hist["Close"].iloc[-2]), 2)
-                elif len(hist) == 1:
-                    price = round(float(hist["Close"].iloc[-1]), 2)
-                    prev  = price
-                else:
-                    result[t] = {"price": 0.0, "prev": 0.0, "day_chg": 0.0}
-                    continue
-                result[t] = {
-                    "price":   price,
-                    "prev":    prev,
+        s.get("https://www.nseindia.com", timeout=8)
+    except Exception:
+        pass
+    return s
+
+
+def _nse_quote(symbol: str, session) -> Optional[Dict]:
+    """Fetch lastPrice + previousClose from NSE equity API. symbol = bare NSE symbol."""
+    try:
+        resp = session.get(
+            "https://www.nseindia.com/api/quote-equity?symbol={}".format(symbol),
+            timeout=8,
+        )
+        if resp.ok:
+            pi = resp.json().get("priceInfo", {})
+            price = float(pi.get("lastPrice", 0) or 0)
+            prev  = float(pi.get("previousClose", price) or price)
+            if price:
+                return {
+                    "price":   round(price, 2),
+                    "prev":    round(prev,  2),
                     "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
                 }
+    except Exception:
+        pass
+    return None
+
+
+def _ticker_to_symbol(ticker: str) -> str:
+    """Strip .NS / .BO suffix to get bare NSE symbol."""
+    return ticker.replace(".NS", "").replace(".BO", "").upper()
+
+
+@st.cache_data(ttl=300)
+def fetch_prices(tickers: tuple) -> Dict[str, Dict]:
+    """Fetch CMP + day change via NSE India API (yfinance fallback)."""
+    import time
+    session = _nse_session()
+    result  = {}
+    for t in tickers:
+        symbol = _ticker_to_symbol(t)
+        data   = _nse_quote(symbol, session)
+        if data:
+            result[t] = data
+        else:
+            # yfinance fallback
+            price, prev = 0.0, 0.0
+            try:
+                import yfinance as yf
+                hist = yf.Ticker(t).history(period="5d")
+                if not hist.empty:
+                    closes = hist["Close"].dropna()
+                    price  = round(float(closes.iloc[-1]), 2)
+                    prev   = round(float(closes.iloc[-2]), 2) if len(closes) >= 2 else price
             except Exception:
-                result[t] = {"price": 0.0, "prev": 0.0, "day_chg": 0.0}
-        return result
-    except ImportError:
-        return {}
+                pass
+            result[t] = {
+                "price":   price,
+                "prev":    prev,
+                "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
+            }
+        time.sleep(0.3)
+    return result
 
 
 @st.cache_data(ttl=300)
 def fetch_nifty50() -> Dict:
-    """Fetch Nifty 50 index level and day change via 2-day history."""
+    """Fetch Nifty 50 level + day change from NSE API."""
+    import time
+    session = _nse_session()
     try:
-        import yfinance as yf
-        hist = yf.Ticker("^NSEI").history(period="2d")
-        if len(hist) >= 2:
-            price = round(float(hist["Close"].iloc[-1]), 2)
-            prev  = round(float(hist["Close"].iloc[-2]), 2)
-        elif len(hist) == 1:
-            price = round(float(hist["Close"].iloc[-1]), 2)
-            prev  = price
-        else:
-            return {"level": 0.0, "day_chg": 0.0}
-        return {
-            "level":   price,
-            "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
-        }
+        resp = session.get(
+            "https://www.nseindia.com/api/allIndices",
+            timeout=8,
+        )
+        if resp.ok:
+            for idx in resp.json().get("data", []):
+                if idx.get("index") == "NIFTY 50":
+                    price = float(idx.get("last", 0) or 0)
+                    prev  = float(idx.get("previousClose", price) or price)
+                    return {
+                        "level":   round(price, 2),
+                        "day_chg": round((price - prev) / prev * 100, 2) if prev else 0.0,
+                    }
     except Exception:
-        return {"level": 0.0, "day_chg": 0.0}
+        pass
+    return {"level": 0.0, "day_chg": 0.0}
 
 
 # ── Add-position form ──────────────────────────────────────────────────────────
@@ -186,7 +235,11 @@ def render_portfolio_view(
 
     # ── Fetch live prices ─────────────────────────────────────────────────────
     all_tickers = tuple(h["ticker"] for h in holdings)
-    prices      = fetch_prices(all_tickers)
+    if st.button("🔄 Refresh Prices", key="refresh_prices"):
+        fetch_prices.clear()
+        fetch_nifty50.clear()
+        st.rerun()
+    prices = fetch_prices(all_tickers)
 
     # ── Portfolio metrics ─────────────────────────────────────────────────────
     total_cost  = sum(h["shares"] * h["avg_cost"]                 for h in holdings)
