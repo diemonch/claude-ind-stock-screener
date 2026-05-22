@@ -1,7 +1,17 @@
 {
   "name": "India Portfolio",
   "description": "Personal NSE/BSE equity portfolio",
-  "holdings": [],
+  "holdings": [
+    {
+      "ticker": "NHPC.NS",
+      "shares": 380.0,
+      "avg_cost": 77.0,
+      "date_added": "2026-05-19",
+      "notes": "",
+      "stop_loss": 70.0,
+      "target": 92.0
+    }
+  ],
   "watchlist": [
     "CGCL.NS",
     "HDFCBANK.NS",
