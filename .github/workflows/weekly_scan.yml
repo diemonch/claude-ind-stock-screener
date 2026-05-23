@@ -24,12 +24,15 @@ jobs:
     permissions:
       contents: write
 
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.5.0
         with:
           python-version: "3.11"
           cache: pip
@@ -66,7 +69,7 @@ jobs:
 
       - name: Upload results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: scan-results-${{ github.run_id }}
           path: data/results/
