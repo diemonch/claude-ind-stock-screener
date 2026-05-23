@@ -1,0 +1,257 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "JMFINANCIL.NS",
+        "company": "JM Financial Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.15,
+        "volume_ratio": 0.64,
+        "circuit_risk": false,
+        "buy_zone": [
+          126.08,
+          131.97
+        ],
+        "sell_zone": [
+          143.46,
+          150.63
+        ],
+        "stop_loss": 123.56,
+        "risk_reward": 3.29,
+        "signal": "watch"
+      },
+      {
+        "ticker": "LICHSGFIN.NS",
+        "company": "LIC Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.95,
+        "volume_ratio": 0.54,
+        "circuit_risk": false,
+        "buy_zone": [
+          526.25,
+          539.3
+        ],
+        "sell_zone": [
+          585.62,
+          586.78
+        ],
+        "stop_loss": 515.73,
+        "risk_reward": 3.14,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PFC.NS",
+        "company": "Power Finance Corporation Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.44,
+        "volume_ratio": 0.57,
+        "circuit_risk": false,
+        "buy_zone": [
+          419.47,
+          435.33
+        ],
+        "sell_zone": [
+          465.45,
+          488.72
+        ],
+        "stop_loss": 411.08,
+        "risk_reward": 3.04,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "AFCONS.NS",
+        "company": "Afcons Infrastructure Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.88,
+        "volume_ratio": 0.4,
+        "circuit_risk": false,
+        "buy_zone": [
+          300.04,
+          311.35
+        ],
+        "sell_zone": [
+          344.66,
+          347.77
+        ],
+        "stop_loss": 294.04,
+        "risk_reward": 3.48,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ENGINERSIN.NS",
+        "company": "Engineers India Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 37.07,
+        "volume_ratio": 3.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          225.79,
+          237.75
+        ],
+        "sell_zone": [
+          262.55,
+          275.68
+        ],
+        "stop_loss": 221.27,
+        "risk_reward": 3.56,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IRCON.NS",
+        "company": "IRCON International Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.08,
+        "volume_ratio": 0.66,
+        "circuit_risk": false,
+        "buy_zone": [
+          135.48,
+          142.07
+        ],
+        "sell_zone": [
+          156.39,
+          164.21
+        ],
+        "stop_loss": 132.77,
+        "risk_reward": 3.59,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "JAINREC.NS",
+        "company": "Jain Resource Recycling Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 35.1,
+        "volume_ratio": 0.74,
+        "circuit_risk": true,
+        "buy_zone": [
+          339.23,
+          409.01
+        ],
+        "sell_zone": [
+          572.55,
+          601.18
+        ],
+        "stop_loss": 332.45,
+        "risk_reward": 5.11,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Others",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GSPL.NS",
+        "company": "Gujarat State Petronet Ltd.",
+        "sector": "Oil Gas & Consumable Fuels",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 3,
+        "rsi": 44.56,
+        "volume_ratio": 2.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          245.05,
+          266.08
+        ],
+        "sell_zone": [
+          290.1,
+          303.93
+        ],
+        "stop_loss": 240.15,
+        "risk_reward": 2.69,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GLENMARK.NS",
+        "company": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 44.16,
+        "volume_ratio": 2.11,
+        "circuit_risk": false,
+        "buy_zone": [
+          2259.34,
+          2298.9
+        ],
+        "sell_zone": [
+          2428.05,
+          2461.45
+        ],
+        "stop_loss": 2214.15,
+        "risk_reward": 2.55,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MAXHEALTH.NS",
+        "company": "Max Healthcare Institute Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 49.02,
+        "volume_ratio": 5.3,
+        "circuit_risk": false,
+        "buy_zone": [
+          971.18,
+          1001.05
+        ],
+        "sell_zone": [
+          1060.68,
+          1085.0
+        ],
+        "stop_loss": 951.76,
+        "risk_reward": 2.52,
+        "signal": "watch"
+      }
+    ]
+  }
+]
