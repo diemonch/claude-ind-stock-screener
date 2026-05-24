@@ -1,0 +1,186 @@
+[
+  {
+    "ticker": "GSPL.NS",
+    "company": "Gujarat State Petronet Ltd.",
+    "sector": "Oil Gas & Consumable Fuels",
+    "trend": "Strong bullish continuation with EMA crossover, MACD histogram flip, and 2.95x volume surge confirming momentum",
+    "buy_zone": [
+      245.05,
+      266.08
+    ],
+    "sell_zone": [
+      290.1,
+      303.93
+    ],
+    "stop_loss": 240.15,
+    "risk_reward": 2.69,
+    "signal": "BUY",
+    "confluence": "3/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "GSPL trades at a modest 13.3x forward PE with strong volume confirmation (2.95x) supporting the EMA crossover and MACD flip, suggesting institutional accumulation near the 52-week low base. The stock sits 30% below its 52-week high of \u20b9345, offering meaningful mean-reversion upside toward the \u20b9290\u2013304 sell zone. Low beta of 0.77 reduces market-correlated drawdown risk, making this a relatively defensive gas transmission play.",
+    "risk": "Revenue has contracted 10.9% YoY, indicating volume or tariff pressure on the pipeline network that could cap re-rating. A breakdown below \u20b9240 support would invalidate the thesis and expose the stock to the \u20b9226 52-week low.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AFCONS.NS",
+    "company": "Afcons Infrastructure Ltd.",
+    "sector": "Industrials",
+    "trend": "Weak early-stage EMA crossover with below-average volume; no confirmed trend shift yet",
+    "buy_zone": [
+      300.04,
+      311.35
+    ],
+    "sell_zone": [
+      344.66,
+      347.77
+    ],
+    "stop_loss": 294.04,
+    "risk_reward": 3.48,
+    "signal": "WATCH",
+    "confluence": "1/3",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Afcons has pulled back 37% from its 52-week high of \u20b9479 to near structural support around \u20b9300, creating a favorable risk-reward of 3.48x if the base holds. The EMA crossover on an RSI of 37.9 suggests oversold conditions that could precede a recovery toward \u20b9344\u2013348 as infrastructure order flows resume. Entry is only justified on a volume-confirmed breakout above \u20b9311, given the currently anaemic 0.4x volume ratio.",
+    "risk": "Revenue declined 7.3% YoY and net margins remain thin at 3.6%, leaving the stock vulnerable to further de-rating if order inflows disappoint in the upcoming results season. Weak volume (0.4x) signals limited near-term institutional interest, increasing the risk of a false breakout.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ENGINERSIN.NS",
+    "company": "Engineers India Ltd.",
+    "sector": "Industrials",
+    "trend": "Moderate uptrend forming with EMA crossover and strong 3.58x volume confirmation near 52-week highs",
+    "buy_zone": [
+      225.79,
+      237.75
+    ],
+    "sell_zone": [
+      262.55,
+      275.68
+    ],
+    "stop_loss": 221.27,
+    "risk_reward": 3.56,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Engineers India delivered exceptional 58.3% revenue growth with a strong 19.3% net margin, making it one of the highest-quality PSU engineering consultancies in the capex cycle. The 3.58x volume spike alongside the EMA crossover at oversold RSI (37) indicates smart money accumulation near the \u20b9226\u2013238 buy zone. At 16x forward PE, the valuation remains reasonable for a high-margin, capex-cycle beneficiary approaching its 52-week high of \u20b9267.",
+    "risk": "The stock trades close to its 52-week high, limiting immediate headroom and increasing the likelihood of profit-booking resistance around \u20b9262\u2013276. A confirmed trend shift signal is still absent; wait for MACD confirmation before full position sizing.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "GLENMARK.NS",
+    "company": "Glenmark Pharmaceuticals Ltd.",
+    "sector": "Healthcare",
+    "trend": "Moderate recovery with EMA crossover and 2.11x volume lift off a strong 52-week base",
+    "buy_zone": [
+      2259.34,
+      2298.9
+    ],
+    "sell_zone": [
+      2428.05,
+      2461.45
+    ],
+    "stop_loss": 2214.15,
+    "risk_reward": 2.55,
+    "signal": "WATCH",
+    "confluence": "2/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Glenmark has rallied 80%+ off its 52-week low and now consolidates just below the \u20b92,474 52-week high with 15.1% revenue growth signalling a sustained recovery in its US generics and India branded business. The 2.11x volume ratio confirms the EMA crossover is not a low-conviction signal, and a low beta of 0.31 provides defensiveness in volatile broader markets. A close above \u20b92,300 with sustained volume would confirm the move toward the \u20b92,428\u20132,461 target zone.",
+    "risk": "At 28.5x forward PE with a thin 6.5% net margin, the stock is priced for execution perfection; any US FDA regulatory action or pricing pressure on generics could trigger sharp de-rating. RSI at 44 and lack of MACD confirmation suggest the entry timing still carries meaningful whipsaw risk.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JMFINANCIL.NS",
+    "company": "JM Financial Ltd.",
+    "sector": "Financial Services",
+    "trend": "Weak EMA crossover forming near multi-month lows; below-average volume limits conviction",
+    "buy_zone": [
+      126.08,
+      131.97
+    ],
+    "sell_zone": [
+      143.46,
+      150.63
+    ],
+    "stop_loss": 123.56,
+    "risk_reward": 3.29,
+    "signal": "WATCH",
+    "confluence": "1/3",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "watchlist",
+    "thesis": "JM Financial offers an attractive combination of 31.4% revenue growth, a 35.6% net margin, and a cheap 10.3x forward PE \u2014 one of the lowest valuations among diversified NBFC and investment banking peers. The stock is 36% off its 52-week high of \u20b9197, suggesting significant mean-reversion potential once regulatory overhang or broader NBFC sentiment improves. Low beta of 0.35 provides relative insulation during market volatility while accumulating at current levels.",
+    "risk": "Volume at 0.64x is below average, indicating institutional sellers may still be active; a sustained close below \u20b9123 would signal further downside toward the \u20b9112 52-week low. SEBI/RBI regulatory actions on NBFCs remain a sector-level overhang that could suppress re-rating regardless of fundamentals.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JAINREC.NS",
+    "company": "Jain Resource Recycling Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Weak EMA crossover at deeply oversold RSI levels with low volume; circuit risk applies",
+    "buy_zone": [
+      339.23,
+      409.01
+    ],
+    "sell_zone": [
+      572.55,
+      601.18
+    ],
+    "stop_loss": 332.45,
+    "risk_reward": 5.11,
+    "signal": "WATCH",
+    "confluence": "1/3",
+    "horizon": "accumulate_8_12_weeks",
+    "account_tag": "speculative",
+    "thesis": "Jain Resource Recycling operates in the high-growth metal recycling space with 26.4% revenue growth and an impressive 28.67% ROE, rare metrics for a small-cap materials company, suggesting strong capital efficiency in a structural ESG tailwind sector. The stock has corrected 43% from its \u20b9594 52-week high to near \u20b9339, creating a high-reward setup with 5.11x RR toward prior highs. RSI at 35 signals deeply oversold conditions that could attract value-oriented accumulation over a longer horizon.",
+    "risk": "Circuit risk is flagged, meaning illiquidity and daily price limits can trap positions and prevent timely exits \u2014 position sizing must be minimal. Volume at 0.74x and absent trend confirmation make this a speculative accumulate rather than a high-conviction swing; avoid leveraged exposure.",
+    "circuit_flag": true
+  },
+  {
+    "ticker": "LICHSGFIN.NS",
+    "company": "LIC Housing Finance Ltd.",
+    "sector": "Financial Services",
+    "trend": "Weak EMA crossover in a low-beta housing finance name; volume remains subdued at 0.54x",
+    "buy_zone": [
+      526.25,
+      539.3
+    ],
+    "sell_zone": [
+      585.62,
+      586.78
+    ],
+    "stop_loss": 515.73,
+    "risk_reward": 3.14,
+    "signal": "WATCH",
+    "confluence": "1/3",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "watchlist",
+    "thesis": "LIC Housing Finance trades at an exceptionally cheap 4.8x forward PE with a 14.4% ROE and 65.8% net margin, reflecting its asset-heavy HFC model where spread income dominates \u2014 the stock appears meaningfully undervalued relative to peers. The buy zone at \u20b9526\u2013539 sits 17% below the 52-week high of \u20b9635, offering asymmetric upside toward \u20b9585\u2013587 resistance as housing credit demand remains robust driven by affordable housing momentum. Low beta of 0.32 makes this a defensive accumulate for portfolios seeking rate-sensitives with limited downside.",
+    "risk": "Revenue growth is a tepid 4.4%, and any RBI-driven liquidity tightening or GNPA deterioration in the retail mortgage book could pressure spreads and dampen re-rating. Volume at 0.54x and a lone EMA crossover indicator without MACD or volume confirmation suggest the move lacks institutional backing at this stage.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MAXHEALTH.NS",
+    "company": "Max Healthcare Institute Ltd.",
+    "sector": "Healthcare",
+    "trend": "Strong bullish continuation with all three indicators firing and exceptional 5.3x volume surge near midpoint of 52-week range",
+    "buy_zone": [
+      971.18,
+      1001.05
+    ],
+    "sell_zone": [
+      1060.68,
+      1085.0
+    ],
+    "stop_loss": 951.76,
+    "risk_reward": 2.52,
+    "signal": "WATCH",
+    "confluence": "3/3",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Max Healthcare's 5.3x volume surge accompanying the EMA crossover and MACD histogram flip is the strongest institutional accumulation signal in this basket, suggesting smart money is building positions near the \u20b9971\u20131,001 zone ahead of a likely re-rating. The company delivers a solid 17.2% net margin with 12.2% revenue growth, underpinned by capacity expansion at premium hospitals, and the stock has a history of sharp recoveries after corrections. At RSI 49 and 26% below the \u20b91,314 52-week high, there is meaningful technical upside toward the \u20b91,060\u20131,085 target before encountering supply.",
+    "risk": "At 39.7x forward PE, Max Healthcare commands a significant premium that leaves it vulnerable to earnings misses or valuation compression if broader market risk-off hits high-PE healthcare names. The 'watch' signal (rather than 'buy') reflects the need for price to hold above \u20b9952 stop-loss on rising volume before committing full position size.",
+    "circuit_flag": false
+  }
+]
