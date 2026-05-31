@@ -1,0 +1,71 @@
+[
+  {
+    "ticker": "HBLENGINE.NS",
+    "company": "HBL Engineering (HBL Power Systems)",
+    "sector": "Defence Electronics & Power Systems",
+    "trend": "Multi-month base breakout driven by defence capex tailwinds and railway electronics order momentum",
+    "buy_zone": [
+      540,
+      575
+    ],
+    "sell_zone": [
+      720,
+      760
+    ],
+    "stop_loss": 510,
+    "risk_reward": 3.1,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "HBL Engineering is a direct beneficiary of India's defence indigenisation push, particularly in naval batteries and railway Kavach electronics, with a growing order book from MoD and Indian Railways. The company's niche positioning in mission-critical power systems gives it pricing power and repeat government contracts that de-risk revenue visibility. A re-rating cycle is underway as defence PSU and ancillary valuations expand on sustained budget allocations.",
+    "risk": "Being a small/mid-cap defence ancillary, the stock is prone to sharp corrections if broader defence sector sentiment reverses or Kavach rollout faces further execution delays. Concentrated government clientele means any budget reallocation or procurement freeze directly impacts order inflows.",
+    "circuit_flag": true
+  },
+  {
+    "ticker": "HAL.NS",
+    "company": "Hindustan Aeronautics Limited",
+    "sector": "Defence \u2013 Aerospace & Aviation",
+    "trend": "Strong uptrend intact; institutional accumulation visible on dips with defence budget tailwind acting as structural support",
+    "buy_zone": [
+      4050,
+      4250
+    ],
+    "sell_zone": [
+      5200,
+      5500
+    ],
+    "stop_loss": 3850,
+    "risk_reward": 2.9,
+    "signal": "BUY",
+    "confluence": "4/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "HAL holds a near-monopoly on indigenous military aircraft manufacturing in India, with an order book exceeding \u20b91 lakh crore from platforms including LCA Tejas, ALH Dhruv, and the upcoming AMCA program, providing multi-year revenue clarity. India's commitment to defence indigenisation under Atmanirbhar Bharat and rising export ambitions to friendly nations structurally expand HAL's addressable opportunity beyond domestic budgets. FII interest has been rising as HAL is increasingly treated as a proxy for India's strategic defence build-up, supporting premium valuation multiples.",
+    "risk": "HAL's execution is tied to government approval timelines and IAF/Navy induction schedules, which have historically slipped, creating earnings lumpiness. Any broad market de-rating of defence PSU stocks \u2014 triggered by election uncertainty or fiscal consolidation signals \u2014 could compress multiples sharply from elevated levels.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "SRF.NS",
+    "company": "SRF Limited",
+    "sector": "Specialty Chemicals & Fluorochemicals",
+    "trend": "Bottoming formation after prolonged specialty chemicals downcycle; early signs of volume-led recovery in refrigerant and agrochemical segments",
+    "buy_zone": [
+      2200,
+      2350
+    ],
+    "sell_zone": [
+      2900,
+      3050
+    ],
+    "stop_loss": 2080,
+    "risk_reward": 2.6,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "SRF is a best-in-class Indian fluorochemical and specialty chemicals compounder with a vertically integrated HFC/HFO refrigerant franchise that stands to benefit as global phase-down of older refrigerants under the Kigali Amendment accelerates demand for next-gen fluorochemicals. The agrochemical intermediates business, while under near-term pressure from Chinese dumping, is structurally positioned for recovery as global agchem inventory destocking concludes through H2 CY25. SRF's consistent capex in high-value fluoropolymers and technical textiles supports a durable earnings re-rating beyond the current cyclical trough.",
+    "risk": "Prolonged pricing pressure from Chinese specialty chemical exports and slower-than-expected agchem customer restocking remain the primary earnings headwinds for the next 1-2 quarters. A further INR depreciation could inflate raw material import costs and compress margins in the packaging films segment.",
+    "circuit_flag": false
+  }
+]

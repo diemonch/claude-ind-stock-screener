@@ -1,0 +1,615 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "INDHOTEL.NS",
+        "company": "Indian Hotels Co. Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 50.73,
+        "volume_ratio": 2.12,
+        "circuit_risk": false,
+        "buy_zone": [
+          634.85,
+          636.96
+        ],
+        "sell_zone": [
+          669.73,
+          676.98
+        ],
+        "stop_loss": 622.15,
+        "risk_reward": 2.72,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TENNIND.NS",
+        "company": "Tenneco Clean Air India Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 45.47,
+        "volume_ratio": 4.24,
+        "circuit_risk": false,
+        "buy_zone": [
+          573.09,
+          592.19
+        ],
+        "sell_zone": [
+          643.71,
+          656.1
+        ],
+        "stop_loss": 561.63,
+        "risk_reward": 3.2,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HUDCO.NS",
+        "company": "Housing & Urban Development Corporation Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.84,
+        "volume_ratio": 0.42,
+        "circuit_risk": false,
+        "buy_zone": [
+          193.48,
+          203.91
+        ],
+        "sell_zone": [
+          226.85,
+          238.19
+        ],
+        "stop_loss": 189.61,
+        "risk_reward": 3.73,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IDFCFIRSTB.NS",
+        "company": "IDFC First Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.11,
+        "volume_ratio": 4.82,
+        "circuit_risk": false,
+        "buy_zone": [
+          66.59,
+          67.52
+        ],
+        "sell_zone": [
+          70.83,
+          71.98
+        ],
+        "stop_loss": 65.26,
+        "risk_reward": 2.42,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IREDA.NS",
+        "company": "Indian Renewable Energy Development Agency Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.96,
+        "volume_ratio": 4.35,
+        "circuit_risk": false,
+        "buy_zone": [
+          123.43,
+          126.49
+        ],
+        "sell_zone": [
+          135.62,
+          137.35
+        ],
+        "stop_loss": 120.96,
+        "risk_reward": 2.88,
+        "signal": "watch"
+      },
+      {
+        "ticker": "LICHSGFIN.NS",
+        "company": "LIC Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.75,
+        "volume_ratio": 0.9,
+        "circuit_risk": false,
+        "buy_zone": [
+          522.43,
+          538.25
+        ],
+        "sell_zone": [
+          585.62,
+          614.9
+        ],
+        "stop_loss": 511.98,
+        "risk_reward": 3.81,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PNBHOUSING.NS",
+        "company": "PNB Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 48.94,
+        "volume_ratio": 2.22,
+        "circuit_risk": false,
+        "buy_zone": [
+          1030.45,
+          1043.97
+        ],
+        "sell_zone": [
+          1088.25,
+          1097.07
+        ],
+        "stop_loss": 1009.84,
+        "risk_reward": 2.03,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PFC.NS",
+        "company": "Power Finance Corporation Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 41.96,
+        "volume_ratio": 2.74,
+        "circuit_risk": false,
+        "buy_zone": [
+          418.68,
+          429.11
+        ],
+        "sell_zone": [
+          457.46,
+          458.84
+        ],
+        "stop_loss": 410.31,
+        "risk_reward": 2.52,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "OIL.NS",
+        "company": "Oil India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 44.65,
+        "volume_ratio": 1.6,
+        "circuit_risk": false,
+        "buy_zone": [
+          444.45,
+          469.66
+        ],
+        "sell_zone": [
+          508.83,
+          512.48
+        ],
+        "stop_loss": 435.56,
+        "risk_reward": 2.49,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ITI.NS",
+        "company": "ITI Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.13,
+        "volume_ratio": 2.7,
+        "circuit_risk": false,
+        "buy_zone": [
+          279.36,
+          283.81
+        ],
+        "sell_zone": [
+          304.3,
+          308.32
+        ],
+        "stop_loss": 273.77,
+        "risk_reward": 3.16,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GESHIP.NS",
+        "company": "Great Eastern Shipping Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.11,
+        "volume_ratio": 0.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          1399.65,
+          1499.86
+        ],
+        "sell_zone": [
+          1710.55,
+          1796.08
+        ],
+        "stop_loss": 1371.66,
+        "risk_reward": 3.89,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HBLENGINE.NS",
+        "company": "HBL Engineering Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.71,
+        "volume_ratio": 2.97,
+        "circuit_risk": false,
+        "buy_zone": [
+          732.3,
+          766.04
+        ],
+        "sell_zone": [
+          838.6,
+          861.91
+        ],
+        "stop_loss": 717.65,
+        "risk_reward": 3.21,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HAL.NS",
+        "company": "Hindustan Aeronautics Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 43.7,
+        "volume_ratio": 2.89,
+        "circuit_risk": false,
+        "buy_zone": [
+          4179.5,
+          4337.8
+        ],
+        "sell_zone": [
+          4705.22,
+          4940.48
+        ],
+        "stop_loss": 4095.91,
+        "risk_reward": 3.47,
+        "signal": "buy"
+      },
+      {
+        "ticker": "LT.NS",
+        "company": "Larsen & Toubro Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.93,
+        "volume_ratio": 1.92,
+        "circuit_risk": false,
+        "buy_zone": [
+          3792.46,
+          3853.64
+        ],
+        "sell_zone": [
+          4048.23,
+          4111.0
+        ],
+        "stop_loss": 3716.61,
+        "risk_reward": 2.41,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MAZDOCK.NS",
+        "company": "Mazagoan Dock Shipbuilders Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 43.43,
+        "volume_ratio": 1.53,
+        "circuit_risk": false,
+        "buy_zone": [
+          2343.78,
+          2439.75
+        ],
+        "sell_zone": [
+          2645.85,
+          2778.14
+        ],
+        "stop_loss": 2296.9,
+        "risk_reward": 3.38,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NTPC.NS",
+        "company": "NTPC Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 44.44,
+        "volume_ratio": 1.9,
+        "circuit_risk": false,
+        "buy_zone": [
+          384.34,
+          386.35
+        ],
+        "sell_zone": [
+          403.03,
+          403.08
+        ],
+        "stop_loss": 376.65,
+        "risk_reward": 2.03,
+        "signal": "watch"
+      },
+      {
+        "ticker": "OLECTRA.NS",
+        "company": "Olectra Greentech Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.75,
+        "volume_ratio": 0.69,
+        "circuit_risk": false,
+        "buy_zone": [
+          1156.22,
+          1204.33
+        ],
+        "sell_zone": [
+          1289.9,
+          1302.94
+        ],
+        "stop_loss": 1133.1,
+        "risk_reward": 2.46,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SRF.NS",
+        "company": "SRF Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 57.34,
+        "volume_ratio": 3.06,
+        "circuit_risk": false,
+        "buy_zone": [
+          2540.44,
+          2605.42
+        ],
+        "sell_zone": [
+          2773.77,
+          2837.56
+        ],
+        "stop_loss": 2489.63,
+        "risk_reward": 2.79,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Media",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "INDUSTOWER.NS",
+        "company": "Indus Towers Ltd.",
+        "sector": "Communication Services",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.62,
+        "volume_ratio": 1.91,
+        "circuit_risk": false,
+        "buy_zone": [
+          391.69,
+          399.64
+        ],
+        "sell_zone": [
+          439.18,
+          449.24
+        ],
+        "stop_loss": 383.86,
+        "risk_reward": 4.11,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "DEEPAKFERT.NS",
+        "company": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.12,
+        "volume_ratio": 1.65,
+        "circuit_risk": false,
+        "buy_zone": [
+          1187.66,
+          1262.93
+        ],
+        "sell_zone": [
+          1410.95,
+          1485.24
+        ],
+        "stop_loss": 1163.91,
+        "risk_reward": 3.63,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NATIONALUM.NS",
+        "company": "National Aluminium Co. Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 57.15,
+        "volume_ratio": 8.51,
+        "circuit_risk": false,
+        "buy_zone": [
+          385.89,
+          394.63
+        ],
+        "sell_zone": [
+          418.14,
+          430.9
+        ],
+        "stop_loss": 378.17,
+        "risk_reward": 2.83,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GLENMARK.NS",
+        "company": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 45.27,
+        "volume_ratio": 1.81,
+        "circuit_risk": false,
+        "buy_zone": [
+          2251.97,
+          2286.48
+        ],
+        "sell_zone": [
+          2413.6,
+          2446.6
+        ],
+        "stop_loss": 2206.93,
+        "risk_reward": 2.58,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MAXHEALTH.NS",
+        "company": "Max Healthcare Institute Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 36.54,
+        "volume_ratio": 4.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          960.63,
+          993.76
+        ],
+        "sell_zone": [
+          1060.68,
+          1064.07
+        ],
+        "stop_loss": 941.42,
+        "risk_reward": 2.38,
+        "signal": "buy"
+      },
+      {
+        "ticker": "SUNPHARMA.NS",
+        "company": "Sun Pharmaceutical Industries Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 45.87,
+        "volume_ratio": 3.49,
+        "circuit_risk": false,
+        "buy_zone": [
+          1793.24,
+          1817.78
+        ],
+        "sell_zone": [
+          1889.15,
+          1906.65
+        ],
+        "stop_loss": 1757.38,
+        "risk_reward": 1.92,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "LODHA.NS",
+        "company": "Lodha Developers Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 60.95,
+        "volume_ratio": 3.93,
+        "circuit_risk": false,
+        "buy_zone": [
+          837.73,
+          865.85
+        ],
+        "sell_zone": [
+          938.81,
+          971.06
+        ],
+        "stop_loss": 820.98,
+        "risk_reward": 3.35,
+        "signal": "watch"
+      }
+    ]
+  }
+]

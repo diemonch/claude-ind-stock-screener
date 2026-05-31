@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "HBLENGINE.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong trend continuation with elevated volume ratio warrants action despite expiry week."
+  },
+  {
+    "ticker": "HAL.NS",
+    "validated": true,
+    "confidence": "high",
+    "reason": "Highest confluence score with strong volume and favorable risk-reward justifies buy signal in sideways market."
+  },
+  {
+    "ticker": "SRF.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong continuation trend with high volume ratio supports action despite expiry week timing."
+  }
+]
