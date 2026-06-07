@@ -1,0 +1,462 @@
+[
+  {
+    "ticker": "GLENMARK.NS",
+    "company": "Glenmark Pharmaceuticals Ltd.",
+    "sector": "Healthcare",
+    "trend": "Weak recovery attempt from 52w lows with EMA crossover; RSI near oversold at 37.5 signals potential mean reversion",
+    "buy_zone": [
+      2135.14,
+      2214.68
+    ],
+    "sell_zone": [
+      2392.67,
+      2395.82
+    ],
+    "stop_loss": 2092.44,
+    "risk_reward": 2.66,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Glenmark trades ~14% below its 52w high with RSI approaching oversold territory, creating a mean-reversion setup into a 2.66 R:R structure. Revenue growth of 14.3% YoY and improving specialty pipeline in India and the US support fundamental re-rating. Low beta of 0.25 limits broader market drag, making it a relatively defensive healthcare accumulation candidate.",
+    "risk": "Weak trend strength and below-average volume ratio (0.62) suggest lack of institutional conviction \u2014 entry could see further drawdown before stabilisation. Any adverse USFDA action on key manufacturing sites would materially impair the thesis.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "GPIL.NS",
+    "company": "Godawari Power & Ispat Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Subdued EMA crossover in a weak trend; stock consolidating near mid-range between 52w low of 174 and high of 320",
+    "buy_zone": [
+      275.4,
+      280.75
+    ],
+    "sell_zone": [
+      295.22,
+      299.99
+    ],
+    "stop_loss": 269.89,
+    "risk_reward": 2.39,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "GPIL trades at a compelling fwd P/E of 12.5x with 14.9% net margins and 14.9% ROE \u2014 metrics that stand out in the mid-cap steel/power space. The integrated pellet-to-steel model insulates margins relative to pure-play steel converters, and a 9.7% revenue growth trajectory reflects steady operational execution. A breakout above 299 would confirm bullish continuation toward prior highs.",
+    "risk": "Extremely low volume ratio of 0.23 signals very thin participation \u2014 any position risks illiquidity and wide spreads on exit. Steel sector faces headwinds from weak Chinese demand and potential domestic oversupply dampening realisation prices.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "GESHIP.NS",
+    "company": "Great Eastern Shipping Co. Ltd.",
+    "sector": "Industrials",
+    "trend": "Weak EMA crossover with stock consolidating after 100%+ move from 52w lows; best risk-reward in this watchlist at 4.27",
+    "buy_zone": [
+      1367.22,
+      1469.38
+    ],
+    "sell_zone": [
+      1710.55,
+      1796.08
+    ],
+    "stop_loss": 1339.88,
+    "risk_reward": 4.27,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "GESHIP offers the strongest risk-reward in this set at 4.27x, underpinned by a strikingly cheap fwd P/E of 7.4x against 54.4% net margins and 18.85% ROE \u2014 rare quality metrics for an asset-heavy shipping company. Revenue growth of 23.6% reflects sustained tanker rate strength and disciplined fleet deployment. The wide buy zone allows accumulation near technical support with a sell target approaching the 52w high.",
+    "risk": "Shipping freight rates are cyclical and could reverse sharply with a global trade slowdown or excess fleet capacity entering the market. Volume ratio of 0.15 is dangerously thin \u2014 meaningful position building may move the stock adversely.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "HAL.NS",
+    "company": "Hindustan Aeronautics Ltd.",
+    "sector": "Industrials",
+    "trend": "Weak EMA crossover after correction from 52w high of 5087; RSI at 39.85 approaching oversold in a defence sector consolidation",
+    "buy_zone": [
+      4100.1,
+      4227.3
+    ],
+    "sell_zone": [
+      4510.0,
+      4521.22
+    ],
+    "stop_loss": 4018.1,
+    "risk_reward": 2.42,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "HAL remains India's premier defence PSU with a multi-year order book visibility driven by LCA Tejas Mk1A, helicopter programmes, and MRO contracts \u2014 structural demand that revenue growth of 1.8% YoY currently understates due to lumpy order execution. An ROE of 24% and 27.6% net margins reflect high-quality earnings with government-backed revenue certainty. Current price is ~19% below the 52w high, offering a technically cleaner accumulation zone ahead of quarterly order disclosures.",
+    "risk": "Revenue growth at 1.8% signals near-term execution delays in deliverables, which could disappoint the market given elevated fwd P/E of 25.3x relative to PSU peers. Any government capex or defence budget revision in the interim Budget cycle poses re-rating risk.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "PNBHOUSING.NS",
+    "company": "PNB Housing Finance Ltd.",
+    "sector": "Financial Services",
+    "trend": "Weak EMA crossover with above-average volume ratio of 1.17 suggesting early accumulation interest near support",
+    "buy_zone": [
+      982.8,
+      1015.55
+    ],
+    "sell_zone": [
+      1083.0,
+      1094.99
+    ],
+    "stop_loss": 963.14,
+    "risk_reward": 2.49,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "PNB Housing's 21.6% revenue growth and 58.9% net margins (driven by improving NIM and declining credit costs) position it as a recovering mid-tier HFC with re-rating potential as the affordable housing cycle matures. Fwd P/E of 9.6x is undemanding relative to larger HFC peers, and the stock trades ~13% below its 52w high with volume picking up at current levels \u2014 a potential smart money accumulation signal. RBI's stable rate posture reduces near-term NIM compression risk for this fixed-rate heavy lender.",
+    "risk": "ROE at 12.7% remains below best-in-class HFCs, limiting the premium multiple expansion story if credit growth normalises. Any asset quality deterioration in the affordable segment or a spike in repo rate would compress margins and compress valuation.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "SUNPHARMA.NS",
+    "company": "Sun Pharmaceutical Industries Ltd.",
+    "sector": "Healthcare",
+    "trend": "Weak EMA crossover near lower end of 52w range; low beta of 0.08 makes this a near-defensive accumulation in volatile markets",
+    "buy_zone": [
+      1761.08,
+      1783.73
+    ],
+    "sell_zone": [
+      1889.15,
+      1983.61
+    ],
+    "stop_loss": 1725.86,
+    "risk_reward": 3.52,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Sun Pharma is India's largest pharma by market cap with a high-quality specialty portfolio in the US (Ilumya, Cequa) and a fast-growing branded generic business in emerging markets, supporting 12.8% revenue growth and 19.6% net margins. The stock offers a 3.52 R:R setup at current levels with the sell zone approaching the 52w high, backed by consistent FCF generation and low market beta of 0.08 \u2014 ideal for portfolio hedging during broad market weakness. A results season beat on US specialty traction could be the near-term catalyst for re-rating.",
+    "risk": "Fwd P/E of 27.5x leaves limited room for earnings disappointment \u2014 any slowdown in US specialty launches or pricing pressure in generics would compress the multiple quickly. Currency risk (USD/INR) remains a perpetual headwind for repatriated US revenue.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AUBANK.NS",
+    "company": "AU Small Finance Bank Ltd.",
+    "sector": "Financial Services",
+    "trend": "Weak EMA crossover with above-average volume at 1.26x; stock ~12% below 52w high despite strong 37% revenue growth",
+    "buy_zone": [
+      950.42,
+      959.18
+    ],
+    "sell_zone": [
+      1011.27,
+      1022.17
+    ],
+    "stop_loss": 931.41,
+    "risk_reward": 2.65,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "AU Small Finance Bank's 37.1% revenue growth is the standout metric in this list, reflecting rapid loan book expansion in vehicle finance, home loans, and SME segments as it transitions toward a universal banking licence. Volume ratio of 1.26x at current levels indicates active market participation near support, and fwd P/E of 16x is reasonable for a high-growth SFB. Watch for a confluence upgrade before committing \u2014 weak signal score of 1/4 warrants patience for a better technical setup.",
+    "risk": "Confluence score of 1/4 and an 'avoid' signal demand strict discipline \u2014 premature entry risks catching a falling knife with no technical confirmation. Absence of ROE data and beta elevates model uncertainty; SFB credit quality under a higher-for-longer rate environment remains a key monitorable.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CHAMBLFERT.NS",
+    "company": "Chambal Fertilizers & Chemicals Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Moderate continuation trend with EMA crossover and MACD histogram flip; RSI at 56.5 reflects healthy momentum without being overbought",
+    "buy_zone": [
+      425.55,
+      441.82
+    ],
+    "sell_zone": [
+      472.79,
+      488.45
+    ],
+    "stop_loss": 417.04,
+    "risk_reward": 2.82,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Chambal Fertilizers stands out technically as the only name in this set with a confirmed trend continuation and dual indicator confirmation (EMA crossover + MACD histogram flip), suggesting early-stage bullish momentum despite the 'avoid' signal due to low overall confluence. An ROE of 20.5% and fwd P/E of 9.4x make it one of the cheapest high-quality names in the agrochemical space, with 13.7% revenue growth supported by domestic urea demand and farm sector tailwinds ahead of Kharif season. A volume expansion above the current 0.43x ratio would significantly strengthen the case for active entry.",
+    "risk": "Confluence score of 1/4 limits conviction \u2014 low volume participation means the MACD/EMA signals lack institutional backing and are susceptible to false breaks. Government subsidy policy unpredictability and gas input cost volatility (feedstock for urea) are structural sector risks that can rapidly impair margins.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "COALINDIA.NS",
+    "company": "Coal India Ltd.",
+    "sector": "Energy",
+    "trend": "Moderate uptrend continuation with EMA crossover and MACD histogram flip on subdued volume",
+    "buy_zone": [
+      449.42,
+      454.75
+    ],
+    "sell_zone": [
+      475.13,
+      477.75
+    ],
+    "stop_loss": 440.43,
+    "risk_reward": 2.09,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Coal India trades at a compelling fwd P/E of 8.3x with 28% ROE and near-zero beta, offering defensive yield in a risk-off environment. Revenue growth of 16.2% and strong net margins of 18.5% underpin earnings quality. However, volume ratio of 0.44 signals weak participation \u2014 wait for volume confirmation before initiating.",
+    "risk": "Volume ratio at 0.44 indicates lack of institutional conviction; price is 8.6% below 52-week high with risk of range-bound consolidation. Government pricing intervention and e-auction volume cuts remain structural overhangs.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "COFORGE.NS",
+    "company": "Coforge Ltd.",
+    "sector": "Technology",
+    "trend": "Moderate uptrend continuation recovering from deep 52-week drawdown with EMA and MACD signals",
+    "buy_zone": [
+      1266.74,
+      1348.92
+    ],
+    "sell_zone": [
+      1447.7,
+      1510.15
+    ],
+    "stop_loss": 1241.41,
+    "risk_reward": 2.58,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Coforge delivers sector-leading revenue growth of 30.5% YoY driven by BFS and travel vertical deal wins, with the stock currently trading 36% below its 52-week high \u2014 offering mean-reversion potential. Fwd P/E of 20.9x is reasonable for a mid-cap IT compounder at this growth rate. RSI at 58 and low beta (0.23) suggest controlled momentum without overheating.",
+    "risk": "Volume ratio of 0.67 and confluence score of 1/4 indicate weak technical confirmation; a broader IT sector de-rating or USD/INR appreciation headwind could cap upside recovery. Deal execution risk on large Xceltrait integration remains a near-term earnings sensitivity.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "HEXT.NS",
+    "company": "Hexaware Technologies Ltd.",
+    "sector": "Technology",
+    "trend": "Moderate continuation trend developing post-IPO base formation with EMA crossover and MACD flip",
+    "buy_zone": [
+      473.98,
+      485.22
+    ],
+    "sell_zone": [
+      522.78,
+      543.36
+    ],
+    "stop_loss": 464.5,
+    "risk_reward": 3.54,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Hexaware offers a 3.54 risk-reward with the stock sitting 46% below its 52-week high, presenting a structural recovery opportunity as the company consolidates its post-IPO base. ROE of 22.3% and 10% net margins are solid for an IT services mid-cap, with BFSI and digital transformation tailwinds supporting the 12.6% revenue growth trajectory. The stock's lack of beta history and thin volume ratio (0.34) suggest this is an early-stage accumulation opportunity requiring patience.",
+    "risk": "Extremely low volume ratio of 0.34 signals negligible market interest at current levels \u2014 a breakout without volume will likely fail. No established beta makes risk-sizing difficult; liquidity risk post-IPO lock-in expiries could create asymmetric downside pressure.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "IGIL.NS",
+    "company": "International Gemmological Institute (India) Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Moderate uptrend continuation with volume confirmation and best-in-class risk-reward setup",
+    "buy_zone": [
+      312.48,
+      327.36
+    ],
+    "sell_zone": [
+      378.97,
+      395.82
+    ],
+    "stop_loss": 306.23,
+    "risk_reward": 4.93,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "IGI India offers the strongest risk-reward in this basket at 4.93x with an exceptional 44% net margin, reflecting its asset-light gem certification monopoly model benefiting from India's growing lab-grown diamond export industry. Revenue growth of 20.9% and fwd P/E of 21x are attractive for a niche quasi-monopoly with high switching costs. Volume ratio above 1.0 is the only technical in this set showing genuine buying interest.",
+    "risk": "No ROE or beta data limits fundamental risk calibration; the stock is 28% below its 52-week high suggesting prior distribution that may resume on strength. Regulatory changes in gem certification standards or global LGD pricing compression could impair margin sustainability.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JBMA.NS",
+    "company": "JBM Auto Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Moderate uptrend continuation in EV bus play with EMA crossover and MACD histogram flip",
+    "buy_zone": [
+      608.21,
+      628.75
+    ],
+    "sell_zone": [
+      674.5,
+      688.88
+    ],
+    "stop_loss": 596.05,
+    "risk_reward": 2.82,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "JBM Auto is a direct play on India's PM e-Bus Sewa scheme with a strong order book in electric buses, and the stock is recovering from a 23% correction from 52-week highs, creating a technical re-entry opportunity. Revenue growth of 12.3% with improving order inflows positions JBM as a beneficiary of government capex in urban mobility infrastructure. Near-zero beta (0.08) provides insulation from broader market volatility during accumulation.",
+    "risk": "Net margins of only 3.59% at a fwd P/E of 34.3x leave zero room for execution misses \u2014 any EBITDA margin compression from commodity cost spikes would trigger a sharp de-rating. Volume ratio of 0.43 confirms weak near-term momentum; avoid chasing above the buy zone.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "J&KBANK.NS",
+    "company": "Jammu & Kashmir Bank Ltd.",
+    "sector": "Financial Services",
+    "trend": "Moderate uptrend continuation approaching 52-week high resistance with strong technical setup",
+    "buy_zone": [
+      126.44,
+      129.99
+    ],
+    "sell_zone": [
+      144.44,
+      151.13
+    ],
+    "stop_loss": 123.91,
+    "risk_reward": 4.54,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "J&K Bank trades at a deep-value fwd P/E of 6.3x with ROE of 15.4% and net margins of 34.7%, making it one of the cheapest PSU bank franchises on NIM-adjusted basis. RSI at 64.9 shows strengthening momentum with sell zone aligned exactly at the 52-week high of \u20b9151 \u2014 a clean technical target. J&K's improving asset quality post-Article 370 normalization and rising government deposits provide a durable earnings floor.",
+    "risk": "Geopolitical risk specific to J&K region remains a permanent tail risk that periodically triggers sharp FII-driven selloffs regardless of fundamentals. Volume ratio of 0.64 and low float tradability may cause slippage on position entry or exit.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "LICHSGFIN.NS",
+    "company": "LIC Housing Finance Ltd.",
+    "sector": "Financial Services",
+    "trend": "Sideways-to-moderate uptrend with EMA crossover and above-average volume confirmation",
+    "buy_zone": [
+      520.26,
+      534.91
+    ],
+    "sell_zone": [
+      564.24,
+      579.91
+    ],
+    "stop_loss": 509.85,
+    "risk_reward": 2.51,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "LIC Housing Finance at fwd P/E of 4.9x is deeply undervalued relative to private HFC peers, with net margins of 65.8% and ROE of 14.4% reflecting a stable mortgage book benefiting from India's housing upcycle and PMAY-2.0 subsidy disbursements. Volume ratio of 1.66 \u2014 the highest confirmed institutional buying signal in this set \u2014 lends credibility to the EMA breakout setup. RSI near 51.5 implies early-stage momentum with significant headroom before overbought territory.",
+    "risk": "Revenue growth of only 4.4% signals loan book growth deceleration amid rising competition from SBI Home Loans and Bajaj Housing Finance \u2014 a re-rating catalyst may be absent without NIM improvement. RBI rate trajectory and any spike in developer/LAP segment NPAs could pressure book value and sentiment sharply.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MMTC.NS",
+    "company": "MMTC Ltd.",
+    "sector": "Industrials",
+    "trend": "Moderate uptrend continuation in PSU trading house with volume near parity and MACD flip",
+    "buy_zone": [
+      61.84,
+      62.99
+    ],
+    "sell_zone": [
+      66.98,
+      68.01
+    ],
+    "stop_loss": 60.6,
+    "risk_reward": 2.79,
+    "signal": "WATCH",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "MMTC shows 36% revenue growth and a near-parity volume ratio (1.05), suggesting genuine participation at current levels in a low-priced PSU name prone to momentum moves. The stock sits mid-range between 52-week low (\u20b950.1) and high (\u20b978.3), offering technical upside toward prior distribution zone. Fwd P/E of 26.4x is elevated but PSU trading companies periodically attract speculative re-rating during commodity cycle upswings.",
+    "risk": "The reported net margin of 8,698% is a statistical anomaly (likely a one-time item) and masks the true earnings quality \u2014 underlying profitability of MMTC's core trading business is structurally thin. Beta of 0.74 combined with low absolute price makes this susceptible to operator-driven volatility; position sizing must be strictly limited.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MANKIND.NS",
+    "company": "Mankind Pharma Ltd.",
+    "sector": "Healthcare",
+    "trend": "Weak sideways drift near mid-range; no meaningful directional conviction",
+    "buy_zone": [
+      2280.17,
+      2346.83
+    ],
+    "sell_zone": [
+      2518.47,
+      2541.12
+    ],
+    "stop_loss": 2234.57,
+    "risk_reward": 2.74,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Mankind Pharma offers a defensive consumer-pharma franchise with 11.8% revenue growth and 13.4% net margins, supported by strong domestic branded generics distribution. However, the stock trades at a stretched 32.6x forward PE with RSI at 46.7 and volume ratio of just 0.18, signalling negligible buyer participation. Entry only warranted on a volume-confirmed breakout above 2350 or a deeper pullback toward the 52-week low support zone.",
+    "risk": "Ultra-low volume ratio (0.18) suggests institutional disinterest and risk of continued drift lower toward 2100\u20132150 support. Weak trend with no confirmation indicators beyond a single EMA crossover makes premature entry high-risk.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MARICO.NS",
+    "company": "Marico Ltd.",
+    "sector": "Consumer Defensive",
+    "trend": "Weak uptrend stalling near 52-week highs with low momentum",
+    "buy_zone": [
+      805.22,
+      810.77
+    ],
+    "sell_zone": [
+      845.16,
+      848.79
+    ],
+    "stop_loss": 789.12,
+    "risk_reward": 2.06,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Marico's 22.1% revenue growth and exceptional 41.4% ROE reflect a best-in-class FMCG compounder with strong Parachute and Saffola franchise pricing power. At 43x forward PE with the stock pressing against its 52-week high of 848.8, the risk-reward is compressed and valuation leaves little margin of safety for swing traders. A post-results correction into the 770\u2013790 zone would offer a far more attractive accumulate entry.",
+    "risk": "Stock is trading at the ceiling of its 52-week range, meaning limited upside to sell zone (~4.7%) versus meaningful downside if broad FMCG sentiment sours on rural demand slowdown or input cost pressures. Single confluence signal is insufficient to chase at current levels.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "NMDC.NS",
+    "company": "NMDC Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Moderate continuation trend with EMA crossover and MACD histogram flip confirming bullish bias",
+    "buy_zone": [
+      85.31,
+      87.36
+    ],
+    "sell_zone": [
+      93.9,
+      96.44
+    ],
+    "stop_loss": 83.6,
+    "risk_reward": 3.22,
+    "signal": "AVOID",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "NMDC is the strongest technical setup among this cohort, with a moderate continuation trend backed by both EMA crossover and MACD histogram flip, 1.33x above-average volume, and RSI at 55.6 with room to run. Fundamentally, the stock trades at just 9.3x forward PE with 23.4% ROE and a remarkable 61.9% revenue growth, pricing in iron ore volume ramp-up post NMDC Steel demerger clarity. A confirmed dip into the 85\u201387 buy zone with sustained volume would warrant re-evaluation for a tactical swing entry targeting the 52-week high zone.",
+    "risk": "Iron ore price volatility tied to Chinese steel demand remains the primary macro risk; a reversal in global commodity sentiment could quickly unwind the technical setup. Confluence score of 1 per system flags insufficient signal quality despite moderately favourable technicals.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "NATIONALUM.NS",
+    "company": "National Aluminium Co. Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Weak trend with RSI near oversold zone; stock consolidating well below 52-week high",
+    "buy_zone": [
+      383.05,
+      394.63
+    ],
+    "sell_zone": [
+      436.78,
+      442.56
+    ],
+    "stop_loss": 375.39,
+    "risk_reward": 3.78,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "NALCO offers the best risk-reward ratio in this set (3.78x) with strong fundamentals \u2014 29.4% ROE, 31.3% net margins, and a cheap 10.5x forward PE \u2014 supported by a state-owned aluminium monopoly benefiting from domestic infrastructure capex. However, revenue growth at just 1% signals a topline stall likely tied to subdued LME aluminium prices, and RSI at 41.5 suggests the stock may test lower levels before finding a base. Accumulate in tranches only on a volume-backed reversal above 395 with stop discipline maintained at 375.",
+    "risk": "Near-zero revenue growth (1%) amid high net margins suggests pricing/volume pressure rather than cost efficiency gains, making earnings visibility low if global aluminium prices soften further. The stock has already rallied over 150% from its 52-week low, increasing mean-reversion risk if commodity tailwinds fade.",
+    "circuit_flag": false
+  }
+]

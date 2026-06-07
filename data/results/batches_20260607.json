@@ -1,0 +1,162 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "PNBHOUSING.NS",
+        "company": "PNB Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.5,
+        "volume_ratio": 1.17,
+        "circuit_risk": false,
+        "buy_zone": [
+          982.8,
+          1015.55
+        ],
+        "sell_zone": [
+          1083.0,
+          1094.99
+        ],
+        "stop_loss": 963.14,
+        "risk_reward": 2.49,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GESHIP.NS",
+        "company": "Great Eastern Shipping Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.29,
+        "volume_ratio": 0.15,
+        "circuit_risk": false,
+        "buy_zone": [
+          1367.22,
+          1469.38
+        ],
+        "sell_zone": [
+          1710.55,
+          1796.08
+        ],
+        "stop_loss": 1339.88,
+        "risk_reward": 4.27,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HAL.NS",
+        "company": "Hindustan Aeronautics Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.85,
+        "volume_ratio": 0.36,
+        "circuit_risk": false,
+        "buy_zone": [
+          4100.1,
+          4227.3
+        ],
+        "sell_zone": [
+          4510.0,
+          4521.22
+        ],
+        "stop_loss": 4018.1,
+        "risk_reward": 2.42,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GPIL.NS",
+        "company": "Godawari Power & Ispat Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.36,
+        "volume_ratio": 0.23,
+        "circuit_risk": false,
+        "buy_zone": [
+          275.4,
+          280.75
+        ],
+        "sell_zone": [
+          295.22,
+          299.99
+        ],
+        "stop_loss": 269.89,
+        "risk_reward": 2.39,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GLENMARK.NS",
+        "company": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.5,
+        "volume_ratio": 0.62,
+        "circuit_risk": false,
+        "buy_zone": [
+          2135.14,
+          2214.68
+        ],
+        "sell_zone": [
+          2392.67,
+          2395.82
+        ],
+        "stop_loss": 2092.44,
+        "risk_reward": 2.66,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SUNPHARMA.NS",
+        "company": "Sun Pharmaceutical Industries Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.26,
+        "volume_ratio": 0.89,
+        "circuit_risk": false,
+        "buy_zone": [
+          1761.08,
+          1783.73
+        ],
+        "sell_zone": [
+          1889.15,
+          1983.61
+        ],
+        "stop_loss": 1725.86,
+        "risk_reward": 3.52,
+        "signal": "watch"
+      }
+    ]
+  }
+]
