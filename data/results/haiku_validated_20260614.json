@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "INDIGO.NS",
+    "validated": true,
+    "confidence": "high",
+    "reason": "Bullish reversal with strong trend strength, elevated RSI, and volume ratio 2.46 confirms institutional participation."
+  },
+  {
+    "ticker": "JSWINFRA.NS",
+    "validated": true,
+    "confidence": "high",
+    "reason": "Strong continuation trend with elevated RSI and volume ratio 2.27 supports actionable buy signal."
+  }
+]

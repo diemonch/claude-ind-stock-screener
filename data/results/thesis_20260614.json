@@ -1,0 +1,48 @@
+[
+  {
+    "ticker": "INDIGO.NS",
+    "company": "InterGlobe Aviation (IndiGo)",
+    "sector": "Aviation",
+    "trend": "Bullish recovery trend on improving load factors and moderating ATF costs",
+    "buy_zone": [
+      4050,
+      4200
+    ],
+    "sell_zone": [
+      4800,
+      4950
+    ],
+    "stop_loss": 3880,
+    "risk_reward": 3.1,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "IndiGo continues to dominate domestic aviation with ~60% market share, and easing crude oil prices are providing meaningful margin tailwinds heading into the Q1 results season. Network expansion into tier-2 cities and international route additions underpin a strong revenue growth trajectory. DII accumulation and institutional re-rating of the aviation sector post-pandemic normalization support a re-test of upper resistance zones.",
+    "risk": "A sharp spike in Brent crude above $95/bbl or INR depreciation beyond 85/USD would materially compress operating margins given unhedged fuel exposure. Unexpected regulatory action on fare caps or slot allocation disruptions at key metro airports could dampen near-term sentiment.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JSWINFRA.NS",
+    "company": "JSW Infrastructure",
+    "sector": "Ports & Logistics Infrastructure",
+    "trend": "Steady uptrend with accumulation phase post-listing correction, supported by capex cycle tailwinds",
+    "buy_zone": [
+      285,
+      305
+    ],
+    "sell_zone": [
+      360,
+      375
+    ],
+    "stop_loss": 268,
+    "risk_reward": 2.9,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "JSW Infrastructure is a direct beneficiary of India's port privatisation push and the government's Sagarmala programme, with cargo volume growth driven by captive JSW Group steel and energy traffic providing revenue visibility. The company's aggressive capacity expansion at Dharamtar and new concession wins position it for double-digit EBITDA growth over the next 2-3 years. FII interest in India's infrastructure buildout story and the stock's relatively low float post-IPO create conditions for a meaningful re-rating.",
+    "risk": "Execution delays in port capacity ramp-up or a slowdown in JSW Group's steel production volumes could weaken captive cargo assumptions underpinning near-term earnings. The stock carries post-IPO lock-in expiry overhang risk which may trigger episodic selling pressure from pre-IPO investors.",
+    "circuit_flag": false
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "JBMA.NS",
+        "company": "JBM Auto Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.21,
+        "volume_ratio": 2.72,
+        "circuit_risk": false,
+        "buy_zone": [
+          607.43,
+          628.75
+        ],
+        "sell_zone": [
+          679.73,
+          692.69
+        ],
+        "stop_loss": 595.28,
+        "risk_reward": 2.99,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "AUBANK.NS",
+        "company": "AU Small Finance Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.33,
+        "volume_ratio": 2.35,
+        "circuit_risk": false,
+        "buy_zone": [
+          943.14,
+          952.91
+        ],
+        "sell_zone": [
+          1005.62,
+          1015.89
+        ],
+        "stop_loss": 924.28,
+        "risk_reward": 2.64,
+        "signal": "watch"
+      },
+      {
+        "ticker": "LICHSGFIN.NS",
+        "company": "LIC Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 55.55,
+        "volume_ratio": 1.92,
+        "circuit_risk": false,
+        "buy_zone": [
+          529.32,
+          533.66
+        ],
+        "sell_zone": [
+          554.0,
+          559.23
+        ],
+        "stop_loss": 518.73,
+        "risk_reward": 1.97,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "COALINDIA.NS",
+        "company": "Coal India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.48,
+        "volume_ratio": 0.46,
+        "circuit_risk": false,
+        "buy_zone": [
+          443.11,
+          453.68
+        ],
+        "sell_zone": [
+          475.13,
+          480.7
+        ],
+        "stop_loss": 434.25,
+        "risk_reward": 2.09,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "CESC.NS",
+        "company": "CESC Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 36.54,
+        "volume_ratio": 0.44,
+        "circuit_risk": false,
+        "buy_zone": [
+          166.89,
+          173.03
+        ],
+        "sell_zone": [
+          183.94,
+          193.14
+        ],
+        "stop_loss": 163.55,
+        "risk_reward": 2.9,
+        "signal": "watch"
+      },
+      {
+        "ticker": "GESHIP.NS",
+        "company": "Great Eastern Shipping Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.69,
+        "volume_ratio": 0.23,
+        "circuit_risk": false,
+        "buy_zone": [
+          1295.3,
+          1422.57
+        ],
+        "sell_zone": [
+          1710.55,
+          1796.08
+        ],
+        "stop_loss": 1269.39,
+        "risk_reward": 4.4,
+        "signal": "watch"
+      },
+      {
+        "ticker": "INDIGO.NS",
+        "company": "InterGlobe Aviation Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.38,
+        "volume_ratio": 2.46,
+        "circuit_risk": false,
+        "buy_zone": [
+          4231.25,
+          4368.75
+        ],
+        "sell_zone": [
+          4566.25,
+          4688.33
+        ],
+        "stop_loss": 4146.62,
+        "risk_reward": 2.13,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JSWINFRA.NS",
+        "company": "JSW Infrastructure Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 61.38,
+        "volume_ratio": 2.27,
+        "circuit_risk": false,
+        "buy_zone": [
+          261.81,
+          266.92
+        ],
+        "sell_zone": [
+          282.39,
+          287.96
+        ],
+        "stop_loss": 256.57,
+        "risk_reward": 2.67,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NLCINDIA.NS",
+        "company": "NLC India Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.31,
+        "volume_ratio": 1.33,
+        "circuit_risk": false,
+        "buy_zone": [
+          311.87,
+          332.37
+        ],
+        "sell_zone": [
+          355.75,
+          357.25
+        ],
+        "stop_loss": 305.63,
+        "risk_reward": 2.08,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "SAIL.NS",
+        "company": "Steel Authority of India Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.45,
+        "volume_ratio": 0.45,
+        "circuit_risk": false,
+        "buy_zone": [
+          178.78,
+          187.24
+        ],
+        "sell_zone": [
+          206.11,
+          216.42
+        ],
+        "stop_loss": 175.2,
+        "risk_reward": 3.62,
+        "signal": "watch"
+      }
+    ]
+  }
+]
