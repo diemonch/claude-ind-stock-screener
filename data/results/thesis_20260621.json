@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "TECHM.NS",
+    "company": "Tech Mahindra",
+    "sector": "Information Technology",
+    "trend": "Bottoming recovery after multi-quarter earnings trough; early signs of margin expansion and deal win momentum",
+    "buy_zone": [
+      1280,
+      1320
+    ],
+    "sell_zone": [
+      1520,
+      1560
+    ],
+    "stop_loss": 1235,
+    "risk_reward": 2.6,
+    "signal": "BUY",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Tech Mahindra is executing a turnaround under CEO Mohit Joshi with focused cost rationalisation and portfolio pruning that is beginning to reflect in improving EBIT margins quarter-on-quarter. The stock trades at a meaningful discount to Infosys and Wipro on forward P/E, offering catch-up potential as deal wins in telecom and manufacturing verticals accelerate. A rebound in BFSI and communications spend, combined with rupee tailwinds, could drive a re-rating toward large-cap IT peer multiples over the next 1-2 quarters.",
+    "risk": "Revenue growth recovery remains fragile and any miss on Q1/Q2 FY26 deal ramp-up timelines could extend the de-rating cycle. Elevated exposure to telecom clients (20%+ revenue) makes the stock vulnerable to capex cuts by global telcos amid macro uncertainty.",
+    "circuit_flag": false
+  }
+]

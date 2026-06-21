@@ -1,0 +1,133 @@
+[
+  {
+    "sector": "IT",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "TECHM.NS",
+        "company": "Tech Mahindra Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 42.3,
+        "volume_ratio": 2.39,
+        "circuit_risk": false,
+        "buy_zone": [
+          1393.42,
+          1428.68
+        ],
+        "sell_zone": [
+          1512.92,
+          1546.53
+        ],
+        "stop_loss": 1365.55,
+        "risk_reward": 2.61,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ENGINERSIN.NS",
+        "company": "Engineers India Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.13,
+        "volume_ratio": 1.56,
+        "circuit_risk": false,
+        "buy_zone": [
+          219.61,
+          224.7
+        ],
+        "sell_zone": [
+          242.31,
+          250.38
+        ],
+        "stop_loss": 215.22,
+        "risk_reward": 3.48,
+        "signal": "watch"
+      },
+      {
+        "ticker": "GRSE.NS",
+        "company": "Garden Reach Shipbuilders & Engineers Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 57.88,
+        "volume_ratio": 1.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          2519.24,
+          2588.75
+        ],
+        "sell_zone": [
+          2724.0,
+          2811.03
+        ],
+        "stop_loss": 2468.86,
+        "risk_reward": 2.51,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "FACT.NS",
+        "company": "Fertilisers and Chemicals Travancore Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 47.2,
+        "volume_ratio": 1.52,
+        "circuit_risk": false,
+        "buy_zone": [
+          825.92,
+          862.0
+        ],
+        "sell_zone": [
+          931.35,
+          973.85
+        ],
+        "stop_loss": 809.4,
+        "risk_reward": 3.14,
+        "signal": "watch"
+      },
+      {
+        "ticker": "USHAMART.NS",
+        "company": "Usha Martin Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 45.64,
+        "volume_ratio": 2.74,
+        "circuit_risk": false,
+        "buy_zone": [
+          468.8,
+          480.79
+        ],
+        "sell_zone": [
+          508.61,
+          520.02
+        ],
+        "stop_loss": 459.42,
+        "risk_reward": 2.57,
+        "signal": "watch"
+      }
+    ]
+  }
+]
