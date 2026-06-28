@@ -1,0 +1,191 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "AADHARHFC.NS",
+        "company": "Aadhar Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 64.46,
+        "volume_ratio": 4.29,
+        "circuit_risk": false,
+        "buy_zone": [
+          443.87,
+          457.69
+        ],
+        "sell_zone": [
+          497.54,
+          517.46
+        ],
+        "stop_loss": 434.99,
+        "risk_reward": 3.59,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PNBHOUSING.NS",
+        "company": "PNB Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.9,
+        "volume_ratio": 1.78,
+        "circuit_risk": false,
+        "buy_zone": [
+          956.07,
+          972.15
+        ],
+        "sell_zone": [
+          1032.55,
+          1050.04
+        ],
+        "stop_loss": 936.95,
+        "risk_reward": 2.84,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "FMCG",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "VBL.NS",
+        "company": "Varun Beverages Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.68,
+        "volume_ratio": 0.69,
+        "circuit_risk": false,
+        "buy_zone": [
+          503.05,
+          514.24
+        ],
+        "sell_zone": [
+          540.58,
+          548.41
+        ],
+        "stop_loss": 492.99,
+        "risk_reward": 2.29,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "IGL.NS",
+        "company": "Indraprastha Gas Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.47,
+        "volume_ratio": 1.52,
+        "circuit_risk": false,
+        "buy_zone": [
+          157.99,
+          159.95
+        ],
+        "sell_zone": [
+          170.81,
+          173.05
+        ],
+        "stop_loss": 154.83,
+        "risk_reward": 3.13,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "NMDC.NS",
+        "company": "NMDC Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.28,
+        "volume_ratio": 0.65,
+        "circuit_risk": false,
+        "buy_zone": [
+          83.26,
+          87.43
+        ],
+        "sell_zone": [
+          93.21,
+          97.87
+        ],
+        "stop_loss": 81.59,
+        "risk_reward": 2.72,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "LODHA.NS",
+        "company": "Lodha Developers Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.43,
+        "volume_ratio": 2.12,
+        "circuit_risk": false,
+        "buy_zone": [
+          854.35,
+          869.5
+        ],
+        "sell_zone": [
+          940.43,
+          957.34
+        ],
+        "stop_loss": 837.26,
+        "risk_reward": 3.53,
+        "signal": "watch"
+      },
+      {
+        "ticker": "OBEROIRLTY.NS",
+        "company": "Oberoi Realty Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.82,
+        "volume_ratio": 1.57,
+        "circuit_risk": false,
+        "buy_zone": [
+          1568.19,
+          1612.82
+        ],
+        "sell_zone": [
+          1711.95,
+          1762.65
+        ],
+        "stop_loss": 1536.83,
+        "risk_reward": 2.73,
+        "signal": "watch"
+      }
+    ]
+  }
+]
