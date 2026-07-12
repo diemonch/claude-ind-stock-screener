@@ -1,0 +1,279 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "MAHABANK.NS",
+        "company": "Bank of Maharashtra",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 47.08,
+        "volume_ratio": 3.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          81.48,
+          86.86
+        ],
+        "sell_zone": [
+          91.27,
+          94.45
+        ],
+        "stop_loss": 79.85,
+        "risk_reward": 2.01,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ADANIPOWER.NS",
+        "company": "Adani Power Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.89,
+        "volume_ratio": 0.89,
+        "circuit_risk": false,
+        "buy_zone": [
+          213.55,
+          218.48
+        ],
+        "sell_zone": [
+          232.27,
+          235.7
+        ],
+        "stop_loss": 209.28,
+        "risk_reward": 2.67,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ELECON.NS",
+        "company": "Elecon Engineering Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 45.02,
+        "volume_ratio": 5.43,
+        "circuit_risk": false,
+        "buy_zone": [
+          497.82,
+          516.59
+        ],
+        "sell_zone": [
+          554.54,
+          566.94
+        ],
+        "stop_loss": 487.86,
+        "risk_reward": 2.77,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HBLENGINE.NS",
+        "company": "HBL Engineering Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.79,
+        "volume_ratio": 0.75,
+        "circuit_risk": false,
+        "buy_zone": [
+          758.76,
+          788.57
+        ],
+        "sell_zone": [
+          832.09,
+          837.19
+        ],
+        "stop_loss": 743.58,
+        "risk_reward": 2.03,
+        "signal": "watch"
+      },
+      {
+        "ticker": "LT.NS",
+        "company": "Larsen & Toubro Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.59,
+        "volume_ratio": 0.63,
+        "circuit_risk": false,
+        "buy_zone": [
+          3888.42,
+          4015.38
+        ],
+        "sell_zone": [
+          4235.4,
+          4447.17
+        ],
+        "stop_loss": 3810.65,
+        "risk_reward": 2.76,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MMTC.NS",
+        "company": "MMTC Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.87,
+        "volume_ratio": 0.29,
+        "circuit_risk": false,
+        "buy_zone": [
+          61.25,
+          66.3
+        ],
+        "sell_zone": [
+          75.85,
+          79.64
+        ],
+        "stop_loss": 60.02,
+        "risk_reward": 3.73,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SUZLON.NS",
+        "company": "Suzlon Energy Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.05,
+        "volume_ratio": 0.5,
+        "circuit_risk": false,
+        "buy_zone": [
+          53.06,
+          54.79
+        ],
+        "sell_zone": [
+          59.34,
+          62.31
+        ],
+        "stop_loss": 52.0,
+        "risk_reward": 3.6,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Media",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "TATACOMM.NS",
+        "company": "Tata Communications Ltd.",
+        "sector": "Communication Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.43,
+        "volume_ratio": 0.83,
+        "circuit_risk": false,
+        "buy_zone": [
+          1823.04,
+          1876.82
+        ],
+        "sell_zone": [
+          2016.83,
+          2034.34
+        ],
+        "stop_loss": 1786.58,
+        "risk_reward": 2.77,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "CHAMBLFERT.NS",
+        "company": "Chambal Fertilizers & Chemicals Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.2,
+        "volume_ratio": 0.5,
+        "circuit_risk": false,
+        "buy_zone": [
+          451.13,
+          465.13
+        ],
+        "sell_zone": [
+          487.15,
+          511.51
+        ],
+        "stop_loss": 442.11,
+        "risk_reward": 2.57,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IGIL.NS",
+        "company": "International Gemmological Institute (India) Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.4,
+        "volume_ratio": 0.46,
+        "circuit_risk": false,
+        "buy_zone": [
+          340.33,
+          346.95
+        ],
+        "sell_zone": [
+          363.71,
+          370.29
+        ],
+        "stop_loss": 333.52,
+        "risk_reward": 2.31,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ANTHEM.NS",
+        "company": "Anthem Biosciences Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.99,
+        "volume_ratio": 0.61,
+        "circuit_risk": false,
+        "buy_zone": [
+          746.14,
+          759.88
+        ],
+        "sell_zone": [
+          783.29,
+          790.46
+        ],
+        "stop_loss": 731.22,
+        "risk_reward": 1.55,
+        "signal": "watch"
+      }
+    ]
+  }
+]
