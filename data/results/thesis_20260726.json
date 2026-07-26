@@ -1,0 +1,25 @@
+[
+  {
+    "ticker": "RKFORGE.NS",
+    "company": "Ramkrishna Forgings",
+    "sector": "Auto Ancillaries / Industrials",
+    "trend": "Medium-term uptrend intact; forging sector benefiting from CV cycle recovery and export order momentum",
+    "buy_zone": [
+      620,
+      650
+    ],
+    "sell_zone": [
+      760,
+      790
+    ],
+    "stop_loss": 595,
+    "risk_reward": 2.6,
+    "signal": "BUY",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Ramkrishna Forgings is a key beneficiary of the domestic CV upcycle and rising exports to North American heavy truck OEMs, providing dual revenue tailwinds. The company's capacity expansion and value-added product mix shift support margin improvement into FY26. Any Q4 results beat on EBITDA margins could act as a near-term re-rating catalyst.",
+    "risk": "Signal data is entirely null, making this thesis speculative \u2014 position sizing must be conservative until confirmed technical and fundamental data is available. A slowdown in domestic CV volumes or INR appreciation could compress export realisations and weigh on earnings.",
+    "circuit_flag": false
+  }
+]
