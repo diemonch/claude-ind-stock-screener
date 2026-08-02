@@ -1,0 +1,228 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "BELRISE.NS",
+        "company": "Belrise Industries Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 55.2,
+        "volume_ratio": 1.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          223.56,
+          226.35
+        ],
+        "sell_zone": [
+          236.37,
+          238.68
+        ],
+        "stop_loss": 219.09,
+        "risk_reward": 2.15,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SWIGGY.NS",
+        "company": "Swiggy Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.37,
+        "volume_ratio": 1.7,
+        "circuit_risk": false,
+        "buy_zone": [
+          245.71,
+          257.02
+        ],
+        "sell_zone": [
+          282.68,
+          293.08
+        ],
+        "stop_loss": 240.8,
+        "risk_reward": 3.45,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TMCV.NS",
+        "company": "Tata Motors Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.9,
+        "volume_ratio": 2.89,
+        "circuit_risk": false,
+        "buy_zone": [
+          400.62,
+          406.53
+        ],
+        "sell_zone": [
+          426.44,
+          432.83
+        ],
+        "stop_loss": 392.61,
+        "risk_reward": 2.38,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "J&KBANK.NS",
+        "company": "Jammu & Kashmir Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 38.43,
+        "volume_ratio": 1.66,
+        "circuit_risk": false,
+        "buy_zone": [
+          153.21,
+          163.36
+        ],
+        "sell_zone": [
+          187.23,
+          196.59
+        ],
+        "stop_loss": 150.15,
+        "risk_reward": 4.13,
+        "signal": "buy"
+      },
+      {
+        "ticker": "RBLBANK.NS",
+        "company": "RBL Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.99,
+        "volume_ratio": 2.05,
+        "circuit_risk": false,
+        "buy_zone": [
+          350.2,
+          356.5
+        ],
+        "sell_zone": [
+          377.53,
+          384.31
+        ],
+        "stop_loss": 343.2,
+        "risk_reward": 2.72,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "PREMIERENE.NS",
+        "company": "Premier Energies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 36.12,
+        "volume_ratio": 1.72,
+        "circuit_risk": false,
+        "buy_zone": [
+          978.43,
+          1015.23
+        ],
+        "sell_zone": [
+          1107.52,
+          1162.9
+        ],
+        "stop_loss": 958.86,
+        "risk_reward": 3.64,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ACMESOLAR.NS",
+        "company": "ACME Solar Holdings Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 46.94,
+        "volume_ratio": 3.02,
+        "circuit_risk": false,
+        "buy_zone": [
+          351.82,
+          361.07
+        ],
+        "sell_zone": [
+          393.52,
+          395.51
+        ],
+        "stop_loss": 344.78,
+        "risk_reward": 3.27,
+        "signal": "watch"
+      },
+      {
+        "ticker": "CEMPRO.NS",
+        "company": "Cemindia Projects Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.78,
+        "volume_ratio": 1.1,
+        "circuit_risk": false,
+        "buy_zone": [
+          1313.92,
+          1430.83
+        ],
+        "sell_zone": [
+          1622.42,
+          1703.54
+        ],
+        "stop_loss": 1287.64,
+        "risk_reward": 3.43,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SRF.NS",
+        "company": "SRF Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.4,
+        "volume_ratio": 0.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          2554.64,
+          2630.1
+        ],
+        "sell_zone": [
+          2867.18,
+          3010.54
+        ],
+        "stop_loss": 2503.55,
+        "risk_reward": 3.9,
+        "signal": "watch"
+      }
+    ]
+  }
+]
