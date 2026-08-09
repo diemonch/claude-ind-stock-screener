@@ -1,0 +1,462 @@
+[
+  {
+    "ticker": "LUPIN.NS",
+    "company": "Lupin Ltd.",
+    "sector": "Healthcare",
+    "trend": "Moderate uptrend with EMA crossover and high-volume confirmation near 52-week highs",
+    "buy_zone": [
+      2341.73,
+      2373.28
+    ],
+    "sell_zone": [
+      2492.57,
+      2516.83
+    ],
+    "stop_loss": 2294.9,
+    "risk_reward": 2.35,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Lupin's 32% revenue growth and 18.45% net margin signal strong US generics recovery and domestic formulations momentum. RSI at 44 with 2.06x volume on EMA crossover suggests institutional accumulation at a mid-range entry. Stock is testing near its 52-week high of \u20b92523.7, and a breakout would confirm bullish continuation into the sell zone.",
+    "risk": "FDA observations on any manufacturing facility could trigger sharp sell-off given pharma sector's regulatory sensitivity. Low beta (0.18) limits downside but also caps rapid upside if broader market rallies.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "APOLLOTYRE.NS",
+    "company": "Apollo Tyres Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Strong bullish continuation with triple indicator confluence and elevated volume",
+    "buy_zone": [
+      413.57,
+      422.46
+    ],
+    "sell_zone": [
+      444.15,
+      449.4
+    ],
+    "stop_loss": 405.3,
+    "risk_reward": 2.26,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_3_5_weeks",
+    "account_tag": "swing",
+    "thesis": "Apollo Tyres shows strong trend continuation with EMA crossover, MACD histogram flip, and 2.65x volume surge, all aligning near a structurally important support zone. At fwd PE of 13.7x and 13.6% revenue growth, the stock is attractively valued within the tyre sector benefiting from rising OEM volumes and replacement demand. Entry on a confirmed close above \u20b9422 with RSI at 61.77 leaves room before overbought territory.",
+    "risk": "Crude oil and natural rubber price spikes would directly compress the 5.82% net margin, which is already thin. Stock remains 16% below its 52-week high of \u20b9533.71, suggesting overhead supply that could limit upside momentum.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "APTUS.NS",
+    "company": "Aptus Value Housing Finance India Ltd.",
+    "sector": "Financial Services",
+    "trend": "Weak early-stage reversal attempt; EMA crossover on below-average volume near multi-month lows",
+    "buy_zone": [
+      249.89,
+      260.87
+    ],
+    "sell_zone": [
+      299.44,
+      314.41
+    ],
+    "stop_loss": 244.89,
+    "risk_reward": 4.91,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "accumulate_6_10_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Aptus offers an exceptional 4.91 risk-reward at a fwd PE of just 10x with a 61.76% net margin \u2014 among the highest in affordable housing finance \u2014 and 16.8% revenue growth driven by tier-2/3 city expansion. RSI at 36 places it in oversold territory, and the stock is currently trading 30% below its 52-week high, creating a compelling mean-reversion accumulation opportunity. Low volume (0.59x) warrants staged entry rather than full deployment.",
+    "risk": "Below-average volume ratio signals lack of conviction; a further deterioration in housing credit demand or RBI rate-hold stance could delay re-rating. Weak trend strength means the position requires patience and may underperform in the near term.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JKTYRE.NS",
+    "company": "JK Tyre & Industries Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Strong bullish continuation with 3x volume spike validating EMA crossover and MACD flip",
+    "buy_zone": [
+      381.43,
+      391.49
+    ],
+    "sell_zone": [
+      413.79,
+      419.34
+    ],
+    "stop_loss": 373.8,
+    "risk_reward": 2.38,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_3_5_weeks",
+    "account_tag": "swing",
+    "thesis": "JK Tyre's 3.0x volume surge alongside MACD histogram flip and EMA crossover indicates strong institutional participation in a recovering tyre cycle. At fwd PE of 9.85x with 14% ROE and 12.4% revenue growth, the stock is undervalued relative to peers, trading 37% below its 52-week high with significant re-rating potential. RSI at 46.79 confirms mid-cycle entry with ample momentum headroom.",
+    "risk": "Net margin of 4.75% is susceptible to raw material cost inflation (natural rubber, carbon black), which could disappoint earnings. The stock's steep 52-week range (\u20b9307\u2013\u20b9605) reflects high volatility; a broader market risk-off episode could accelerate downside through stop-loss levels.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "PREMIERENE.NS",
+    "company": "Premier Energies Ltd.",
+    "sector": "Technology",
+    "trend": "Strong uptrend continuation approaching 52-week highs with full triple indicator alignment",
+    "buy_zone": [
+      978.6,
+      1016.22
+    ],
+    "sell_zone": [
+      1107.52,
+      1128.54
+    ],
+    "stop_loss": 959.03,
+    "risk_reward": 3.14,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Premier Energies is a direct play on India's solar manufacturing boom with 37.7% revenue growth and a robust 19.68% net margin, reflecting strong order book execution and PLI scheme tailwinds. Triple indicator confluence \u2014 EMA crossover, MACD flip, and 2.15x volume \u2014 near the mid-range of its 52-week band (\u20b9666\u2013\u20b91134) indicates trend resumption after consolidation. A breakout above \u20b91016 targets the prior 52-week high zone, offering a 3.14 risk-reward.",
+    "risk": "Renewable energy stocks are highly sensitive to government policy changes, solar import duty revisions, and competitive pricing pressure from Chinese module imports. No beta data limits volatility assessment; position sizing should be conservative given the high-growth, high-valuation profile.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "RITES.NS",
+    "company": "RITES Ltd.",
+    "sector": "Industrials",
+    "trend": "Strong bullish continuation with RSI approaching overbought and above-average volume",
+    "buy_zone": [
+      209.12,
+      214.58
+    ],
+    "sell_zone": [
+      227.67,
+      232.4
+    ],
+    "stop_loss": 204.94,
+    "risk_reward": 2.63,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "swing",
+    "thesis": "RITES benefits from India's accelerating railway and infrastructure capex cycle with 24.8% revenue growth, 17% net margin, and 16.4% ROE \u2014 a rare quality-growth combination in PSU infrastructure. Triple indicator confluence confirms trend continuation, and at fwd PE of 21.3x, the stock trades at a reasonable premium given its government-backed order pipeline and export consultancy revenue. RSI at 64.55 with 1.66x volume validates institutional re-entry after the recent correction from \u20b9273.74.",
+    "risk": "PSU stocks are vulnerable to government disinvestment news and budget allocation changes that could delay project awards. RSI approaching 65 means limited additional momentum buffer before overbought signals emerge; late entry increases risk of buying into a short-term peak.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "TATACAP.NS",
+    "company": "Tata Capital Ltd.",
+    "sector": "Financial Services",
+    "trend": "Strong bullish continuation near 52-week highs with full triple indicator alignment",
+    "buy_zone": [
+      336.71,
+      347.53
+    ],
+    "sell_zone": [
+      367.86,
+      378.32
+    ],
+    "stop_loss": 329.98,
+    "risk_reward": 2.55,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Tata Capital's 40.3% revenue growth and 39.68% net margin reflect strong momentum in its retail lending and wealth management segments, backed by the Tata Group's brand premium and low credit cost culture. EMA crossover, MACD flip, and 1.71x volume confirm institutional accumulation in a strong uptrend, with the stock trading close to its 52-week high of \u20b9390.2 suggesting potential breakout. At fwd PE of 17.5x, valuations are reasonable for an NBFC with this growth trajectory.",
+    "risk": "Tata Capital recently listed and has limited price history, reducing technical signal reliability and increasing liquidity risk during volatile sessions. Any NBFC-sector credit tightening by RBI or rising wholesale funding costs could compress NIMs and trigger sector-wide de-rating.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AUBANK.NS",
+    "company": "AU Small Finance Bank Ltd.",
+    "sector": "Financial Services",
+    "trend": "Moderate continuation trend with weak volume confirming limited near-term conviction",
+    "buy_zone": [
+      975.25,
+      1011.24
+    ],
+    "sell_zone": [
+      1060.24,
+      1094.29
+    ],
+    "stop_loss": 955.75,
+    "risk_reward": 2.24,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist_only",
+    "thesis": "AU Small Finance Bank shows 29.8% revenue growth and 21.37% net margin, reflecting its successful transition toward a universal banking model with diversified retail assets. However, the avoid signal, lowest confluence score (1/4), and very low volume ratio (0.44x) suggest the current EMA/MACD setup lacks institutional backing needed for a sustained move. Monitor for volume re-acceleration above 1x average before considering entry.",
+    "risk": "Near its 52-week high of \u20b91105.9, the stock has limited upside buffer and faces overhead resistance; a failure here could trigger a swift reversal to lower support levels. Thin confluence and below-average volume make this a high false-signal risk setup at current levels.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AWL.NS",
+    "company": "AWL Agri Business Ltd.",
+    "sector": "Consumer Defensive",
+    "trend": "Bullish reversal off 52-week low base with EMA crossover confirming momentum shift",
+    "buy_zone": [
+      184.11,
+      186.33
+    ],
+    "sell_zone": [
+      194.33,
+      196.38
+    ],
+    "stop_loss": 180.43,
+    "risk_reward": 2.12,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_2_3_weeks",
+    "account_tag": "watchlist",
+    "thesis": "AWL is staging a technical reversal from near its 52-week low of 170.3, supported by EMA crossover and MACD histogram flip on modest volume. Revenue growth of 17.5% YoY provides a fundamental tailwind in the edible oils and agri-processing space. However, the stock trades 34% below its 52-week high of 281.43, suggesting overhead supply pressure that limits near-term upside.",
+    "risk": "Negative beta of -0.162 and razor-thin net margin of 1.49% make earnings highly sensitive to commodity price swings and input cost inflation. Low confluence score of 1/4 and below-average volume ratio of 1.08 reduce conviction for an aggressive entry.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AARTIIND.NS",
+    "company": "Aarti Industries Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Moderate bullish continuation with EMA crossover as specialty chemicals cycle recovers",
+    "buy_zone": [
+      471.45,
+      477.57
+    ],
+    "sell_zone": [
+      506.69,
+      507.46
+    ],
+    "stop_loss": 462.02,
+    "risk_reward": 2.61,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Aarti Industries is showing moderate bullish continuation with a 42.5% revenue growth print signalling a strong specialty chemicals upcycle recovery, particularly in benzene derivatives and pharma intermediates. The stock has bounced meaningfully from its 52-week low of 338 and is approaching the sell zone near 507, which is also close to its 52-week high resistance at 523. A volume ratio of 0.99 suggests institutional participation is not yet decisive, warranting caution on fresh entry.",
+    "risk": "Near-term resistance at 52-week high of 523.1 could cap upside, and the low confluence score with below-average volume does not support a high-conviction breakout trade. Global chemical pricing volatility and Chinese dumping pressure on key intermediates remain structural overhangs.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ACE.NS",
+    "company": "Action Construction Equipment Ltd.",
+    "sector": "Industrials",
+    "trend": "Bullish continuation recovering from mid-cycle correction with healthy R/R setup",
+    "buy_zone": [
+      934.93,
+      980.55
+    ],
+    "sell_zone": [
+      1094.33,
+      1143.61
+    ],
+    "stop_loss": 916.23,
+    "risk_reward": 3.88,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "ACE benefits from India's sustained infrastructure capex cycle with 20.5% revenue growth and a strong 12.8% net margin, among the best in the capital goods segment. The stock is recovering from a correction off its 52-week high of 1170 and the EMA crossover near current levels sets up an attractive risk-reward of 3.88x toward the 1094\u20131143 target zone. Low beta of 0.388 makes it relatively resilient to broad market volatility.",
+    "risk": "Critically low volume ratio of 0.29 signals very weak buying participation, making the technical setup unreliable without volume confirmation on a breakout. A single confluence trigger and absence of ROE data further weaken the conviction for immediate deployment.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ABCAPITAL.NS",
+    "company": "Aditya Birla Capital Ltd.",
+    "sector": "Financial Services",
+    "trend": "Moderate bullish continuation with volume-backed EMA crossover near range midpoint",
+    "buy_zone": [
+      384.06,
+      391.98
+    ],
+    "sell_zone": [
+      413.67,
+      425.89
+    ],
+    "stop_loss": 376.38,
+    "risk_reward": 2.73,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Aditya Birla Capital is consolidating near its range midpoint with a volume ratio of 1.34 \u2014 the strongest among this watchlist \u2014 providing meaningful confirmation of buying interest on the EMA crossover signal. Revenue growth of 31.4% and an 11.94% net margin reflect strong cross-selling momentum across its NBFC, insurance, and AMC verticals. At 16x forward PE against a 52-week high of 430.7, the sell zone aligns with prior resistance and offers a clean swing trade setup.",
+    "risk": "RSI at 53.45 is neutral and the stock is still recovering from a deep drawdown from 430.7 to 267, suggesting lingering overhead supply from trapped longs. Regulatory tightening on NBFC lending norms and any stress in the housing finance book could reset the trend.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "AFFLE.NS",
+    "company": "Affle 3i Ltd.",
+    "sector": "Communication Services",
+    "trend": "Bullish continuation in a mid-recovery phase with strong fundamental backing",
+    "buy_zone": [
+      1413.41,
+      1489.95
+    ],
+    "sell_zone": [
+      1668.55,
+      1727.9
+    ],
+    "stop_loss": 1385.14,
+    "risk_reward": 3.71,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Affle is a structurally sound digital advertising technology play with 16.79% net margins, 13.79% ROE, and 20.3% revenue growth, operating in the fast-growing programmatic and mobile advertising space in emerging markets. The stock is recovering from 1251 toward the 1668\u20131727 target zone, and the EMA crossover with MACD flip signals renewed momentum after a steep correction from the 2185 peak. Ultra-low beta of 0.105 makes this a low-correlation compounder suitable for accumulation.",
+    "risk": "Volume ratio of only 0.54 indicates weak participation in the current move, and the stock remains 21% below its 52-week high with significant overhead supply to navigate. Premium valuation at 33x forward PE leaves little room for earnings misses or guidance cuts.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "BAJAJHFL.NS",
+    "company": "Bajaj Housing Finance Ltd.",
+    "sector": "Financial Services",
+    "trend": "Tentative bullish continuation near range lows with subdued momentum",
+    "buy_zone": [
+      84.33,
+      85.28
+    ],
+    "sell_zone": [
+      87.88,
+      88.39
+    ],
+    "stop_loss": 82.64,
+    "risk_reward": 1.53,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_1_2_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Bajaj Housing Finance carries a strong 63.18% net margin and a steady 12.68% ROE, reflecting a clean, well-underwritten home loan book benefiting from India's affordable housing demand cycle. However, with RSI at 46.31 and volume ratio of 0.69, the stock lacks momentum and is trading well below its 52-week high of 117.98, suggesting it is still in price discovery post-listing. The risk-reward of only 1.53x is the weakest in this set and does not justify a swing trade allocation.",
+    "risk": "The stock has no established beta history given its recent listing, creating uncertainty around volatility and institutional positioning patterns. The tight target spread of 87.88\u201388.39 leaves no room for slippage, making execution precision critical.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "BELRISE.NS",
+    "company": "Belrise Industries Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Bullish continuation with above-average volume confirming EMA breakout near 52-week highs",
+    "buy_zone": [
+      223.46,
+      227.35
+    ],
+    "sell_zone": [
+      243.29,
+      246.59
+    ],
+    "stop_loss": 218.99,
+    "risk_reward": 3.04,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Belrise Industries, an auto components supplier to 2W and 3W OEMs, is showing bullish continuation with the strongest RSI of 64.43 and a volume ratio of 1.43, indicating genuine buying interest backing the EMA crossover. The stock has nearly doubled from its 52-week low of 132 and is approaching the all-time high zone of 252, with the sell target at 243\u2013246 providing a technically clean exit. ROE of 12.52% and 12.1% revenue growth align with the broader auto ancillary upcycle.",
+    "risk": "Thin net margin of 5.22% makes earnings vulnerable to raw material cost spikes (steel, aluminium), which are prone to global commodity cycles. The stock is close to its 52-week high of 252, meaning the sell zone overlaps with a potential resistance and distribution zone.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "BPCL.NS",
+    "company": "Bharat Petroleum Corporation Ltd.",
+    "sector": "Energy",
+    "trend": "Moderate bullish continuation in PSU energy space with value support at current levels",
+    "buy_zone": [
+      303.77,
+      307.58
+    ],
+    "sell_zone": [
+      322.31,
+      329.74
+    ],
+    "stop_loss": 297.69,
+    "risk_reward": 2.55,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_3_4_weeks",
+    "account_tag": "watchlist",
+    "thesis": "BPCL trades at an undemanding 8x forward PE with 34.4% revenue growth, making it one of the cheapest large-cap energy names on the NSE with meaningful dividend support and refining margin leverage. The EMA crossover and MACD flip near 305 set up a technically defined swing trade toward the 322\u2013329 sell zone, aligned with the prior consolidation band. FII flows into PSU energy names during global crude stability phases could act as a near-term catalyst.",
+    "risk": "BPCL's profitability is acutely sensitive to government-controlled retail fuel pricing and any cut in marketing margins during election cycles or crude oil spikes can compress net margins well below the current 3.47%. Volume ratio of 0.81 and RSI of 55 suggest lukewarm conviction, and the stock remains 18% below its 52-week high with no clear re-rating trigger in sight.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "BHARTIARTL.NS",
+    "company": "Bharti Airtel Ltd.",
+    "sector": "Communication Services",
+    "trend": "Moderate uptrend continuation with EMA crossover and MACD histogram flip, trading ~13% below 52W high",
+    "buy_zone": [
+      1862.57,
+      1887.26
+    ],
+    "sell_zone": [
+      1964.9,
+      1992.51
+    ],
+    "stop_loss": 1825.32,
+    "risk_reward": 2.09,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Airtel's 18.4% revenue growth and 20.15% ROE reflect sustained ARPU expansion post-tariff hikes and accelerating 5G subscriber additions. EMA crossover on moderate trend supports a continuation setup with a defined risk of 2% from entry. However, thin confluence (1/4) and below-average volume ratio (0.5x) demand confirmation before initiating a position.",
+    "risk": "Low volume participation raises the risk of a false breakout; any broader market FII selling could drag the stock back toward the 52W low zone given stretched valuations at 23.8x forward P/E. Watch for TRAI regulatory headwinds on tariff structures.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CHENNPETRO.NS",
+    "company": "Chennai Petroleum Corporation Ltd.",
+    "sector": "Energy",
+    "trend": "Moderate uptrend continuation from near 52W lows, MACD flip signals early momentum recovery after steep correction",
+    "buy_zone": [
+      1063.63,
+      1118.02
+    ],
+    "sell_zone": [
+      1268.64,
+      1309.91
+    ],
+    "stop_loss": 1042.36,
+    "risk_reward": 4.09,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "CPCL trades at a deeply discounted 3.18x forward P/E with the stock still ~18% below its 52W high of \u20b91,297, presenting a mean-reversion opportunity as GRM cycles recover and refinery utilisation normalises. The risk-reward of 4.09 is the strongest in this basket, with ~17% upside to the sell zone against a tight ~2% stop. Reported revenue growth of 84.8% signals a high base from crude price pass-through; margin sustainability at 5.48% net is the key monitorable.",
+    "risk": "CPCL's profitability is highly sensitive to Singapore GRM benchmarks and crude-product spreads \u2014 any GRM compression or INR depreciation can rapidly erode thin refining margins. Confluence is weak at 1/4 and volume ratio of 0.64x suggests institutional disinterest; avoid chasing unless volume expands above 1x on breakout.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CHOLAFIN.NS",
+    "company": "Cholamandalam Investment and Finance Company Ltd.",
+    "sector": "Financial Services",
+    "trend": "Moderate uptrend continuation with balanced volume (1.0x), EMA crossover intact as stock bounces from mid-range support",
+    "buy_zone": [
+      1683.89,
+      1743.35
+    ],
+    "sell_zone": [
+      1869.37,
+      1926.26
+    ],
+    "stop_loss": 1650.21,
+    "risk_reward": 2.9,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Cholamandalam's 34.6% revenue growth and 40.55% net margin highlight its best-in-class NBFC franchise in vehicle and LAP financing, benefiting from rural credit demand and falling cost of funds. Volume ratio at 1.0x is the healthiest in this basket, suggesting genuine price-volume confirmation of the EMA crossover signal. At 19x forward P/E, valuation is reasonable for a high-quality compounder with a clear growth runway in under-penetrated segments.",
+    "risk": "Rising retail NPA risks in the CV and two-wheeler segment could pressure asset quality metrics in upcoming quarters, especially if rural income growth moderates. Confluence remains thin at 1/4; a decisive close above \u20b91,743 with sustained volume is needed before building meaningful position size.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CIPLA.NS",
+    "company": "Cipla Ltd.",
+    "sector": "Healthcare",
+    "trend": "Moderate uptrend continuation, recovering from 52W low with EMA crossover; price ~15% below 52W high suggesting room to recover",
+    "buy_zone": [
+      1391.6,
+      1411.5
+    ],
+    "sell_zone": [
+      1477.45,
+      1492.97
+    ],
+    "stop_loss": 1363.77,
+    "risk_reward": 2.21,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Cipla's defensive pharma profile \u2014 low beta (0.086), near-zero market correlation \u2014 makes it an effective hedge in volatile macro environments, while its US generics pipeline and domestic chronic segment provide dual growth levers. The stock is consolidating near key support with an EMA crossover suggesting a swing recovery toward the \u20b91,477\u20131,493 sell zone (~6% upside). Revenue growth at 3.5% is modest and margins at 12% leave room for operating leverage as US approvals ramp through FY26.",
+    "risk": "Weak revenue growth momentum (3.5%) and below-average volume ratio (0.55x) suggest limited near-term catalysts, making this more of a slow accumulation story than an aggressive swing trade. USFDA inspection outcomes at key manufacturing sites remain a binary binary overhang that could trigger sharp corrections.",
+    "circuit_flag": false
+  }
+]

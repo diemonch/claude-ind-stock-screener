@@ -1,0 +1,191 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "APOLLOTYRE.NS",
+        "company": "Apollo Tyres Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 61.77,
+        "volume_ratio": 2.65,
+        "circuit_risk": false,
+        "buy_zone": [
+          413.57,
+          422.46
+        ],
+        "sell_zone": [
+          444.15,
+          449.4
+        ],
+        "stop_loss": 405.3,
+        "risk_reward": 2.26,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JKTYRE.NS",
+        "company": "JK Tyre & Industries Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 46.79,
+        "volume_ratio": 3.0,
+        "circuit_risk": false,
+        "buy_zone": [
+          381.43,
+          391.49
+        ],
+        "sell_zone": [
+          413.79,
+          419.34
+        ],
+        "stop_loss": 373.8,
+        "risk_reward": 2.38,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "APTUS.NS",
+        "company": "Aptus Value Housing Finance India Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 36.38,
+        "volume_ratio": 0.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          249.89,
+          260.87
+        ],
+        "sell_zone": [
+          299.44,
+          314.41
+        ],
+        "stop_loss": 244.89,
+        "risk_reward": 4.91,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TATACAP.NS",
+        "company": "Tata Capital Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.94,
+        "volume_ratio": 1.71,
+        "circuit_risk": false,
+        "buy_zone": [
+          336.71,
+          347.53
+        ],
+        "sell_zone": [
+          367.86,
+          378.32
+        ],
+        "stop_loss": 329.98,
+        "risk_reward": 2.55,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "PREMIERENE.NS",
+        "company": "Premier Energies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 50.67,
+        "volume_ratio": 2.15,
+        "circuit_risk": false,
+        "buy_zone": [
+          978.6,
+          1016.22
+        ],
+        "sell_zone": [
+          1107.52,
+          1128.54
+        ],
+        "stop_loss": 959.03,
+        "risk_reward": 3.14,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "RITES.NS",
+        "company": "RITES Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 64.55,
+        "volume_ratio": 1.66,
+        "circuit_risk": false,
+        "buy_zone": [
+          209.12,
+          214.58
+        ],
+        "sell_zone": [
+          227.67,
+          232.4
+        ],
+        "stop_loss": 204.94,
+        "risk_reward": 2.63,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "LUPIN.NS",
+        "company": "Lupin Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 44.0,
+        "volume_ratio": 2.06,
+        "circuit_risk": false,
+        "buy_zone": [
+          2341.73,
+          2373.28
+        ],
+        "sell_zone": [
+          2492.57,
+          2516.83
+        ],
+        "stop_loss": 2294.9,
+        "risk_reward": 2.35,
+        "signal": "buy"
+      }
+    ]
+  }
+]
