@@ -1,0 +1,242 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "KOTAKBANK.NS",
+        "company": "Kotak Mahindra Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.21,
+        "volume_ratio": 1.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          383.22,
+          386.69
+        ],
+        "sell_zone": [
+          397.69,
+          401.91
+        ],
+        "stop_loss": 375.56,
+        "risk_reward": 1.58,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "FMCG",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "AWL.NS",
+        "company": "AWL Agri Business Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 44.08,
+        "volume_ratio": 2.26,
+        "circuit_risk": false,
+        "buy_zone": [
+          184.73,
+          187.28
+        ],
+        "sell_zone": [
+          195.3,
+          197.91
+        ],
+        "stop_loss": 181.04,
+        "risk_reward": 2.14,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HEXT.NS",
+        "company": "Hexaware Technologies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.55,
+        "volume_ratio": 0.25,
+        "circuit_risk": false,
+        "buy_zone": [
+          530.05,
+          549.02
+        ],
+        "sell_zone": [
+          579.78,
+          593.65
+        ],
+        "stop_loss": 519.45,
+        "risk_reward": 2.35,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ADANIENSOL.NS",
+        "company": "Adani Energy Solutions Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 36.75,
+        "volume_ratio": 1.07,
+        "circuit_risk": false,
+        "buy_zone": [
+          1533.48,
+          1573.85
+        ],
+        "sell_zone": [
+          1675.02,
+          1676.48
+        ],
+        "stop_loss": 1502.81,
+        "risk_reward": 2.4,
+        "signal": "watch"
+      },
+      {
+        "ticker": "INDIGO.NS",
+        "company": "InterGlobe Aviation Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 41.99,
+        "volume_ratio": 1.9,
+        "circuit_risk": false,
+        "buy_zone": [
+          5117.47,
+          5151.38
+        ],
+        "sell_zone": [
+          5370.0,
+          5416.3
+        ],
+        "stop_loss": 5015.12,
+        "risk_reward": 2.17,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GRASIM.NS",
+        "company": "Grasim Industries Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.7,
+        "volume_ratio": 1.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          3044.69,
+          3094.96
+        ],
+        "sell_zone": [
+          3318.28,
+          3410.05
+        ],
+        "stop_loss": 2983.8,
+        "risk_reward": 3.42,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HINDZINC.NS",
+        "company": "Hindustan Zinc Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 62.84,
+        "volume_ratio": 2.6,
+        "circuit_risk": false,
+        "buy_zone": [
+          517.23,
+          539.93
+        ],
+        "sell_zone": [
+          598.5,
+          615.38
+        ],
+        "stop_loss": 506.89,
+        "risk_reward": 3.61,
+        "signal": "watch"
+      },
+      {
+        "ticker": "LLOYDSME.NS",
+        "company": "Lloyds Metals And Energy Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.59,
+        "volume_ratio": 0.54,
+        "circuit_risk": false,
+        "buy_zone": [
+          1840.02,
+          1894.1
+        ],
+        "sell_zone": [
+          2076.38,
+          2180.2
+        ],
+        "stop_loss": 1803.22,
+        "risk_reward": 4.09,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "SUNPHARMA.NS",
+        "company": "Sun Pharmaceutical Industries Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.09,
+        "volume_ratio": 0.64,
+        "circuit_risk": false,
+        "buy_zone": [
+          1870.76,
+          1908.6
+        ],
+        "sell_zone": [
+          1979.75,
+          1996.99
+        ],
+        "stop_loss": 1833.34,
+        "risk_reward": 1.75,
+        "signal": "watch"
+      }
+    ]
+  }
+]
