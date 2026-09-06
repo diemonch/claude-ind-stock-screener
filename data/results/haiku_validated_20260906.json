@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "FIVESTAR.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong trend continuation with elevated volume ratio (1.71) and favorable risk-reward (2.8) despite low confluence score."
+  },
+  {
+    "ticker": "JMFINANCIL.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong trend continuation with good volume ratio (1.65) and RSI in neutral zone supports buy zone entry."
+  },
+  {
+    "ticker": "TITAGARH.NS",
+    "validated": true,
+    "confidence": "high",
+    "reason": "Strong bullish reversal with elevated volume ratio and healthy RSI provides actionable setup with favorable risk-reward."
+  }
+]
