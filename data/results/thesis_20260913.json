@@ -1,0 +1,71 @@
+[
+  {
+    "ticker": "INDIANB.NS",
+    "company": "Indian Bank",
+    "sector": "PSU Banking",
+    "trend": "Recovering uptrend after consolidation near 52W lows; PSU bank rotation gaining momentum",
+    "buy_zone": [
+      510,
+      535
+    ],
+    "sell_zone": [
+      620,
+      645
+    ],
+    "stop_loss": 488,
+    "risk_reward": 2.9,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Indian Bank trades at attractive valuations (~0.8x P/B) with improving asset quality metrics and GNPA trending below 4%, making it a compelling PSU banking re-rating play. RBI's accommodative stance and anticipated rate cuts in H1 FY26 should expand NIM and boost credit growth in its South India-heavy retail and MSME book. FII/DII rotation into undervalued PSU financials ahead of Q4 results season provides a near-term catalyst.",
+    "risk": "Slippage surprises in the agri or MSME segment during Q4 results could trigger a sharp de-rating. Broader PSU bank selling pressure from FIIs exiting EM positions remains an overhang.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "POONAWALLA.NS",
+    "company": "Poonawalla Fincorp",
+    "sector": "Consumer NBFC",
+    "trend": "Bottoming pattern forming after 40%+ correction from highs; low-leverage NBFC with high-quality parentage",
+    "buy_zone": [
+      295,
+      315
+    ],
+    "sell_zone": [
+      390,
+      410
+    ],
+    "stop_loss": 278,
+    "risk_reward": 3.1,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Poonawalla Fincorp offers a rare combination of Cyrus Poonawalla group backing, a clean balance sheet with negligible legacy stress, and a fast-growing consumer and MSME loan book targeting 35%+ AUM growth in FY26. The stock has corrected sharply from its highs, bringing valuations to a more palatable ~2.2x P/B, well below peak multiples, creating an asymmetric accumulate opportunity. Management's focus on tech-led underwriting and cross-selling to the group's vaccine/pharma ecosystem differentiates its growth runway from peers.",
+    "risk": "Any deterioration in unsecured consumer lending asset quality amid macroeconomic stress could compress multiples sharply given the segment's sensitivity. Slower-than-guided AUM growth or a leadership change at the top could dampen re-rating prospects.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "JSL.NS",
+    "company": "Jindal Stainless",
+    "sector": "Specialty Steel / Stainless Steel",
+    "trend": "Consolidating above key support after sector-wide correction; domestic capex cycle and anti-dumping duty tailwinds building",
+    "buy_zone": [
+      680,
+      715
+    ],
+    "sell_zone": [
+      870,
+      900
+    ],
+    "stop_loss": 648,
+    "risk_reward": 2.7,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "swing",
+    "thesis": "Jindal Stainless is the dominant domestic stainless steel producer with ~55% market share, directly benefiting from India's infrastructure push, railways capex, and import substitution following anti-dumping duties on Chinese/Indonesian imports. Volume guidance of 1.4\u20131.5 MT for FY26 underpins a strong earnings visibility cycle, while EBITDA per tonne recovery from current depressed levels offers meaningful operating leverage. The stock trades at ~12x forward earnings, a discount to its historical mean, providing margin of safety for re-rating as global nickel prices stabilize.",
+    "risk": "A sharp rally in Chinese stainless exports or reversal of anti-dumping measures could compress domestic realisations and margins rapidly. Nickel price volatility on LME remains a key raw material cost risk that is difficult to fully hedge.",
+    "circuit_flag": false
+  }
+]

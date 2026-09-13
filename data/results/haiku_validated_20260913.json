@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "INDIANB.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Highest confluence (3) with moderate trend strength and reasonable volume ratio (1.58) provides contextual support."
+  },
+  {
+    "ticker": "POONAWALLA.NS",
+    "validated": true,
+    "confidence": "high",
+    "reason": "Highest confluence (3), strong risk-reward (3.62), moderate trend strength, and solid volume ratio (2.0)."
+  },
+  {
+    "ticker": "JSL.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong trend continuation with highest confluence despite sector-wide watch pattern; elevated volume ratio supports conviction."
+  }
+]

@@ -1,0 +1,513 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "EXIDEIND.NS",
+        "company": "Exide Industries Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 35.1,
+        "volume_ratio": 0.57,
+        "circuit_risk": false,
+        "buy_zone": [
+          401.25,
+          416.55
+        ],
+        "sell_zone": [
+          462.71,
+          485.85
+        ],
+        "stop_loss": 393.22,
+        "risk_reward": 4.17,
+        "signal": "watch"
+      },
+      {
+        "ticker": "HEROMOTOCO.NS",
+        "company": "Hero MotoCorp Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.04,
+        "volume_ratio": 0.47,
+        "circuit_risk": false,
+        "buy_zone": [
+          5099.18,
+          5267.5
+        ],
+        "sell_zone": [
+          5729.75,
+          6016.24
+        ],
+        "stop_loss": 4997.2,
+        "risk_reward": 3.71,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "FIVESTAR.NS",
+        "company": "Five-Star Business Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.24,
+        "volume_ratio": 3.28,
+        "circuit_risk": false,
+        "buy_zone": [
+          502.22,
+          515.2
+        ],
+        "sell_zone": [
+          539.73,
+          555.3
+        ],
+        "stop_loss": 492.18,
+        "risk_reward": 2.35,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ICICIBANK.NS",
+        "company": "ICICI Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.69,
+        "volume_ratio": 0.79,
+        "circuit_risk": false,
+        "buy_zone": [
+          1378.96,
+          1401.55
+        ],
+        "sell_zone": [
+          1441.35,
+          1442.69
+        ],
+        "stop_loss": 1351.38,
+        "risk_reward": 1.33,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IIFL.NS",
+        "company": "IIFL Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.95,
+        "volume_ratio": 0.76,
+        "circuit_risk": false,
+        "buy_zone": [
+          593.1,
+          617.15
+        ],
+        "sell_zone": [
+          668.39,
+          683.1
+        ],
+        "stop_loss": 581.24,
+        "risk_reward": 2.96,
+        "signal": "watch"
+      },
+      {
+        "ticker": "INDIANB.NS",
+        "company": "Indian Bank",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 42.56,
+        "volume_ratio": 1.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          851.47,
+          864.1
+        ],
+        "sell_zone": [
+          893.34,
+          901.61
+        ],
+        "stop_loss": 834.44,
+        "risk_reward": 1.7,
+        "signal": "buy"
+      },
+      {
+        "ticker": "INDUSINDBK.NS",
+        "company": "IndusInd Bank Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 41.42,
+        "volume_ratio": 1.94,
+        "circuit_risk": false,
+        "buy_zone": [
+          979.7,
+          986.28
+        ],
+        "sell_zone": [
+          1018.03,
+          1026.49
+        ],
+        "stop_loss": 960.11,
+        "risk_reward": 1.72,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JMFINANCIL.NS",
+        "company": "JM Financial Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.92,
+        "volume_ratio": 0.93,
+        "circuit_risk": false,
+        "buy_zone": [
+          123.78,
+          125.68
+        ],
+        "sell_zone": [
+          132.72,
+          133.72
+        ],
+        "stop_loss": 121.3,
+        "risk_reward": 2.48,
+        "signal": "watch"
+      },
+      {
+        "ticker": "POONAWALLA.NS",
+        "company": "Poonawalla Fincorp Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 35.04,
+        "volume_ratio": 2.0,
+        "circuit_risk": false,
+        "buy_zone": [
+          438.0,
+          454.26
+        ],
+        "sell_zone": [
+          494.86,
+          519.6
+        ],
+        "stop_loss": 429.24,
+        "risk_reward": 3.62,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "OIL.NS",
+        "company": "Oil India Ltd.",
+        "sector": "Energy",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 57.97,
+        "volume_ratio": 2.13,
+        "circuit_risk": false,
+        "buy_zone": [
+          462.05,
+          470.1
+        ],
+        "sell_zone": [
+          498.72,
+          503.91
+        ],
+        "stop_loss": 452.81,
+        "risk_reward": 2.66,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "KFINTECH.NS",
+        "company": "Kfin Technologies Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.27,
+        "volume_ratio": 0.61,
+        "circuit_risk": false,
+        "buy_zone": [
+          892.92,
+          917.44
+        ],
+        "sell_zone": [
+          976.95,
+          1025.8
+        ],
+        "stop_loss": 875.06,
+        "risk_reward": 3.19,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TECHM.NS",
+        "company": "Tech Mahindra Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.65,
+        "volume_ratio": 1.09,
+        "circuit_risk": false,
+        "buy_zone": [
+          1516.72,
+          1557.83
+        ],
+        "sell_zone": [
+          1628.5,
+          1656.32
+        ],
+        "stop_loss": 1486.39,
+        "risk_reward": 2.07,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ASHOKLEY.NS",
+        "company": "Ashok Leyland Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.13,
+        "volume_ratio": 1.43,
+        "circuit_risk": false,
+        "buy_zone": [
+          163.62,
+          167.37
+        ],
+        "sell_zone": [
+          176.85,
+          185.69
+        ],
+        "stop_loss": 160.35,
+        "risk_reward": 3.06,
+        "signal": "watch"
+      },
+      {
+        "ticker": "COCHINSHIP.NS",
+        "company": "Cochin Shipyard Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 35.1,
+        "volume_ratio": 5.54,
+        "circuit_risk": false,
+        "buy_zone": [
+          1420.53,
+          1464.17
+        ],
+        "sell_zone": [
+          1534.6,
+          1541.05
+        ],
+        "stop_loss": 1392.12,
+        "risk_reward": 1.9,
+        "signal": "watch"
+      },
+      {
+        "ticker": "CONCOR.NS",
+        "company": "Container Corporation of India Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.21,
+        "volume_ratio": 0.49,
+        "circuit_risk": false,
+        "buy_zone": [
+          495.83,
+          501.82
+        ],
+        "sell_zone": [
+          523.3,
+          526.34
+        ],
+        "stop_loss": 485.91,
+        "risk_reward": 2.01,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ZENTEC.NS",
+        "company": "Zen Technologies Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.26,
+        "volume_ratio": 0.54,
+        "circuit_risk": false,
+        "buy_zone": [
+          1706.62,
+          1758.98
+        ],
+        "sell_zone": [
+          1913.15,
+          2008.81
+        ],
+        "stop_loss": 1672.49,
+        "risk_reward": 3.78,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HINDALCO.NS",
+        "company": "Hindalco Industries Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 39.14,
+        "volume_ratio": 1.53,
+        "circuit_risk": false,
+        "buy_zone": [
+          988.58,
+          1006.98
+        ],
+        "sell_zone": [
+          1052.2,
+          1054.67
+        ],
+        "stop_loss": 968.81,
+        "risk_reward": 1.92,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JSWSTEEL.NS",
+        "company": "JSW Steel Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.67,
+        "volume_ratio": 0.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          1263.19,
+          1281.25
+        ],
+        "sell_zone": [
+          1328.92,
+          1343.87
+        ],
+        "stop_loss": 1237.93,
+        "risk_reward": 1.87,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JSL.NS",
+        "company": "Jindal Stainless Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.71,
+        "volume_ratio": 1.88,
+        "circuit_risk": false,
+        "buy_zone": [
+          682.3,
+          699.94
+        ],
+        "sell_zone": [
+          742.1,
+          773.42
+        ],
+        "stop_loss": 668.65,
+        "risk_reward": 2.97,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NATIONALUM.NS",
+        "company": "National Aluminium Co. Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.52,
+        "volume_ratio": 1.23,
+        "circuit_risk": false,
+        "buy_zone": [
+          358.26,
+          370.06
+        ],
+        "sell_zone": [
+          395.34,
+          399.52
+        ],
+        "stop_loss": 351.09,
+        "risk_reward": 2.55,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "normal",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "LODHA.NS",
+        "company": "Lodha Developers Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 35.32,
+        "volume_ratio": 2.69,
+        "circuit_risk": false,
+        "buy_zone": [
+          1140.18,
+          1178.77
+        ],
+        "sell_zone": [
+          1262.5,
+          1325.62
+        ],
+        "stop_loss": 1117.38,
+        "risk_reward": 3.2,
+        "signal": "watch"
+      }
+    ]
+  }
+]
