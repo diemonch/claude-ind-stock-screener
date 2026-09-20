@@ -1,0 +1,20 @@
+[
+  {
+    "ticker": "M&MFIN.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Highest confluence score (3) in batch with moderate trend strength and strong risk-reward (3.2) justifies buy signal."
+  },
+  {
+    "ticker": "TATACAP.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Confluence score of 3 with moderate trend and elevated volume ratio (2.49) validates signal despite lower risk-reward."
+  },
+  {
+    "ticker": "TECHM.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Moderate trend strength with acceptable confluence score and risk-reward ratio, but sideways market condition warrants patience near buy zone."
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "ticker": "M&MFIN.NS",
+    "company": "Mahindra & Mahindra Financial Services",
+    "sector": "NBFC / Rural Finance",
+    "trend": "Bottoming structure after multi-quarter NPA cycle; rural credit demand recovering with kharif disbursals",
+    "buy_zone": [
+      260,
+      275
+    ],
+    "sell_zone": [
+      320,
+      335
+    ],
+    "stop_loss": 248,
+    "risk_reward": 2.6,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "accumulate",
+    "thesis": "M&M Financial is leveraged to rural India's credit recovery cycle, with tractor and UV financing volumes picking up ahead of a normal monsoon base. Collection efficiency has stabilised and management guidance points to NIM expansion as high-cost legacy borrowings mature. Valuation at ~1.3x book offers a margin of safety relative to its 5-year average of 1.8x, with re-rating likely as Q2 results confirm asset quality improvement.",
+    "risk": "Any deterioration in kharif crop output or a spike in rural unemployment could trigger a fresh NPA cycle, pressuring provisions and compressing ROA below 2%. Regulatory tightening on NBFC liquidity norms from RBI remains an overhang on sector re-rating.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "TATACAP.NS",
+    "company": "Tata Capital (Tata Sons NBFC arm)",
+    "sector": "Diversified NBFC / Financial Services",
+    "trend": "Strong uptrend on Tata Group re-rating premium; AUM growth momentum accelerating post parentage visibility",
+    "buy_zone": [
+      900,
+      940
+    ],
+    "sell_zone": [
+      1120,
+      1160
+    ],
+    "stop_loss": 865,
+    "risk_reward": 2.9,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Tata Capital benefits from Tata Group's brand halo and a diversified lending book spanning home loans, SME, and consumer finance, providing resilience against single-segment stress. The anticipated IPO pipeline and increasing retail float will likely catalyse institutional discovery and index inclusion speculation, compressing the valuation discount to listed NBFC peers. AUM growth trending above 20% YoY and improving cost-to-income ratios underpin a structural re-rating thesis over the near term.",
+    "risk": "As an unlisted or thinly traded entity, price discovery can be erratic with wide bid-ask spreads, making exit execution at target zones uncertain. Any delay in the IPO timeline or a Tata Group holding company restructuring could defer the anticipated re-rating catalyst.",
+    "circuit_flag": true
+  },
+  {
+    "ticker": "TECHM.NS",
+    "company": "Tech Mahindra",
+    "sector": "IT Services / Telecom Tech",
+    "trend": "Turnaround inflection underway; margin recovery thesis gaining traction after CEO-led restructuring",
+    "buy_zone": [
+      1480,
+      1530
+    ],
+    "sell_zone": [
+      1780,
+      1820
+    ],
+    "stop_loss": 1420,
+    "risk_reward": 2.7,
+    "signal": "BUY",
+    "confluence": "3/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Tech Mahindra's new management under CEO Mohit Joshi is executing a credible margin recovery plan targeting EBIT margins back toward 15% from the current sub-11% trough, with headcount rationalisation and pyramid correction already delivering results. Telecom vertical, which forms ~40% of revenues, is poised to benefit from global 5G capex renewal cycles, providing a sector-specific demand tailwind that peers like Infosys and TCS do not have proportionally. The stock trades at a meaningful discount to large-cap IT peers on a forward P/E basis, and any positive earnings revision in Q2 results could trigger a sharp re-rating as consensus catches up.",
+    "risk": "Recovery in BFSI and telecom deal ramp-ups remains slower than guided, and any further margin miss in the upcoming quarterly result would invalidate the turnaround thesis and could see institutional selling pressure intensify. USD/INR appreciation risk could compress reported revenue growth and dampen FII interest in export-oriented IT names.",
+    "circuit_flag": false
+  }
+]
