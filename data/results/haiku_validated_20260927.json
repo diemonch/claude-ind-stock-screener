@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "HYUNDAI.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Moderate confluence with elevated volume ratio in expiry week sideways market, but low RSI and trend_shift=none warrant cautious entry at buy_zone."
+  },
+  {
+    "ticker": "INDGN.NS",
+    "validated": true,
+    "confidence": "medium",
+    "reason": "Strong trend continuation with elevated volume ratio suggests institutional accumulation despite expiry week volatility."
+  }
+]

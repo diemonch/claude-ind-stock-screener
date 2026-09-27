@@ -1,0 +1,184 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HYUNDAI.NS",
+        "company": "Hyundai Motor India Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 44.97,
+        "volume_ratio": 2.52,
+        "circuit_risk": false,
+        "buy_zone": [
+          2074.82,
+          2122.28
+        ],
+        "sell_zone": [
+          2222.62,
+          2249.28
+        ],
+        "stop_loss": 2033.32,
+        "risk_reward": 2.11,
+        "signal": "buy"
+      },
+      {
+        "ticker": "KALYANKJIL.NS",
+        "company": "Kalyan Jewellers India Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.89,
+        "volume_ratio": 0.42,
+        "circuit_risk": false,
+        "buy_zone": [
+          564.49,
+          577.48
+        ],
+        "sell_zone": [
+          612.43,
+          615.39
+        ],
+        "stop_loss": 553.2,
+        "risk_reward": 2.41,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "PNBHOUSING.NS",
+        "company": "PNB Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.99,
+        "volume_ratio": 0.44,
+        "circuit_risk": false,
+        "buy_zone": [
+          1091.61,
+          1120.8
+        ],
+        "sell_zone": [
+          1180.43,
+          1192.01
+        ],
+        "stop_loss": 1069.78,
+        "risk_reward": 2.2,
+        "signal": "watch"
+      },
+      {
+        "ticker": "NIACL.NS",
+        "company": "The New India Assurance Company Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.33,
+        "volume_ratio": 0.12,
+        "circuit_risk": false,
+        "buy_zone": [
+          167.25,
+          184.28
+        ],
+        "sell_zone": [
+          204.73,
+          204.74
+        ],
+        "stop_loss": 163.91,
+        "risk_reward": 2.45,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ANTHEM.NS",
+        "company": "Anthem Biosciences Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.71,
+        "volume_ratio": 0.38,
+        "circuit_risk": false,
+        "buy_zone": [
+          872.69,
+          892.43
+        ],
+        "sell_zone": [
+          958.94,
+          1006.89
+        ],
+        "stop_loss": 855.24,
+        "risk_reward": 3.67,
+        "signal": "watch"
+      },
+      {
+        "ticker": "INDGN.NS",
+        "company": "Indegene Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 64.73,
+        "volume_ratio": 3.3,
+        "circuit_risk": false,
+        "buy_zone": [
+          569.08,
+          577.55
+        ],
+        "sell_zone": [
+          611.48,
+          616.3
+        ],
+        "stop_loss": 557.7,
+        "risk_reward": 2.6,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "expiry_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "BRIGADE.NS",
+        "company": "Brigade Enterprises Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.79,
+        "volume_ratio": 0.38,
+        "circuit_risk": false,
+        "buy_zone": [
+          577.45,
+          608.95
+        ],
+        "sell_zone": [
+          671.64,
+          705.22
+        ],
+        "stop_loss": 565.9,
+        "risk_reward": 3.49,
+        "signal": "watch"
+      }
+    ]
+  }
+]

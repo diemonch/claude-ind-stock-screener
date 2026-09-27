@@ -1,0 +1,48 @@
+[
+  {
+    "ticker": "HYUNDAI.NS",
+    "company": "Hyundai Motor India",
+    "sector": "Passenger Vehicles",
+    "trend": "Insufficient data to determine trend direction or strength",
+    "buy_zone": [
+      null,
+      null
+    ],
+    "sell_zone": [
+      null,
+      null
+    ],
+    "stop_loss": null,
+    "risk_reward": null,
+    "signal": "NO SIGNAL \u2014 DATA UNAVAILABLE",
+    "confluence": "0/4",
+    "horizon": "undetermined",
+    "account_tag": "watchlist",
+    "thesis": "No validated signal data was supplied for HYUNDAI.NS; all technical and fundamental fields are null. A thesis cannot be responsibly constructed without price levels, momentum indicators, or financial metrics. Re-submit with complete signal data before initiating any position.",
+    "risk": "Acting on an empty data set carries undefined risk parameters. Position sizing and stop placement are impossible without price and volatility inputs.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "INDGN.NS",
+    "company": "Indegene Ltd",
+    "sector": "Healthcare Technology / Digital Commercialisation",
+    "trend": "Insufficient data to determine trend direction or strength",
+    "buy_zone": [
+      null,
+      null
+    ],
+    "sell_zone": [
+      null,
+      null
+    ],
+    "stop_loss": null,
+    "risk_reward": null,
+    "signal": "NO SIGNAL \u2014 DATA UNAVAILABLE",
+    "confluence": "0/4",
+    "horizon": "undetermined",
+    "account_tag": "watchlist",
+    "thesis": "No validated signal data was supplied for INDGN.NS; all technical and fundamental fields are null. A thesis cannot be responsibly constructed without price levels, RSI, volume ratios, or forward valuation metrics. Re-submit with complete signal data before initiating any position.",
+    "risk": "Constructing a trade around absent data exposes the portfolio to unquantified downside. Stop-loss and risk-reward calculations require live price and volatility inputs at minimum.",
+    "circuit_flag": false
+  }
+]
