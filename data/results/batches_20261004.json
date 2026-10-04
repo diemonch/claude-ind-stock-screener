@@ -1,0 +1,505 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HYUNDAI.NS",
+        "company": "Hyundai Motor India Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 38.09,
+        "volume_ratio": 2.76,
+        "circuit_risk": false,
+        "buy_zone": [
+          2012.52,
+          2058.12
+        ],
+        "sell_zone": [
+          2218.35,
+          2223.11
+        ],
+        "stop_loss": 1972.27,
+        "risk_reward": 2.94,
+        "signal": "buy"
+      },
+      {
+        "ticker": "MOTHERSON.NS",
+        "company": "Samvardhana Motherson International Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 42.52,
+        "volume_ratio": 2.02,
+        "circuit_risk": false,
+        "buy_zone": [
+          157.29,
+          159.75
+        ],
+        "sell_zone": [
+          165.24,
+          166.88
+        ],
+        "stop_loss": 154.14,
+        "risk_reward": 1.72,
+        "signal": "watch"
+      },
+      {
+        "ticker": "TVSMOTOR.NS",
+        "company": "TVS Motor Company Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 38.46,
+        "volume_ratio": 1.93,
+        "circuit_risk": false,
+        "buy_zone": [
+          4031.83,
+          4055.25
+        ],
+        "sell_zone": [
+          4185.62,
+          4195.0
+        ],
+        "stop_loss": 3951.19,
+        "risk_reward": 1.59,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "CGCL.NS",
+        "company": "Capri Global Capital Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.53,
+        "volume_ratio": 0.84,
+        "circuit_risk": false,
+        "buy_zone": [
+          242.73,
+          251.54
+        ],
+        "sell_zone": [
+          274.49,
+          275.15
+        ],
+        "stop_loss": 237.88,
+        "risk_reward": 2.99,
+        "signal": "watch"
+      },
+      {
+        "ticker": "IIFL.NS",
+        "company": "IIFL Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.3,
+        "volume_ratio": 0.78,
+        "circuit_risk": false,
+        "buy_zone": [
+          570.0,
+          591.97
+        ],
+        "sell_zone": [
+          628.9,
+          646.68
+        ],
+        "stop_loss": 558.6,
+        "risk_reward": 2.54,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PNBHOUSING.NS",
+        "company": "PNB Housing Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.94,
+        "volume_ratio": 1.16,
+        "circuit_risk": false,
+        "buy_zone": [
+          1069.34,
+          1093.35
+        ],
+        "sell_zone": [
+          1180.43,
+          1200.0
+        ],
+        "stop_loss": 1047.95,
+        "risk_reward": 3.26,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "CHENNPETRO.NS",
+        "company": "Chennai Petroleum Corporation Ltd.",
+        "sector": "Energy",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.42,
+        "volume_ratio": 0.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          1287.89,
+          1369.65
+        ],
+        "sell_zone": [
+          1532.92,
+          1562.97
+        ],
+        "stop_loss": 1262.13,
+        "risk_reward": 3.29,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "FMCG",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "BALRAMCHIN.NS",
+        "company": "Balrampur Chini Mills Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.52,
+        "volume_ratio": 0.53,
+        "circuit_risk": false,
+        "buy_zone": [
+          645.95,
+          657.71
+        ],
+        "sell_zone": [
+          706.26,
+          716.19
+        ],
+        "stop_loss": 633.03,
+        "risk_reward": 3.16,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HFCL.NS",
+        "company": "HFCL Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 58.99,
+        "volume_ratio": 3.43,
+        "circuit_risk": false,
+        "buy_zone": [
+          198.08,
+          208.76
+        ],
+        "sell_zone": [
+          237.4,
+          251.03
+        ],
+        "stop_loss": 194.12,
+        "risk_reward": 4.39,
+        "signal": "watch"
+      },
+      {
+        "ticker": "URBANCO.NS",
+        "company": "Urban Company Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.86,
+        "volume_ratio": 0.72,
+        "circuit_risk": false,
+        "buy_zone": [
+          154.48,
+          159.65
+        ],
+        "sell_zone": [
+          174.68,
+          178.33
+        ],
+        "stop_loss": 151.39,
+        "risk_reward": 3.43,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HAL.NS",
+        "company": "Hindustan Aeronautics Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.27,
+        "volume_ratio": 0.87,
+        "circuit_risk": false,
+        "buy_zone": [
+          4555.56,
+          4683.75
+        ],
+        "sell_zone": [
+          4931.5,
+          4943.9
+        ],
+        "stop_loss": 4464.45,
+        "risk_reward": 2.05,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "HINDZINC.NS",
+        "company": "Hindustan Zinc Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.57,
+        "volume_ratio": 0.77,
+        "circuit_risk": false,
+        "buy_zone": [
+          552.82,
+          563.1
+        ],
+        "sell_zone": [
+          600.66,
+          630.69
+        ],
+        "stop_loss": 541.76,
+        "risk_reward": 3.56,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JINDALSAW.NS",
+        "company": "Jindal Saw Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 37.6,
+        "volume_ratio": 1.35,
+        "circuit_risk": false,
+        "buy_zone": [
+          264.66,
+          278.96
+        ],
+        "sell_zone": [
+          312.15,
+          327.76
+        ],
+        "stop_loss": 259.37,
+        "risk_reward": 3.87,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JINDALSTEL.NS",
+        "company": "Jindal Steel Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.91,
+        "volume_ratio": 1.2,
+        "circuit_risk": false,
+        "buy_zone": [
+          1091.53,
+          1115.65
+        ],
+        "sell_zone": [
+          1162.0,
+          1177.88
+        ],
+        "stop_loss": 1069.7,
+        "risk_reward": 1.96,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SHYAMMETL.NS",
+        "company": "Shyam Metalics and Energy Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.98,
+        "volume_ratio": 0.93,
+        "circuit_risk": false,
+        "buy_zone": [
+          1043.55,
+          1054.55
+        ],
+        "sell_zone": [
+          1101.67,
+          1111.53
+        ],
+        "stop_loss": 1022.68,
+        "risk_reward": 2.18,
+        "signal": "watch"
+      },
+      {
+        "ticker": "SAIL.NS",
+        "company": "Steel Authority of India Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 44.44,
+        "volume_ratio": 1.68,
+        "circuit_risk": false,
+        "buy_zone": [
+          167.39,
+          172.12
+        ],
+        "sell_zone": [
+          186.24,
+          190.94
+        ],
+        "stop_loss": 164.04,
+        "risk_reward": 3.3,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GLENMARK.NS",
+        "company": "Glenmark Pharmaceuticals Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 43.17,
+        "volume_ratio": 1.76,
+        "circuit_risk": false,
+        "buy_zone": [
+          2325.3,
+          2343.63
+        ],
+        "sell_zone": [
+          2472.0,
+          2507.38
+        ],
+        "stop_loss": 2278.79,
+        "risk_reward": 2.79,
+        "signal": "buy"
+      },
+      {
+        "ticker": "SAGILITY.NS",
+        "company": "Sagility Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.3,
+        "volume_ratio": 0.97,
+        "circuit_risk": false,
+        "buy_zone": [
+          42.57,
+          43.99
+        ],
+        "sell_zone": [
+          46.23,
+          46.62
+        ],
+        "stop_loss": 41.72,
+        "risk_reward": 2.01,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ZYDUSLIFE.NS",
+        "company": "Zydus Lifesciences Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 47.7,
+        "volume_ratio": 1.67,
+        "circuit_risk": false,
+        "buy_zone": [
+          1084.57,
+          1112.6
+        ],
+        "sell_zone": [
+          1181.15,
+          1216.25
+        ],
+        "stop_loss": 1062.88,
+        "risk_reward": 2.8,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ANANTRAJ.NS",
+        "company": "Anant Raj Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.99,
+        "volume_ratio": 0.82,
+        "circuit_risk": false,
+        "buy_zone": [
+          574.67,
+          591.76
+        ],
+        "sell_zone": [
+          629.76,
+          634.34
+        ],
+        "stop_loss": 563.18,
+        "risk_reward": 2.44,
+        "signal": "watch"
+      }
+    ]
+  }
+]
