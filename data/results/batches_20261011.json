@@ -1,0 +1,162 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "CGCL.NS",
+        "company": "Capri Global Capital Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.42,
+        "volume_ratio": 0.95,
+        "circuit_risk": false,
+        "buy_zone": [
+          235.87,
+          244.43
+        ],
+        "sell_zone": [
+          271.84,
+          285.43
+        ],
+        "stop_loss": 231.15,
+        "risk_reward": 4.28,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "JINDALSAW.NS",
+        "company": "Jindal Saw Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.93,
+        "volume_ratio": 0.83,
+        "circuit_risk": false,
+        "buy_zone": [
+          260.08,
+          273.84
+        ],
+        "sell_zone": [
+          295.28,
+          299.9
+        ],
+        "stop_loss": 254.88,
+        "risk_reward": 2.54,
+        "signal": "watch"
+      },
+      {
+        "ticker": "JSL.NS",
+        "company": "Jindal Stainless Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.53,
+        "volume_ratio": 0.26,
+        "circuit_risk": false,
+        "buy_zone": [
+          708.88,
+          723.84
+        ],
+        "sell_zone": [
+          759.7,
+          770.37
+        ],
+        "stop_loss": 694.7,
+        "risk_reward": 2.25,
+        "signal": "watch"
+      },
+      {
+        "ticker": "PCBL.NS",
+        "company": "PCBL Chemical Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.28,
+        "volume_ratio": 0.63,
+        "circuit_risk": false,
+        "buy_zone": [
+          309.38,
+          317.76
+        ],
+        "sell_zone": [
+          343.71,
+          344.59
+        ],
+        "stop_loss": 303.19,
+        "risk_reward": 2.95,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GRANULES.NS",
+        "company": "Granules India Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.28,
+        "volume_ratio": 0.47,
+        "circuit_risk": false,
+        "buy_zone": [
+          802.01,
+          820.34
+        ],
+        "sell_zone": [
+          885.57,
+          903.03
+        ],
+        "stop_loss": 785.97,
+        "risk_reward": 3.3,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Realty",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ANANTRAJ.NS",
+        "company": "Anant Raj Ltd.",
+        "sector": "Real Estate",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.83,
+        "volume_ratio": 0.89,
+        "circuit_risk": false,
+        "buy_zone": [
+          568.81,
+          578.76
+        ],
+        "sell_zone": [
+          617.63,
+          631.89
+        ],
+        "stop_loss": 557.43,
+        "risk_reward": 3.12,
+        "signal": "watch"
+      }
+    ]
+  }
+]
