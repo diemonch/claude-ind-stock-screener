@@ -1,0 +1,140 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "IIFL.NS",
+        "company": "IIFL Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 53.1,
+        "volume_ratio": 3.44,
+        "circuit_risk": false,
+        "buy_zone": [
+          578.29,
+          586.55
+        ],
+        "sell_zone": [
+          618.8,
+          629.79
+        ],
+        "stop_loss": 566.72,
+        "risk_reward": 2.67,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "PERSISTENT.NS",
+        "company": "Persistent Systems Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 56.73,
+        "volume_ratio": 3.66,
+        "circuit_risk": false,
+        "buy_zone": [
+          5035.25,
+          5245.38
+        ],
+        "sell_zone": [
+          5763.5,
+          5995.4
+        ],
+        "stop_loss": 4934.55,
+        "risk_reward": 3.59,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ACMESOLAR.NS",
+        "company": "ACME Solar Holdings Ltd.",
+        "sector": "Utilities",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.2,
+        "volume_ratio": 0.26,
+        "circuit_risk": false,
+        "buy_zone": [
+          401.97,
+          411.5
+        ],
+        "sell_zone": [
+          452.75,
+          460.04
+        ],
+        "stop_loss": 393.93,
+        "risk_reward": 3.88,
+        "signal": "watch"
+      },
+      {
+        "ticker": "ENGINERSIN.NS",
+        "company": "Engineers India Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.87,
+        "volume_ratio": 0.31,
+        "circuit_risk": false,
+        "buy_zone": [
+          267.56,
+          278.84
+        ],
+        "sell_zone": [
+          317.17,
+          333.03
+        ],
+        "stop_loss": 262.21,
+        "risk_reward": 4.72,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ANTHEM.NS",
+        "company": "Anthem Biosciences Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 35.73,
+        "volume_ratio": 0.86,
+        "circuit_risk": false,
+        "buy_zone": [
+          821.97,
+          842.8
+        ],
+        "sell_zone": [
+          898.57,
+          908.58
+        ],
+        "stop_loss": 805.53,
+        "risk_reward": 2.65,
+        "signal": "watch"
+      }
+    ]
+  }
+]
