@@ -1,0 +1,235 @@
+[
+  {
+    "sector": "Auto",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WELSPUNLIV.NS",
+        "company": "Welspun Living Ltd.",
+        "sector": "Consumer Cyclical",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.21,
+        "volume_ratio": 0.53,
+        "circuit_risk": false,
+        "buy_zone": [
+          208.45,
+          216.92
+        ],
+        "sell_zone": [
+          235.09,
+          240.67
+        ],
+        "stop_loss": 204.28,
+        "risk_reward": 3.0,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "FMCG",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ABDL.NS",
+        "company": "Allied Blenders and Distillers Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.83,
+        "volume_ratio": 0.78,
+        "circuit_risk": false,
+        "buy_zone": [
+          670.54,
+          682.54
+        ],
+        "sell_zone": [
+          741.39,
+          753.24
+        ],
+        "stop_loss": 657.13,
+        "risk_reward": 3.65,
+        "signal": "watch"
+      },
+      {
+        "ticker": "BALRAMCHIN.NS",
+        "company": "Balrampur Chini Mills Ltd.",
+        "sector": "Consumer Defensive",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 39.29,
+        "volume_ratio": 0.43,
+        "circuit_risk": false,
+        "buy_zone": [
+          635.27,
+          656.25
+        ],
+        "sell_zone": [
+          715.19,
+          725.07
+        ],
+        "stop_loss": 622.56,
+        "risk_reward": 3.21,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "COFORGE.NS",
+        "company": "Coforge Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 54.55,
+        "volume_ratio": 1.57,
+        "circuit_risk": false,
+        "buy_zone": [
+          1714.76,
+          1767.4
+        ],
+        "sell_zone": [
+          1964.75,
+          1997.36
+        ],
+        "stop_loss": 1680.46,
+        "risk_reward": 3.96,
+        "signal": "watch"
+      },
+      {
+        "ticker": "INFY.NS",
+        "company": "Infosys Ltd.",
+        "sector": "Technology",
+        "trend_shift": "bullish_reversal",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 63.84,
+        "volume_ratio": 2.2,
+        "circuit_risk": false,
+        "buy_zone": [
+          929.13,
+          992.73
+        ],
+        "sell_zone": [
+          1134.26,
+          1186.5
+        ],
+        "stop_loss": 910.55,
+        "risk_reward": 3.96,
+        "signal": "watch"
+      },
+      {
+        "ticker": "MPHASIS.NS",
+        "company": "MphasiS Ltd.",
+        "sector": "Technology",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 59.37,
+        "volume_ratio": 1.58,
+        "circuit_risk": false,
+        "buy_zone": [
+          2102.97,
+          2224.38
+        ],
+        "sell_zone": [
+          2513.47,
+          2605.93
+        ],
+        "stop_loss": 2060.91,
+        "risk_reward": 3.85,
+        "signal": "watch"
+      },
+      {
+        "ticker": "REDINGTON.NS",
+        "company": "Redington Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 38.59,
+        "volume_ratio": 0.59,
+        "circuit_risk": false,
+        "buy_zone": [
+          358.69,
+          379.68
+        ],
+        "sell_zone": [
+          411.2,
+          431.76
+        ],
+        "stop_loss": 351.52,
+        "risk_reward": 2.96,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ADANIPORTS.NS",
+        "company": "Adani Ports and Special Economic Zone Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.52,
+        "volume_ratio": 0.54,
+        "circuit_risk": false,
+        "buy_zone": [
+          1702.55,
+          1722.23
+        ],
+        "sell_zone": [
+          1789.77,
+          1815.33
+        ],
+        "stop_loss": 1668.5,
+        "risk_reward": 2.05,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Pharma",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "INDGN.NS",
+        "company": "Indegene Ltd.",
+        "sector": "Healthcare",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 42.88,
+        "volume_ratio": 0.88,
+        "circuit_risk": false,
+        "buy_zone": [
+          571.43,
+          575.95
+        ],
+        "sell_zone": [
+          610.43,
+          614.15
+        ],
+        "stop_loss": 560.0,
+        "risk_reward": 2.82,
+        "signal": "watch"
+      }
+    ]
+  }
+]
