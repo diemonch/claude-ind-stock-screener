@@ -1,0 +1,89 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "MOTILALOFS.NS",
+        "company": "Motilal Oswal Financial Services Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 3,
+        "rsi": 40.91,
+        "volume_ratio": 2.23,
+        "circuit_risk": false,
+        "buy_zone": [
+          913.06,
+          957.88
+        ],
+        "sell_zone": [
+          1067.4,
+          1077.97
+        ],
+        "stop_loss": 894.8,
+        "risk_reward": 3.37,
+        "signal": "buy"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "ADANIPORTS.NS",
+        "company": "Adani Ports and Special Economic Zone Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 61.28,
+        "volume_ratio": 1.83,
+        "circuit_risk": false,
+        "buy_zone": [
+          1683.72,
+          1715.83
+        ],
+        "sell_zone": [
+          1785.18,
+          1839.46
+        ],
+        "stop_loss": 1650.05,
+        "risk_reward": 2.26,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WELCORP.NS",
+        "company": "Welspun Corp Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 41.85,
+        "volume_ratio": 1.21,
+        "circuit_risk": false,
+        "buy_zone": [
+          2309.7,
+          2416.35
+        ],
+        "sell_zone": [
+          2712.05,
+          2809.27
+        ],
+        "stop_loss": 2263.51,
+        "risk_reward": 4.0,
+        "signal": "watch"
+      }
+    ]
+  }
+]
