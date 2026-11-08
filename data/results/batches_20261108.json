@@ -1,0 +1,60 @@
+[
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "GESHIP.NS",
+        "company": "Great Eastern Shipping Co. Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 44.75,
+        "volume_ratio": 0.28,
+        "circuit_risk": false,
+        "buy_zone": [
+          1433.07,
+          1471.6
+        ],
+        "sell_zone": [
+          1580.62,
+          1625.92
+        ],
+        "stop_loss": 1404.41,
+        "risk_reward": 3.15,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Metal",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "WELCORP.NS",
+        "company": "Welspun Corp Ltd.",
+        "sector": "Basic Materials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 40.05,
+        "volume_ratio": 0.1,
+        "circuit_risk": false,
+        "buy_zone": [
+          2152.31,
+          2302.5
+        ],
+        "sell_zone": [
+          2630.75,
+          2669.04
+        ],
+        "stop_loss": 2109.26,
+        "risk_reward": 3.58,
+        "signal": "watch"
+      }
+    ]
+  }
+]

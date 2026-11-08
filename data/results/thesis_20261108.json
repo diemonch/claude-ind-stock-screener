@@ -1,0 +1,462 @@
+[
+  {
+    "ticker": "GESHIP.NS",
+    "company": "Great Eastern Shipping Co. Ltd.",
+    "sector": "Industrials",
+    "trend": "Weak bullish bias with EMA crossover forming near 52W mid-range; momentum not yet confirmed",
+    "buy_zone": [
+      1433.07,
+      1471.6
+    ],
+    "sell_zone": [
+      1580.62,
+      1625.92
+    ],
+    "stop_loss": 1404.41,
+    "risk_reward": 3.15,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Great Eastern trades at a compelling 7.4x forward P/E with a 60% net margin and 67% revenue growth, reflecting strong tanker freight rates and disciplined capital allocation. The stock has recovered from its 52W low of \u20b91,003 and an EMA crossover signals potential accumulation interest at current levels. A move toward the \u20b91,580\u20131,626 sell zone offers a 3.15 R/R, attractive for a low-beta (0.37) shipping play.",
+    "risk": "Volume ratio of 0.28 signals weak conviction \u2014 a sustained freight rate correction or global trade slowdown could stall the recovery. No trend shift confirmation means premature entry risks a retest toward the \u20b91,404 stop.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "WELCORP.NS",
+    "company": "Welspun Corp Ltd.",
+    "sector": "Basic Materials",
+    "trend": "Weak consolidation with EMA crossover near lower range; stock far off 52W high of \u20b92,900",
+    "buy_zone": [
+      2152.31,
+      2302.5
+    ],
+    "sell_zone": [
+      2630.75,
+      2669.04
+    ],
+    "stop_loss": 2109.26,
+    "risk_reward": 3.58,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Welspun Corp benefits from a robust domestic pipeline ordering cycle driven by government infrastructure spend and international oil & gas pipe demand, supporting a 24.5% ROE. The EMA crossover near \u20b92,152 offers an entry well below the \u20b92,900 52W high, with the \u20b92,630\u20132,669 target zone representing a credible recovery to prior resistance. At 19.6x forward P/E with moderate revenue growth, valuation is fair for a capital goods upcycle play.",
+    "risk": "Volume ratio of just 0.10 is a red flag \u2014 institutional participation is absent and the signal lacks momentum confirmation. Revenue growth of only 6.2% suggests order inflows may be lumpy, exposing the thesis to quarterly earnings disappointment.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MAHABANK.NS",
+    "company": "Bank of Maharashtra",
+    "sector": "Financial Services",
+    "trend": "Bullish reversal with moderate strength; EMA crossover and MACD histogram flip confirm improving momentum",
+    "buy_zone": [
+      74.97,
+      78.23
+    ],
+    "sell_zone": [
+      83.7,
+      86.98
+    ],
+    "stop_loss": 73.47,
+    "risk_reward": 2.79,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_3_5_weeks",
+    "account_tag": "swing",
+    "thesis": "Bank of Maharashtra is one of the best-performing PSU banks with 23.3% ROE, 32.7% revenue growth, and a 52.65% net margin, trading at a cheap 6.4x forward P/E \u2014 a significant discount to private peers. The bullish reversal signal with MACD histogram flip and RSI at 60.8 suggests momentum is building off the \u20b953.86 52W low. A target of \u20b983.7\u201387 aligns with a move toward prior highs at \u20b994.5, offering a clean risk/reward setup.",
+    "risk": "Signal is flagged 'avoid' with a low confluence score of 1 \u2014 the low volume ratio (0.25) suggests the reversal lacks institutional follow-through. PSU bank sentiment remains vulnerable to any RBI policy surprise or asset quality deterioration in the MSME segment.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "BSOFT.NS",
+    "company": "Birlasoft Ltd.",
+    "sector": "Technology",
+    "trend": "Moderate continuation trend with EMA crossover and MACD flip; stock recovering from near 52W lows",
+    "buy_zone": [
+      279.2,
+      297.4
+    ],
+    "sell_zone": [
+      330.81,
+      346.71
+    ],
+    "stop_loss": 273.62,
+    "risk_reward": 3.44,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Birlasoft is a mid-cap IT services name trading at 13.7x forward P/E \u2014 a steep discount to Nifty IT \u2014 with the stock bouncing from near its 52W low of \u20b9263.77, suggesting a potential valuation floor forming. The MACD histogram flip combined with EMA crossover near \u20b9279 indicates early technical recovery, with a 3.44 R/R to the \u20b9330\u2013347 target zone. ROE of 15.3% and low beta (0.31) make this a defensive accumulation candidate during IT sector consolidation.",
+    "risk": "Revenue growth of just 6.6% and an extremely low volume ratio of 0.06 signal lack of near-term earnings catalysts and weak institutional demand. The 52W high of \u20b9462 is far above targets, implying the stock remains in a broader downtrend and a re-rating requires a demand environment recovery in BFSI/manufacturing verticals.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CEMPRO.NS",
+    "company": "Cemindia Projects Ltd.",
+    "sector": "Industrials",
+    "trend": "Bullish reversal with moderate strength; EMA and MACD signals firing after sharp recovery from 52W low",
+    "buy_zone": [
+      1083.65,
+      1130.43
+    ],
+    "sell_zone": [
+      1298.15,
+      1357.91
+    ],
+    "stop_loss": 1061.98,
+    "risk_reward": 4.9,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "Cemindia Projects has tripled from its 52W low of \u20b9502, powered by 26.3% revenue growth and a strong 26.7% ROE, reflecting strong order book execution in the domestic infrastructure cycle. The bullish reversal with MACD histogram flip near \u20b91,084 offers a 4.9 R/R to \u20b91,298\u20131,358 \u2014 a credible recovery toward prior highs at \u20b91,649. Its low net margin of 5.8% at 23.6x forward P/E leaves the thesis entirely execution-dependent.",
+    "risk": "Thin 5.8% net margin makes earnings highly sensitive to input cost inflation or project delays, which are common in India's infrastructure contracting space. Volume ratio of 0.18 and confluence score of 1 warn against aggressive entry \u2014 wait for a volume-backed breakout above \u20b91,130 before committing capital.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ENGINERSIN.NS",
+    "company": "Engineers India Ltd.",
+    "sector": "Industrials",
+    "trend": "Moderate continuation trend with EMA crossover and MACD flip; recovering toward upper half of 52W range",
+    "buy_zone": [
+      232.21,
+      248.83
+    ],
+    "sell_zone": [
+      294.9,
+      313.33
+    ],
+    "stop_loss": 227.57,
+    "risk_reward": 4.91,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "swing",
+    "thesis": "Engineers India Ltd. is a government-owned engineering consultancy with a stellar 29.7% ROE and 23.5% net margin, benefiting from India's refinery expansion and green hydrogen project pipeline. The EMA crossover near \u20b9232 offers a high 4.91 R/R toward \u20b9294\u2013313, approaching the 52W high of \u20b9319.8 achieved earlier this cycle. At 20.8x forward P/E with a nearly debt-free balance sheet, the valuation is reasonable for a capital-light model.",
+    "risk": "Revenue declined 3.4% year-on-year, raising concerns about order conversion pace from India's refining capex pipeline. Circuit risk flag is active \u2014 intraday liquidity constraints can amplify volatility, making position sizing critical and stop-loss execution unreliable in fast markets.",
+    "circuit_flag": true
+  },
+  {
+    "ticker": "HBLENGINE.NS",
+    "company": "HBL Engineering Ltd.",
+    "sector": "Industrials",
+    "trend": "Moderate continuation trend with EMA and MACD flip firing; consolidating above 52W mid-range",
+    "buy_zone": [
+      702.81,
+      733.96
+    ],
+    "sell_zone": [
+      829.59,
+      876.87
+    ],
+    "stop_loss": 688.75,
+    "risk_reward": 4.55,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_6_8_weeks",
+    "account_tag": "accumulate",
+    "thesis": "HBL Engineering is a niche defence and railway electronics play with a 23.4% net margin, benefiting from India's accelerating railway modernisation and defence electronics indigenisation push. Volume ratio of 0.45 is the highest in this screened universe, suggesting relative institutional interest compared to peers, while the MACD flip and EMA crossover near \u20b9703 set up a 4.55 R/R to the \u20b9829\u2013877 target. The stock has corrected nearly 38% from its 52W high of \u20b91,118, creating a potential value entry in a structural growth theme.",
+    "risk": "At 28.5x forward P/E with only 6% revenue growth, the valuation demands consistent order inflow acceleration \u2014 any delay in MoD or Railways order disbursement could compress multiples sharply. ROE data is unavailable, limiting full fundamental due diligence on capital efficiency.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "HEROMOTOCO.NS",
+    "company": "Hero MotoCorp Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Bullish reversal with moderate strength; EMA crossover and MACD flip confirm recovery from 52W low zone",
+    "buy_zone": [
+      4887.64,
+      5025.25
+    ],
+    "sell_zone": [
+      5369.12,
+      5548.06
+    ],
+    "stop_loss": 4789.89,
+    "risk_reward": 3.02,
+    "signal": "WATCH",
+    "confluence": "2/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Hero MotoCorp is the dominant two-wheeler OEM with 22.5% revenue growth, 26.9% ROE, and a strengthening rural demand cycle driven by improved monsoon outcomes and government transfer payments. The bullish reversal signal near \u20b94,888 \u2014 close to the 52W low of \u20b94,604 \u2014 combined with MACD histogram flip offers a 3.02 R/R to \u20b95,369\u20135,548, a level consistent with prior consolidation. At 17x forward P/E, valuation remains undemanding relative to the two-wheeler sector's re-rating potential.",
+    "risk": "Volume ratio of just 0.07 suggests the reversal signal lacks institutional validation \u2014 a risk given FII selling pressure in Consumer Cyclical during USD strength phases. Any negative pre-results commentary on commodity cost pass-through or EV transition headwinds could quickly reverse the nascent momentum.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "HONASA.NS",
+    "company": "Honasa Consumer Ltd.",
+    "sector": "Consumer Defensive",
+    "trend": "Bullish reversal off 52-week lows with EMA crossover and MACD histogram flipping positive",
+    "buy_zone": [
+      428.58,
+      435.46
+    ],
+    "sell_zone": [
+      473.2,
+      479.33
+    ],
+    "stop_loss": 420.01,
+    "risk_reward": 3.68,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Honasa is staging a technical reversal from its deep 52-week low of \u20b9246, with EMA crossover and MACD flip signalling early momentum recovery. Revenue growth of 27% YoY and 9.75% net margins confirm the underlying D2C business remains operationally sound despite prior selloff. Price is currently trading well below its 52-week high of \u20b9506, offering meaningful upside to sell zone if momentum sustains.",
+    "risk": "Critically low volume ratio of 0.21 undermines conviction \u2014 this reversal lacks institutional participation and could fade quickly. Fwd PE of 44x with no published ROE is a valuation red flag if growth disappoints in Q4 results.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "INDIANB.NS",
+    "company": "Indian Bank",
+    "sector": "Financial Services",
+    "trend": "Moderate bullish continuation with EMA crossover confirming uptrend off 52-week lows",
+    "buy_zone": [
+      810.98,
+      829.59
+    ],
+    "sell_zone": [
+      874.86,
+      899.03
+    ],
+    "stop_loss": 794.76,
+    "risk_reward": 2.61,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Indian Bank trades at a compelling fwd PE of 7.8x with ROE of 16.14% and net margins of 36.38%, reflecting a well-run mid-sized PSU bank with improving asset quality. Revenue growth of 14.4% is steady and the stock remains ~15% below its 52-week high, offering technical room to the sell zone. Low beta of 0.24 makes this a low-volatility accumulate for investors seeking PSU banking exposure.",
+    "risk": "Volume ratio of 0.11 signals very thin participation \u2014 a rally without DII/FII volume confirmation is fragile ahead of RBI policy decisions. RSI at 63.5 approaching overbought territory limits fresh upside momentum without a healthy pullback first.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "INFY.NS",
+    "company": "Infosys Ltd.",
+    "sector": "Technology",
+    "trend": "Moderate bullish continuation recovering from 52-week lows, EMA crossover in progress",
+    "buy_zone": [
+      1029.09,
+      1076.83
+    ],
+    "sell_zone": [
+      1163.44,
+      1211.71
+    ],
+    "stop_loss": 1008.51,
+    "risk_reward": 3.03,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Infosys offers a rare combination of large-cap safety and deep value, trading at fwd PE of 14.7x \u2014 well below its historical premium \u2014 with ROE of 29.95% and net margins of 16.22% that remain best-in-class among Indian IT majors. The stock is recovering from \u20b9958 lows and an EMA crossover with MACD flip suggests the worst of IT sector selling may be over. Macro tailwinds from US Fed rate stabilisation and expected ramp-up in BFSI discretionary spending could act as near-term re-rating catalysts.",
+    "risk": "Revenue growth of just 1.4% YoY reflects genuine demand slowdown in IT services \u2014 any further guidance cut in upcoming quarterly results could break technical recovery. Extremely low volume ratio of 0.06 suggests institutional accumulation has not yet begun in earnest.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "KARURVYSYA.NS",
+    "company": "Karur Vysya Bank Ltd.",
+    "sector": "Financial Services",
+    "trend": "Bullish continuation with EMA crossover off strong multi-month uptrend from 52-week lows",
+    "buy_zone": [
+      329.31,
+      338.11
+    ],
+    "sell_zone": [
+      365.22,
+      373.95
+    ],
+    "stop_loss": 322.72,
+    "risk_reward": 3.26,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Karur Vysya Bank is one of the most attractively priced private sector banks in India with fwd PE of 10.7x, ROE of 21%, and net margins of 42.5% \u2014 fundamentals that rival much larger private peers trading at 2-3x the valuation. Revenue growth of 21% YoY is robust and the negative beta (-0.15) makes it a natural hedge in volatile broader markets. The stock's 40%+ move off its 52-week low shows structural re-rating potential still has legs if asset quality holds.",
+    "risk": "Volume ratio of 0.10 is weak, raising concerns about liquidity and whether institutional money is driving this move or retail momentum alone. RSI at 63.7 is approaching near-term resistance and the sell zone is close to the 52-week high of \u20b9390, which may cap upside.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MRPL.NS",
+    "company": "Mangalore Refinery & Petrochemicals Ltd.",
+    "sector": "Energy",
+    "trend": "Moderate bullish continuation with technical recovery from 52-week lows, MACD flipping positive",
+    "buy_zone": [
+      161.1,
+      167.33
+    ],
+    "sell_zone": [
+      185.8,
+      188.45
+    ],
+    "stop_loss": 157.88,
+    "risk_reward": 3.61,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "MRPL trades at an extremely cheap fwd PE of 4.4x with ROE of 29% and revenue growth of 43.6%, reflecting a cyclical refining upturn that the market is yet to fully price in. Crude differential dynamics and ONGC's backing provide operational stability, while the stock is still 10% below its 52-week high leaving room for a reversion trade to the sell zone. Neutral RSI of 52 and low beta of 0.08 suggest the entry is clean with limited downside overhang.",
+    "risk": "Net margin of just 3.69% exposes MRPL to sharp earnings compression if GRMs (gross refining margins) deteriorate on crude price spikes or product spread compression. Volume ratio of 0.05 is dangerously thin \u2014 this is a low-liquidity setup prone to sharp reversals on any negative energy sector news.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "MANKIND.NS",
+    "company": "Mankind Pharma Ltd.",
+    "sector": "Healthcare",
+    "trend": "Bullish continuation approaching 52-week highs with EMA crossover and MACD momentum build",
+    "buy_zone": [
+      2180.71,
+      2263.02
+    ],
+    "sell_zone": [
+      2532.35,
+      2635.15
+    ],
+    "stop_loss": 2137.1,
+    "risk_reward": 4.27,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Mankind Pharma is a domestic-focused pharma compounder with 17.3% revenue growth, 14.6% net margins, and a mass-market branded generic portfolio that benefits from India's expanding healthcare access story. The stock is making a technical push toward its 52-week high of \u20b92,642, with the sell zone essentially offering a breakout target \u2014 RSI at 63.9 leaves room before overbought conditions. The best-in-class risk-reward of 4.27x makes this one of the more structurally sound setups in the current batch despite the premium valuation.",
+    "risk": "Fwd PE of 36x prices in significant growth execution \u2014 any miss on domestic prescription volumes or pricing pressure from NPPA regulation could trigger a sharp de-rating. Volume ratio of 0.18 is below threshold, meaning the technical setup lacks strong institutional confirmation at this stage.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "PNB.NS",
+    "company": "Punjab National Bank",
+    "sector": "Financial Services",
+    "trend": "Moderate bullish continuation near 52-week highs with EMA crossover signal intact",
+    "buy_zone": [
+      114.53,
+      117.54
+    ],
+    "sell_zone": [
+      124.42,
+      127.82
+    ],
+    "stop_loss": 112.24,
+    "risk_reward": 2.66,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "PNB trades at a deep-value fwd PE of 6.8x with ROE of 15% and net margins of 38.8%, reflecting material improvement in the bank's credit quality post the NPA cleanup cycle of 2019\u20132022. The stock is trading close to its 52-week high of \u20b9131 and a confirmed breakout above the sell zone could attract FII flows into beaten-down PSU banking names. Moderate beta of 0.44 offers an acceptable volatility profile for a swing trade with defined risk.",
+    "risk": "Revenue growth of just 7.4% is the weakest in this PSU banking peer group, suggesting PNB's earnings recovery momentum is slower than peers like Indian Bank. The buy zone is perilously close to the 52-week high \u2014 there is limited technical cushion if broader markets correct or Q4 NPA numbers disappoint.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "UNIONBANK.NS",
+    "company": "Union Bank of India",
+    "sector": "Financial Services",
+    "trend": "Bullish continuation recovering toward 52-week highs with EMA crossover and MACD flip",
+    "buy_zone": [
+      169.78,
+      172.0
+    ],
+    "sell_zone": [
+      187.56,
+      192.45
+    ],
+    "stop_loss": 166.38,
+    "risk_reward": 4.24,
+    "signal": "WATCHLIST",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "swing",
+    "thesis": "Union Bank of India offers the best risk-reward in the PSU banking space here at 4.24x, with ROE of 16.3%, net margins of 41.5%, and revenue growth of 15.6% \u2014 fundamentals that are increasingly competitive with mid-tier private banks at a fraction of the valuation (fwd PE 6.5x). The stock has recovered 20% from its 52-week low and an EMA crossover with neutral-to-bullish RSI of 59.7 suggests momentum is building without being stretched. Any RBI commentary on rate stability or government capex push could act as a near-term catalyst for PSU banking re-rating.",
+    "risk": "Beta of 0.83 is the highest in this PSU bank group, making Union Bank more sensitive to broad market drawdowns and FII selling in emerging market risk-off episodes. Volume ratio of 0.06 is critically low \u2014 the technical signal lacks volume-based conviction and may be a false start without a meaningful pickup in participation.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "WHIRLPOOL.NS",
+    "company": "Whirlpool of India Ltd.",
+    "sector": "Consumer Cyclical",
+    "trend": "Moderate continuation trend with EMA crossover and MACD histogram flip, but severely undermined by near-zero volume conviction",
+    "buy_zone": [
+      791.31,
+      801.49
+    ],
+    "sell_zone": [
+      856.94,
+      899.79
+    ],
+    "stop_loss": 775.48,
+    "risk_reward": 3.92,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Whirlpool India trades ~42% below its 52-week high of \u20b91,373, offering deep value optionality if consumer durables demand recovers into the summer cooling season. Revenue growth of 12.1% is respectable, but net margins at 3.01% remain structurally thin, limiting earnings upside. Technical signals are present but volume ratio of 0.10 signals near-absent institutional participation, making entry premature.",
+    "risk": "Volume ratio of 0.10 indicates extremely low conviction \u2014 any entry risks being caught in a low-liquidity false breakout. Thin net margins leave earnings highly vulnerable to raw material cost spikes (steel, copper) and INR depreciation.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ZYDUSLIFE.NS",
+    "company": "Zydus Lifesciences Ltd.",
+    "sector": "Healthcare",
+    "trend": "Moderate continuation trend with EMA crossover and MACD flip, trading near 52-week highs but lacking volume follow-through",
+    "buy_zone": [
+      1081.61,
+      1109.73
+    ],
+    "sell_zone": [
+      1208.08,
+      1253.26
+    ],
+    "stop_loss": 1059.98,
+    "risk_reward": 3.78,
+    "signal": "AVOID",
+    "confluence": "1/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "Zydus Lifesciences delivers the strongest fundamental profile in this basket \u2014 29.2% revenue growth, 13.82% net margins, and 14.72% ROE at a reasonable 24x forward PE for a mid-cap pharma with a deepening US generics and biosimilars pipeline. The stock is consolidating near its 52-week high of \u20b91,266, suggesting institutional accumulation rather than distribution. However, volume ratio of 0.17 is insufficient to confirm breakout readiness; await a volume-confirmed move above \u20b91,110 before initiating.",
+    "risk": "US FDA inspection outcomes and ANDA approval timelines remain binary event risks that can gap the stock down materially. Low volume confluence score of 1/4 means the technical setup lacks institutional validation at current levels.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "ABDL.NS",
+    "company": "Allied Blenders and Distillers Ltd.",
+    "sector": "Consumer Defensive",
+    "trend": "Weak trend with no confirmed trend shift; lone EMA crossover signal without volume or momentum confirmation",
+    "buy_zone": [
+      665.05,
+      678.29
+    ],
+    "sell_zone": [
+      733.2,
+      750.24
+    ],
+    "stop_loss": 651.75,
+    "risk_reward": 3.52,
+    "signal": "AVOID",
+    "confluence": "0/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "ABDL has nearly doubled from its 52-week low of \u20b9378 and is a beneficiary of premiumisation trends in the Indian IMFL (Indian-Made Foreign Liquor) market, with 15.7% revenue growth supporting the narrative. However, at 45.3x forward PE with only 5.52% net margins, the stock is priced for execution perfection in a capital-intensive, heavily regulated and taxed sector. Zero confluence and negligible volume ratio of 0.08 make this a speculative momentum play with no technical backing.",
+    "risk": "State government excise duty hikes and policy unpredictability in alcohol taxation can compress margins rapidly, and at 45x PE there is no valuation buffer. Confluence score of 0/4 and volume ratio of 0.08 suggest this move is not institutionally sponsored.",
+    "circuit_flag": false
+  },
+  {
+    "ticker": "CHENNPETRO.NS",
+    "company": "Chennai Petroleum Corporation Ltd.",
+    "sector": "Energy",
+    "trend": "Weak trend with no shift confirmation; lone EMA crossover at mid-range RSI with negligible volume participation",
+    "buy_zone": [
+      1361.71,
+      1400.17
+    ],
+    "sell_zone": [
+      1550.09,
+      1579.81
+    ],
+    "stop_loss": 1334.48,
+    "risk_reward": 3.96,
+    "signal": "AVOID",
+    "confluence": "0/4",
+    "horizon": "swing_4_6_weeks",
+    "account_tag": "watchlist",
+    "thesis": "CPCL screens attractively on value \u2014 4.11x forward PE and 50.87% ROE \u2014 reflecting a cyclical refining business riding elevated gross refining margins (GRMs), with 25.9% revenue growth affirming the cycle is still active. The stock is recovering from its 52-week low of \u20b9715 but remains ~15% below its peak of \u20b91,649, leaving meaningful upside if GRMs hold. Entry is premature given zero confluence, RSI near neutral at 49.5, and a beta of 0.01 that signals the stock is not trending with broader market momentum.",
+    "risk": "Refining margins are highly volatile and any crude oil price normalization or product crack spread compression would severely erode CPCL's earnings, which have minimal downstream cushion. As a PSU-linked refiner, government pricing directives on fuel retail add an additional layer of earnings unpredictability.",
+    "circuit_flag": false
+  }
+]
