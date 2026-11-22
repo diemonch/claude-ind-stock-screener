@@ -1,0 +1,89 @@
+[
+  {
+    "sector": "BFSI",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "IIFL.NS",
+        "company": "IIFL Finance Ltd.",
+        "sector": "Financial Services",
+        "trend_shift": "continuation",
+        "trend_strength": "strong",
+        "confluence_score": 2,
+        "rsi": 50.18,
+        "volume_ratio": 1.93,
+        "circuit_risk": false,
+        "buy_zone": [
+          489.98,
+          526.16
+        ],
+        "sell_zone": [
+          663.24,
+          701.92
+        ],
+        "stop_loss": 480.18,
+        "risk_reward": 6.26,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "IT",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "FSL.NS",
+        "company": "Firstsource Solutions Ltd.",
+        "sector": "Technology",
+        "trend_shift": "none",
+        "trend_strength": "moderate",
+        "confluence_score": 2,
+        "rsi": 47.45,
+        "volume_ratio": 4.9,
+        "circuit_risk": false,
+        "buy_zone": [
+          273.55,
+          283.36
+        ],
+        "sell_zone": [
+          300.71,
+          308.42
+        ],
+        "stop_loss": 268.08,
+        "risk_reward": 2.51,
+        "signal": "watch"
+      }
+    ]
+  },
+  {
+    "sector": "Infra",
+    "week_context": "results_week",
+    "market_condition": "sideways",
+    "tickers": [
+      {
+        "ticker": "TARIL.NS",
+        "company": "Transformers And Rectifiers (India) Ltd.",
+        "sector": "Industrials",
+        "trend_shift": "none",
+        "trend_strength": "weak",
+        "confluence_score": 2,
+        "rsi": 43.65,
+        "volume_ratio": 0.8,
+        "circuit_risk": false,
+        "buy_zone": [
+          295.49,
+          298.21
+        ],
+        "sell_zone": [
+          320.14,
+          321.99
+        ],
+        "stop_loss": 289.58,
+        "risk_reward": 3.33,
+        "signal": "watch"
+      }
+    ]
+  }
+]
